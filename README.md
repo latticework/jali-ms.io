@@ -1,3 +1,3 @@
 # jali.io
 Jali Website
-http://latticework.github.io/jali.io/
+http://latticework.github.io/jali-ms.io/
