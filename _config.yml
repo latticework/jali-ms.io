@@ -1,0 +1,11 @@
+# global settings
+title: "⌗ Jali by Latticework"
+description: "specification-driven serverless microservice framework"
+permalink: "/docs/:title"
+url: http://jali-ms.io/
+relative_permalinks: false
+
+# build settings
+exclude: ["script", "Gemfile", "Gemfile.lock", "README.md", "package.json"]
+markdown: kramdown
+
