@@ -1,0 +1,560 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ArgumentFalsyError",
+            "range": [
+              20,
+              38
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 20
+              },
+              "end": {
+                "line": 1,
+                "column": 38
+              }
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "name": "default",
+            "range": [
+              9,
+              16
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 9
+              },
+              "end": {
+                "line": 1,
+                "column": 16
+              }
+            }
+          },
+          "range": [
+            9,
+            38
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 9
+            },
+            "end": {
+              "line": 1,
+              "column": 38
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./argument-falsy-error",
+        "raw": "'./argument-falsy-error'",
+        "range": [
+          46,
+          70
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 46
+          },
+          "end": {
+            "line": 1,
+            "column": 70
+          }
+        }
+      },
+      "range": [
+        0,
+        71
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 71
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Represents that an argument erroneously has an empty string value.\n *\n * Throw this {@link Error} if a parameter must be a non-empty string.\n *\n * @example <caption>The argument for the parameter lastName is an empty string.</caption>\n * throw new ArgumentEmptyStringError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentWhitespaceStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyTruthy}\n * @see {@link verifyNotWhitespace}\n * @public\n * @since 0.0.1\n ",
+          "range": [
+            72,
+            758
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "ArgumentEmptyStringError",
+          "range": [
+            780,
+            804
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 21
+            },
+            "end": {
+              "line": 21,
+              "column": 45
+            }
+          }
+        },
+        "superClass": {
+          "type": "Identifier",
+          "name": "ArgumentFalsyError",
+          "range": [
+            813,
+            831
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 54
+            },
+            "end": {
+              "line": 21,
+              "column": 72
+            }
+          }
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  1236,
+                  1247
+                ],
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 15
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "name",
+                    "range": [
+                      1248,
+                      1252
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 20
+                      }
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "message",
+                    "range": [
+                      1254,
+                      1261
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 29
+                      }
+                    }
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Super",
+                          "range": [
+                            1273,
+                            1278
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 34,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 34,
+                              "column": 13
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "name",
+                            "range": [
+                              1279,
+                              1283
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 34,
+                                "column": 14
+                              },
+                              "end": {
+                                "line": 34,
+                                "column": 18
+                              }
+                            }
+                          },
+                          {
+                            "type": "LogicalExpression",
+                            "operator": "||",
+                            "left": {
+                              "type": "Identifier",
+                              "name": "message",
+                              "range": [
+                                1285,
+                                1292
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 34,
+                                  "column": 20
+                                },
+                                "end": {
+                                  "line": 34,
+                                  "column": 27
+                                }
+                              }
+                            },
+                            "right": {
+                              "type": "Literal",
+                              "value": "Argument must not be an empty string. Yours is empty",
+                              "raw": "'Argument must not be an empty string. Yours is empty'",
+                              "range": [
+                                1296,
+                                1350
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 34,
+                                  "column": 31
+                                },
+                                "end": {
+                                  "line": 34,
+                                  "column": 85
+                                }
+                              }
+                            },
+                            "range": [
+                              1285,
+                              1350
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 34,
+                                "column": 20
+                              },
+                              "end": {
+                                "line": 34,
+                                "column": 85
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          1273,
+                          1351
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 34,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 34,
+                            "column": 86
+                          }
+                        }
+                      },
+                      "range": [
+                        1273,
+                        1352
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 34,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 34,
+                          "column": 87
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    1263,
+                    1358
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 33,
+                      "column": 31
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  1247,
+                  1358
+                ],
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 35,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                1236,
+                1358
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 4
+                },
+                "end": {
+                  "line": 35,
+                  "column": 5
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n     * Initializes a new instance of the {@link ArgumentEmptyStringError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must not be an\n     *    empty string. Yours is empty*.\n     * @public\n     * @since 0.0.1\n     ",
+                  "range": [
+                    838,
+                    1231
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 22,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "static": false
+            }
+          ],
+          "range": [
+            832,
+            1360
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 73
+            },
+            "end": {
+              "line": 36,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          774,
+          1360
+        ],
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 15
+          },
+          "end": {
+            "line": 36,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Represents that an argument erroneously has an empty string value.\n *\n * Throw this {@link Error} if a parameter must be a non-empty string.\n *\n * @example <caption>The argument for the parameter lastName is an empty string.</caption>\n * throw new ArgumentEmptyStringError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentWhitespaceStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyTruthy}\n * @see {@link verifyNotWhitespace}\n * @public\n * @since 0.0.1\n ",
+            "range": [
+              72,
+              758
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 20,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        759,
+        1360
+      ],
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Represents that an argument erroneously has an empty string value.\n *\n * Throw this {@link Error} if a parameter must be a non-empty string.\n *\n * @example <caption>The argument for the parameter lastName is an empty string.</caption>\n * throw new ArgumentEmptyStringError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentWhitespaceStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyTruthy}\n * @see {@link verifyNotWhitespace}\n * @public\n * @since 0.0.1\n ",
+          "range": [
+            72,
+            758
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    1360
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 36,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Represents that an argument erroneously has an empty string value.\n *\n * Throw this {@link Error} if a parameter must be a non-empty string.\n *\n * @example <caption>The argument for the parameter lastName is an empty string.</caption>\n * throw new ArgumentEmptyStringError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentWhitespaceStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyTruthy}\n * @see {@link verifyNotWhitespace}\n * @public\n * @since 0.0.1\n ",
+      "range": [
+        72,
+        758
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n     * Initializes a new instance of the {@link ArgumentEmptyStringError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must not be an\n     *    empty string. Yours is empty*.\n     * @public\n     * @since 0.0.1\n     ",
+      "range": [
+        838,
+        1231
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 7
+        }
+      }
+    }
+  ]
+}

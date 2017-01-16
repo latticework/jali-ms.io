@@ -1,0 +1,155 @@
+{
+  "coverage": "60.91%",
+  "expectCount": 87,
+  "actualCount": 53,
+  "files": {
+    "all/@jali-ms/util/src/argument-empty-string-error.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-error.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-false-error.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-falsy-error.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-nan-error.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-null-error.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-type-error.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-undefined-error.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-whitespace-string-error.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/argument-zero-error.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/util/src/invalid-state-error.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        5
+      ]
+    },
+    "all/@jali-ms/note/src/message-code.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        5,
+        10,
+        14
+      ]
+    },
+    "all/@jali-ms/note/src/standard-message-encoding.js": {
+      "expectCount": 12,
+      "actualCount": 2,
+      "undocumentLines": [
+        3,
+        4,
+        19,
+        44,
+        24,
+        29,
+        34,
+        39,
+        7,
+        5
+      ]
+    },
+    "all/@jali-ms/core/src/structured-error.js": {
+      "expectCount": 4,
+      "actualCount": 2,
+      "undocumentLines": [
+        4,
+        10
+      ]
+    },
+    "all/@jali-ms/note/src/typed-message.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        3,
+        4,
+        6,
+        9
+      ]
+    },
+    "all/@jali-ms/util/src/iterables.js": {
+      "expectCount": 12,
+      "actualCount": 12,
+      "undocumentLines": []
+    },
+    "all/@jali-ms/core/src/notification-message-iterables.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        7
+      ]
+    },
+    "all/@jali-ms/note/src/standard-encodings.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        2,
+        3
+      ]
+    },
+    "all/@jali-ms/util/src/type-guards.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        29,
+        6
+      ]
+    },
+    "all/@jali-ms/core/src/type-guards.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "all/@jali-ms/util/src/argument-verifiers.js": {
+      "expectCount": 15,
+      "actualCount": 15,
+      "undocumentLines": []
+    }
+  }
+}

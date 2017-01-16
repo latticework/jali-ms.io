@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../">
+  <title data-ice="title">Example</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container manual-root" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/latticework/jali.git" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual" data-toc-name="overview">
+    <h1 class="manual-toc-title"><a href="manual/overview.html" data-ice="title">Overview</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/overview.html#packages" data-ice="link">Packages</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/overview.html#package-jali-ms-core" data-ice="link">Package @jali-ms/core</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/overview.html#package-jali-ms-util" data-ice="link">Package @jali-ms/util</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/overview.html#module-jali-ms-util-errors" data-ice="link">Module @jali-ms/util/errors</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/overview.html#module-jali-ms-util-iterables" data-ice="link">Module @jali-ms/util/iterables</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/overview.html#module-jali-ms-util-type-guards" data-ice="link">Module @jali-ms/util/type-guards</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="example">
+    <h1 class="manual-toc-title"><a href="manual/example.html" data-ice="title">Example</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/example.html#jali_util" data-ice="link">jali_util</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_errors" data-ice="link">jali_util_errors</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_asarray" data-ice="link">jali_util_iterators_asarray</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_asiterable" data-ice="link">jali_util_iterators_asiterable</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_concat" data-ice="link">jali_util_iterators_concat</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_every" data-ice="link">jali_util_iterators_every</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_filter" data-ice="link">jali_util_iterators_filter</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_find" data-ice="link">jali_util_iterators_find</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_includes" data-ice="link">jali_util_iterators_includes</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_map" data-ice="link">jali_util_iterators_map</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_reduce" data-ice="link">jali_util_iterators_reduce</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_slice" data-ice="link">jali_util_iterators_slice</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_some" data-ice="link">jali_util_iterators_some</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/example.html#jali_util_iterators_tomap" data-ice="link">jali_util_iterators_tomap</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="reference">
+    <h1 class="manual-toc-title"><a href="identifiers.html" data-ice="title">Reference</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="identifiers.html#class" data-ice="link">Class</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="identifiers.html#function" data-ice="link">Function</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="identifiers.html#variable" data-ice="link">Variable</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="identifiers.html#typedef" data-ice="link">Typedef</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown">
+  <div class="manual-breadcrumb-list">
+    <a href="./manual/./index.html">Manual</a>
+    <span>&#xBB;</span>
+    <span data-ice="title">Example</span>
+  </div>
+  <div data-ice="content"><h1 id="jali_util">jali_util</h1>
+<p>Examples for package <code>@jali-ms/util</code></p>
+<h2 id="jali_util_errors">jali_util_errors</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/errors</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    // Demonstrates verifying function arguments for low-level libraries. In service operations,
+    // use Jali Notification Messages instead.
+    function functionWithParameters(
+        notNullNumber: number, notWhitespaceString: string, truthyBoolean: boolean): void {
+
+      // Verifying JavaScript type or common scenarios. Often redundant in TypeScript but needed if
+      // called otherwise. See examples &#x2460;, &#x2461;, &amp; &#x2462;.
+      Util.Errors.verifyNotNull(&apos;nonNullNumber&apos;, notNullNumber);
+      Errors.verifyNotWhitespace(&apos;notWhitespaceString&apos;, notWhitespaceString);
+      verifyTruthy(&apos;truthyBoolean&apos;, truthyBoolean);
+
+      // Verifying invariants. In this case, the argument cannot contain a whitespace character
+      // anywhere. See example &#x2463;.
+      verifyArgument(&apos;notWhitespaceString&apos;, notWhitespaceString, arg =&gt; !arg.match(/\w/u));
+
+      // Verifying with a custom message. In this case, the permitted range is specified. See
+      // example &#x2464;.
+      verifyArgument(
+        &apos;notNullNumber&apos;,
+        notNullNumber,
+        arg =&gt; arg &gt;= 10 &amp;&amp; arg &lt; 20,
+        arg =&gt; `Argument must be between 10 and 19. Yours is &apos;${arg}&apos;`)
+    }
+
+    writer.logIndented(2, `Example for function &apos;verifyNotNull&apos;`, &apos;&#x2460;&apos;);
+    writer.logException(3, () =&gt; functionWithParameters(null as any as number, &apos;value&apos;, true));
+
+    writer.log();
+
+    writer.logIndented(2, `Example for function &apos;verifyNotWhitespace&apos;`, &apos;&#x2461;&apos;);
+    writer.logException(3, () =&gt; functionWithParameters(1, &apos; \t\v&apos;, true));
+
+    writer.log();
+
+    writer.logIndented(2, `Example for function &apos;verifyTruthy&apos;`, &apos;&#x2462;&apos;);
+    writer.logException(3, () =&gt; functionWithParameters(1, &apos;value&apos;, NaN as any as boolean));
+
+    writer.log();
+
+    // U+1680    OGHAM SPACE MARK
+    writer.logIndented(2, `Example for function &apos;verifyArgument&apos;`, &apos;&#x2463;&apos;);
+    writer.logException(3, () =&gt; functionWithParameters(1, &apos;HasA\u{1680}Space&apos;, true));
+
+    writer.log();
+
+    writer.logIndented(
+      2, `Example for function &apos;verifyArgument&apos; with specified message function`, &apos;&#x2464;&apos;);
+
+    writer.logException(3, () =&gt; functionWithParameters(20, &apos;value&apos;, true));
+
+    writer.log();
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Example for function &apos;verifyNotNull&apos;                                                          &#x2460;
+      Error: Error in argument &apos;nonNullNumber&apos;: Argument must have a non-null value. Yours is &apos;null&apos;
+
+    Example for function &apos;verifyNotWhitespace&apos;                                                    &#x2461;
+      Error: Error in argument &apos;notWhitespaceString&apos;: Argument must contain non-whitespace
+      characters. Yours has only whitespace
+
+    Example for function &apos;verifyTruthy&apos;                                                           &#x2462;
+      Error: Error in argument &apos;truthyBoolean&apos;: Argument must have a truthy value. Yours is &apos;NaN&apos;
+
+    Example for function &apos;verifyArgument&apos;                                                         &#x2463;
+      Error: Error in argument &apos;notWhitespaceString&apos;
+
+    Example for function &apos;verifyArgument&apos; with specified message function                         &#x2464;
+      Error: Error in argument &apos;notWhitespaceString&apos;</code>
+</code></pre><h2 id="jali_util_iterators_asarray">jali_util_iterators_asarray</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>asArray</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `number to number[]`, &apos;&#x2460;&apos;);
+
+    const numberOrNumbers: number | Iterable&lt;number&gt; = 2;
+    const array = Iterables.asArray(numberOrNumbers);
+    const isArrayOfNumber = TypeGuards.makeIsIterable(e =&gt; typeof e === &apos;number&apos;, true);
+
+    const output =
+      `Is &apos;${array}&apos; a &apos;number[]&apos; (${isArrayOfNumber(array)}) with length &apos;1&apos; ` +
+      `(${array.length === 1}) and first value of &apos;2&apos;? &apos;${Iterables.find(array) === 2}&apos;`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `string to string[]`, &apos;&#x2461;&apos;);
+
+    const stringOrStrings: string | Iterable&lt;string&gt; = &apos;DodgerBlue&apos;;
+    const array2 = Iterables.asArray(stringOrStrings, String);
+    const array3 = Iterables.asArray(stringOrStrings);
+    const isArrayOfString = TypeGuards.makeIsIterable(e =&gt; typeof e === &apos;string&apos;, true);
+
+    const output2 =
+      `Is &apos;${array2}&apos; a &apos;string[]&apos; (${isArrayOfString(array2)}) with length &apos;1&apos; ` +
+      `(${array2.length === 1}) and first value of &apos;DodgerBlue&apos;? ` +
+      `&apos;${Iterables.find(array2) === &apos;DodgerBlue&apos;}&apos;`;
+
+    writer.logIndented(3, output2);
+
+    const output3 =
+      `Is &apos;${array3}&apos; a &apos;string[]&apos; (${isArrayOfString(array3)}) with length &apos;1&apos; ` +
+      `(${array3.length === 1}) and first value of &apos;DodgerBlue&apos;? ` +
+      `&apos;${Iterables.find(array3) === &apos;DodgerBlue&apos;}&apos;`;
+
+    writer.logIndented(3, output3);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    number to number[]                                                                            &#x2460;
+      Is &apos;2&apos; a &apos;number[]&apos; (true) with length &apos;1&apos; (true) and first value of &apos;2&apos;? &apos;true&apos;
+
+    string to string[]                                                                            &#x2461;
+      Is &apos;DodgerBlue&apos; a &apos;string[]&apos; (true) with length &apos;1&apos; (true) and first value of &apos;DodgerBlue&apos;?
+      &apos;true&apos;
+      Is &apos;D,o,d,g,e,r,B,l,u,e&apos; a &apos;string[]&apos; (true) with length &apos;1&apos; (false) and first value of
+      &apos;DodgerBlue&apos;? &apos;false&apos;</code>
+</code></pre><h2 id="jali_util_iterators_asiterable">jali_util_iterators_asiterable</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>asIterable</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `undefined to Iterable&lt;number&gt;`, &apos;&#x2460;&apos;);
+
+    const numberOrNumbers: number | Iterable&lt;number&gt; | undefined = undefined;
+    const iterable = Iterables.asIterable(numberOrNumbers);
+    const isIterableOfNumber = TypeGuards.makeIsIterable(e =&gt; typeof e === &apos;number&apos;, true);
+
+    const output =
+      `Is &apos;${iterable}&apos; an &apos;Iterable&lt;number&gt;&apos; (${isIterableOfNumber(iterable)}) with length &apos;0&apos;: ` +
+      `&apos;${[...iterable].length === 0}&apos;`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `string to Iterable&lt;string&gt;`, &apos;&#x2461;&apos;);
+
+    const stringOrStrings: string | Iterable&lt;string&gt; = &apos;DodgerBlue&apos;;
+    const iterable2 = Iterables.asIterable(stringOrStrings, String);
+    const iterable3 = Iterables.asIterable(stringOrStrings);
+    const isIterableOfString = TypeGuards.makeIsIterable(e =&gt; typeof e === &apos;string&apos;, true);
+
+    const output2 =
+      `Is &apos;${iterable2}&apos; an &apos;Iterable&lt;string&gt;&apos; (${isIterableOfString(iterable2)}) with length ` +
+      `&apos;1&apos; (${[...iterable2].length === 1}) and first value of &apos;DodgerBlue&apos;? ` +
+      `&apos;${Iterables.find(iterable2) === &apos;DodgerBlue&apos;}&apos;`;
+
+    writer.logIndented(3, output2);
+
+    const output3 =
+      `Is &apos;${iterable3}&apos; a &apos;Iterable&lt;string&gt;&apos; (${isIterableOfString(iterable3)}) with length ` +
+      `&apos;1&apos; (${[...iterable3].length === 1}) and first value of &apos;DodgerBlue&apos;? ` +
+      `&apos;${Iterables.find(iterable3) === &apos;DodgerBlue&apos;}&apos;`;
+
+    writer.logIndented(3, output3);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    undefined to Iterable&lt;number&gt;                                                                 &#x2460;
+      Is &apos;&apos; an &apos;Iterable&lt;number&gt;&apos; (true) with length &apos;0&apos;: &apos;true&apos;
+
+    string to Iterable&lt;string&gt;                                                                    &#x2461;
+      Is &apos;DodgerBlue&apos; an &apos;Iterable&lt;string&gt;&apos; (true) with length &apos;1&apos; (true) and first value of
+      &apos;DodgerBlue&apos;? &apos;true&apos;
+      Is &apos;D,o,d,g,e,r,B,l,u,e&apos; a &apos;Iterable&lt;string&gt;&apos; (true) with length &apos;1&apos; (false) and first value
+      of &apos;DodgerBlue&apos;? &apos;false&apos;</code>
+</code></pre><h2 id="jali_util_iterators_concat">jali_util_iterators_concat</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>concat</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Concatenate three sequences.`, &apos;&#x2460;&apos;);
+    const weekendDays = [&apos;Sunday&apos;, &apos;Saturday&apos;];
+    const workWeekDays = [&apos;Monday&apos;, &apos;Tuesday&apos;, &apos;Wednesday&apos;, &apos;Thursday&apos;, &apos;Friday&apos;];
+
+    const daysOfWeek = Iterables.concat([weekendDays[0]], workWeekDays, [weekendDays[1]]);
+    writer.logIndented(3, `Days of Week: &apos;${Iterables.asArray(daysOfWeek)}`);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Concatenate three sequences.                                                                  &#x2460;
+      Days of Week: &apos;Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</code>
+</code></pre><h2 id="jali_util_iterators_every">jali_util_iterators_every</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>every</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Test for only even numbers`, &apos;&#x2460;&apos;);
+
+    const numbers = [2, 6, 10, 22, 999];
+    const result = Iterables.every(numbers, e =&gt; e % 2 === 0);
+
+    const output =
+      `Sequence &apos;${numbers}&apos; ${result ? &apos;has&apos; : &apos;does not have&apos;} only even values.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Test that all elements are multiple of position`, &apos;&#x2461;&apos;);
+    const numbers2 = [1, 6, 6, 24];
+    const multiples = Iterables.every(numbers2, (e, i) =&gt; e / (i + 1) % 1 === 0);
+
+    const output2 =
+      `Elements of sequence &apos;${numbers2}&apos; ${multiples ? &apos;are&apos; : &apos;are not&apos;} multiples of their position.`;
+
+    writer.logIndented(3, output2);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Test for only even numbers                                                                    &#x2460;
+      Sequence &apos;2,6,10,22,999&apos; does not have only even values.
+
+    Test that all elements are multiple of position                                               &#x2461;
+      Elements of sequence &apos;1,6,6,24&apos; are multiples of their position.</code>
+</code></pre><h2 id="jali_util_iterators_filter">jali_util_iterators_filter</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>filter</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Select even numbers`, &apos;&#x2460;&apos;);
+
+    const numbers = [2, 6, 10, 22, 999];
+    const evens = Iterables.filter(numbers, e =&gt; e % 2 === 0);
+
+    const output =
+      `Sequence &apos;${numbers}&apos; has these even values: &apos;${Iterables.asArray(evens)}&apos;.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Select every other element`, &apos;&#x2461;&apos;);
+    const numbers2 = [1, 6, 6, 24];
+    const evenIndexed = Iterables.filter(numbers2, (_, i) =&gt; i % 2 === 0);
+
+    const output2 =
+      `Even indexed elements of sequence &apos;${numbers2}&apos; are &apos;${Iterables.asArray(evenIndexed)}&apos;.`;
+
+    writer.logIndented(3, output2);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Select even numbers                                                                           &#x2460;
+      Sequence &apos;2,6,10,22,999&apos; has these even values: &apos;2,6,10,22&apos;.
+
+    Select every other element                                                                    &#x2461;
+      Even indexed elements of sequence &apos;1,6,6,24&apos; are &apos;1,6&apos;.</code>
+</code></pre><h2 id="jali_util_iterators_find">jali_util_iterators_find</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>find</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Find first element divisible by 5`, &apos;&#x2460;&apos;);
+
+    const numbers = [2, 6, 10, 22, 999];
+    const divisible = Iterables.find(numbers, e =&gt; e % 5 === 0);
+
+    const output =
+      `The first element of &apos;${numbers}&apos; divisible by five is: &apos;${divisible}&apos;.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Select fourth element`, &apos;&#x2461;&apos;);
+    const numbers2 = [1, 6, 6, 24];
+    const fourth = Iterables.find(numbers2, (_, i) =&gt; i === 3);
+
+    const output2 =
+      `The fourth element of sequence &apos;${numbers2}&apos; is &apos;${fourth}&apos;.`;
+
+    writer.logIndented(3, output2);
+
+    writer.log();
+
+    writer.logIndented(2, `Get the first element`, &apos;&#x2462;&apos;);
+    const first = Iterables.find(numbers);
+
+    const output3 =
+      `The first element in sequence &apos;${numbers}&apos; is &apos;${first}&apos;.`;
+
+    writer.logIndented(3, output3);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Find first element divisible by 5                                                             &#x2460;
+      The first element of &apos;2,6,10,22,999&apos; divisible by five is: &apos;10&apos;.
+
+    Select fourth element                                                                         &#x2461;
+      The fourth element of sequence &apos;1,6,6,24&apos; is &apos;24&apos;.
+
+    Get the first element                                                                         &#x2462;
+      The first element in sequence &apos;2,6,10,22,999&apos; is &apos;2&apos;.</code>
+</code></pre><h2 id="jali_util_iterators_includes">jali_util_iterators_includes</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>includes</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Find an element`, &apos;&#x2460;&apos;);
+
+    const numbers = [2, 6, 10, 22, 999];
+    const didFind = Iterables.includes(numbers, 999);
+    const output = `Was &apos;999&apos; found in sequence &apos;${numbers}&apos;? &apos;${didFind}&apos;.`;
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Don&apos;t find an element starting at an index`, &apos;&#x2461;&apos;);
+    const numbers2 = [1, 6, 6, 24];
+    const didNotFind = Iterables.includes(numbers2, 1, 2);
+    const output2 = `Was &apos;1&apos; found in sequence &apos;${numbers2}&apos; starting at index &apos;2&apos;? &apos;${didNotFind}&apos;.`;
+
+    writer.logIndented(3, output2);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Find an element                                                                               &#x2460;
+      Was &apos;999&apos; found in sequence &apos;2,6,10,22,999&apos;? &apos;true&apos;.
+
+    Don&apos;t find an element starting at an index                                                    &#x2461;
+      Was &apos;1&apos; found in sequence &apos;1,6,6,24&apos; starting at index &apos;2&apos;? &apos;false&apos;.</code>
+</code></pre><h2 id="jali_util_iterators_map">jali_util_iterators_map</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>map</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Transform to objects`, &apos;&#x2460;&apos;);
+
+    const numbers = [2, 6, 10, 22, 999];
+    const objects = Iterables.map(numbers, e =&gt; { return {id: e} });
+    const objectsDisplay = [...objects].map(o =&gt; JSON.stringify(o)).join();
+
+    const output =
+      `Sequence &apos;${objectsDisplay}&apos; has these Ids: &apos;${numbers}&apos;.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Multiply element by position`, &apos;&#x2461;&apos;);
+    const numbers2 = [1, 6, 6, 24];
+    const scaled = Iterables.map(numbers2, (e, i) =&gt; e * (i + 1));
+    const output2 = `Sequence &apos;${numbers2}&apos; elements scaled by position: &apos;${[...scaled]}&apos;.`;
+
+    writer.logIndented(3, output2);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Transform to objects                                                                          &#x2460;
+      Sequence &apos;{&quot;id&quot;:2},{&quot;id&quot;:6},{&quot;id&quot;:10},{&quot;id&quot;:22},{&quot;id&quot;:999}&apos; has these Ids: &apos;2,6,10,22,999&apos;.
+
+    Multiply element by position                                                                  &#x2461;
+      Sequence &apos;1,6,6,24&apos; elements scaled by position: &apos;1,12,18,96&apos;.</code>
+</code></pre><h2 id="jali_util_iterators_reduce">jali_util_iterators_reduce</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>reduce</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Compute average`, &apos;&#x2460;&apos;);
+
+    let average = { count: 0, value: 0, };
+
+    const numbers = [2, 6, 10, 22, 999];
+    const result = Iterables.reduce(numbers, (p, e) =&gt; {
+      return {
+        count: p.count + 1,
+        value: (p.value * p.count + e) / (p.count + 1)
+      }
+    }, average);
+
+    const output =
+      `The average of sequence &apos;${numbers}&apos; is: &apos;${result.value}&apos;.`;
+
+    writer.logIndented(3, output);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Compute average                                                                               &#x2460;
+      The average of sequence &apos;2,6,10,22,999&apos; is: &apos;207.8&apos;.</code>
+</code></pre><h2 id="jali_util_iterators_slice">jali_util_iterators_slice</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>slice</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Get paged data from a store`, &apos;&#x2460;&apos;);
+
+
+    const computeValue = (i: number) =&gt; Array.from(
+      &apos;abcde&apos;, (c, ci) =&gt; {
+        const offset = i % 26 - (i % 26 + ci &gt;= 26 ? 26 : 0);
+        return String.fromCharCode(c.charCodeAt(0) + offset);
+    }).join(&apos;&apos;);
+
+
+    const store: {id: number, value: string}[] = [];
+    for (let i = 0; i &lt; 1000; i++) {
+      store.push({
+        id: i,
+        value: computeValue(i),
+      });
+    }
+
+    const getPage = (pageNumber: number, pageSize: number) =&gt;
+      Iterables.slice(store, pageNumber * pageSize, pageNumber * pageSize + pageSize);
+
+    const writePage = (pageNumber: number, page: Iterable&lt;{id: number, value: string}&gt;) =&gt; {
+      const output =
+        `Data for page &apos;${pageNumber}&apos; is &apos;${JSON.stringify(Array.from(page))}&apos;.`;
+
+      writer.logIndented(3, output);
+    }
+
+    const pageSize = 10;
+
+    let pageNumber = 0;
+
+    let page = getPage(pageNumber, pageSize);
+    writePage(pageNumber, page);
+
+    writer.log();
+
+    pageNumber = 43;
+    page = getPage(pageNumber, pageSize);
+    writePage(pageNumber, page);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Get paged data from a store                                                                   &#x2460;
+      Data for page &apos;0&apos; is
+      &apos;[{&quot;id&quot;:0,&quot;value&quot;:&quot;abcde&quot;},{&quot;id&quot;:1,&quot;value&quot;:&quot;bcdef&quot;},{&quot;id&quot;:2,&quot;value&quot;:&quot;cdefg&quot;},{&quot;id&quot;:3,&quot;value&quot;:&quot;
+      defgh&quot;},{&quot;id&quot;:4,&quot;value&quot;:&quot;efghi&quot;},{&quot;id&quot;:5,&quot;value&quot;:&quot;fghij&quot;},{&quot;id&quot;:6,&quot;value&quot;:&quot;ghijk&quot;},{&quot;id&quot;:7,&quot;va
+      lue&quot;:&quot;hijkl&quot;},{&quot;id&quot;:8,&quot;value&quot;:&quot;ijklm&quot;},{&quot;id&quot;:9,&quot;value&quot;:&quot;jklmn&quot;}]&apos;.
+
+      Data for page &apos;43&apos; is
+      &apos;[{&quot;id&quot;:430,&quot;value&quot;:&quot;opqrs&quot;},{&quot;id&quot;:431,&quot;value&quot;:&quot;pqrst&quot;},{&quot;id&quot;:432,&quot;value&quot;:&quot;qrstu&quot;},{&quot;id&quot;:433,&quot;
+      value&quot;:&quot;rstuv&quot;},{&quot;id&quot;:434,&quot;value&quot;:&quot;stuvw&quot;},{&quot;id&quot;:435,&quot;value&quot;:&quot;tuvwx&quot;},{&quot;id&quot;:436,&quot;value&quot;:&quot;uvwxy
+      &quot;},{&quot;id&quot;:437,&quot;value&quot;:&quot;vwxyz&quot;},{&quot;id&quot;:438,&quot;value&quot;:&quot;wxyza&quot;},{&quot;id&quot;:439,&quot;value&quot;:&quot;xyzab&quot;}]&apos;.</code>
+</code></pre><h2 id="jali_util_iterators_some">jali_util_iterators_some</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>some</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Determine if any element is divisible by 5`, &apos;&#x2460;&apos;);
+
+    const numbers = [2, 6, 10, 22, 999];
+    const areDivisible = Iterables.some(numbers, e =&gt; e % 5 === 0);
+
+    const output =
+      `Are any element of &apos;${numbers}&apos; divisible by five? &apos;${areDivisible}&apos;.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Determine if there is a fourth element`, &apos;&#x2461;&apos;);
+    const numbers2 = [1, 6, 6, 24];
+    const hasFourth = Iterables.some(numbers2, (_, i) =&gt; i === 3);
+
+    const output2 =
+      `Is there a fourth element in sequence &apos;${numbers2}&apos;? &apos;${hasFourth}&apos;.`;
+
+    writer.logIndented(3, output2);
+
+    writer.log();
+
+    writer.logIndented(2, `Determine if the sequence is empty`, &apos;&#x2462;&apos;);
+    const hasAny = Iterables.some(numbers2);
+
+    const output3 =
+      `Is sequence &apos;${numbers2}&apos; empty? &apos;${!hasAny}&apos;.`;
+
+    writer.logIndented(3, output3);
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Determine if any element is divisible by 5                                                    &#x2460;
+      Are any element of &apos;2,6,10,22,999&apos; divisible by five? &apos;true&apos;.
+
+    Determine if there is a fourth element                                                        &#x2461;
+      Is there a fourth element in sequence &apos;1,6,6,24&apos;? &apos;true&apos;.
+
+    Determine if the sequence is empty                                                            &#x2462;
+      Is sequence &apos;1,6,6,24&apos; empty? &apos;false&apos;.</code>
+</code></pre><h2 id="jali_util_iterators_tomap">jali_util_iterators_tomap</h2>
+<p>Examples for package <code>@jali-ms/util</code> submodule <code>@jali-ms/util/iterators</code> type <code>Iterables</code> member <code>toMap</code></p>
+<p><strong>&#x1D07;x&#x1D00;&#x1D0D;&#x1D29;&#x29F;&#x1D07;</strong></p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint"> {
+    writer.logIndented(2, `Entities mapped by id`, &apos;&#x2460;&apos;);
+
+    const queryResult = [
+      {id: 4, firstName: &apos;Sam&apos;, lastName: &apos;Smith&apos;,},
+      {id: 10, firstName: &apos;Janet&apos;, lastName: &apos;Jones&apos;,},
+      {id: 7, firstName: &apos;Karina&apos;, lastName: &apos;Kelly&apos;,},
+    ];
+
+    const byId = Iterables.toMap(queryResult, e =&gt; e.id);
+
+    for (const id of Array.from(byId.keys()).sort((a, b) =&gt; a &lt; b ? -1 : a === b ? 0 : 1)) {
+      writer.logIndented(3, JSON.stringify(byId.get(id)));
+    }
+  }</code>
+</code></pre>
+<p><br><strong>&#x1D0F;&#x1D1C;&#x1D1B;&#x1D29;&#x1D1C;&#x1D1B;</strong></p>
+<pre><code><code class="source-code prettyprint">    Entities mapped by id                                                                         &#x2460;
+      {&quot;id&quot;:4,&quot;firstName&quot;:&quot;Sam&quot;,&quot;lastName&quot;:&quot;Smith&quot;}
+      {&quot;id&quot;:7,&quot;firstName&quot;:&quot;Karina&quot;,&quot;lastName&quot;:&quot;Kelly&quot;}
+      {&quot;id&quot;:10,&quot;firstName&quot;:&quot;Janet&quot;,&quot;lastName&quot;:&quot;Jones&quot;}</code>
+</code></pre></div>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

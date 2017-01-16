@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">all/@jali-ms/util/src/iterables.js | Jali specification-driven serverless microservice framework API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/latticework/jali.git" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/core/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/core/src/structured-error.js~StructuredError.html">StructuredError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-error">error</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-get_Errors">get_Errors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotificationMessage">isNotificationMessage</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/note/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/message-code.js~MessageCode.html">MessageCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/standard-message-encoding.js~StandardMessageEncoding.html">StandardMessageEncoding</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/typed-message.js~TypedMessage.html">TypedMessage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-extended">extended</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-local">local</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-standard">standard</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/util/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-empty-string-error.js~ArgumentEmptyStringError.html">ArgumentEmptyStringError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-error.js~ArgumentError.html">ArgumentError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-false-error.js~ArgumentFalseError.html">ArgumentFalseError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-falsy-error.js~ArgumentFalsyError.html">ArgumentFalsyError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-nan-error.js~ArgumentNanError.html">ArgumentNanError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-null-error.js~ArgumentNullError.html">ArgumentNullError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-type-error.js~ArgumentTypeError.html">ArgumentTypeError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-undefined-error.js~ArgumentUndefinedError.html">ArgumentUndefinedError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-whitespace-string-error.js~ArgumentWhitespaceStringError.html">ArgumentWhitespaceStringError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-zero-error.js~ArgumentZeroError.html">ArgumentZeroError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/invalid-state-error.js~InvalidStateError.html">InvalidStateError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyArgument">verifyArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyArray">verifyArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyBoolean">verifyBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyDefined">verifyDefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyFunction">verifyFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyIterable">verifyIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNonEmpty">verifyNonEmpty</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNonZero">verifyNonZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNotNull">verifyNotNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNotWhitespace">verifyNotWhitespace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNumber">verifyNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyObject">verifyObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyString">verifyString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyTrue">verifyTrue</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyTruthy">verifyTruthy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-asArray">asArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-asIterable">asIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-concat">concat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-every">every</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-filter">filter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-includes">includes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduce">reduce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-slice">slice</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-some">some</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toMap">toMap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isError">isError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isIterable">isIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-makeIsIterable">makeIsIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementAccumulator">ElementAccumulator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementConverter">ElementConverter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementTest">ElementTest</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">all/@jali-ms/util/src/iterables.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import * as ArgumentVerifiers from &apos;./argument-verifiers&apos;;
+import { isIterable, makeIsIterable } from &apos;./type-guards&apos;;
+/**
+ * @typedef {function} ElementTest -
+ *    test performed on elements of a sequence
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!T} element -
+ *    The iteration element
+ * @param {!number} index -
+ *    The index of the element
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The sequence being iterated
+ * @return {boolean} -
+ *    A value indicating whether the specified element passed the test.
+ */
+/**
+ * @typedef {function} ElementConverter -
+ *    Converts the input sequence element to an output sequence element.
+ * @param T -
+ *    The input `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter
+ *    of the function.
+ * @param U -
+ *    The output `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter
+ *    of the function.
+ * @param {!T} element -
+ *    The iteration element
+ * @param {!number} index -
+ *    The index of the element
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The sequence being iterated
+ * @return {U} -
+ *    The converted value.
+ */
+/**
+ * @typedef {function} ElementAccumulator -
+ *    Aggregates the input sequence elements to an output value.
+ * @param T -
+ *    The input `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter
+ *    of the function.
+ * @param U -
+ *    The output `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter
+ *    of the function.
+ * @param {!U} previousValue -
+ *    For the first execution either an `initialValue`, if specified, or the first element in the
+ *    sequence. Otherwise, an intermediary accumulated value.
+ * @param {!T} currentValue -
+ *    The iteration element.
+ * @param {!currentIndex} index -
+ *    The index of the iteration element
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The sequence being iterated
+ * @return {U} -
+ *    The accumulated value.
+ */
+/* tslint:disable:max-line-length */
+/**
+ * Converts an argument that could either be a value of a type or a sequence of that type to
+ * an array of that type.
+ *
+ * Specify the constructor to specify the iteration type. Use for values, such as strings, that are
+ * also iterables of another type.
+ *
+ * &gt; **Note:** To treat a string as a value rather than a sequence of characters, you must specify
+ * &gt; the `String` constructor.
+ *
+ * &gt; **Note:** To only ensure an iterable value, use {@link asIterable}.
+ *
+ * &gt; **Note:** {@link asArray} is different from
+ * &gt; &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from&quot;
+ * &gt; target=&quot;_blank&quot;&gt;Array.from&lt;/a&gt; or the
+ * &gt; &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator&quot;
+ * &gt; target=&quot;_blank&quot;&gt;spread operator&lt;/a&gt;, which only convert an iterable to an array.
+ * &gt; {@link asArray} ensures a value that can be a scalar value or an array of values is converted
+ * &gt; to an array.
+ *
+ * @param T -
+ *    The `value` type. **Note:** This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {?(T | Iterable&lt;T&gt;)} valueOrSequence -
+ *    A value that could be a value or an Iterable of that value type.
+ * @param {function (...args: any[]): T} [ctor] -
+ *    Optional constructor for the type being iterated.
+ * @return {Array&lt;T&gt;} an array of the value type.
+ *
+ * @example &lt;caption&gt;ensures argument personOrPersons is converted to an array&lt;/caption&gt;
+ * const persons = Iterables.asArray(personOrPersons);
+ *
+ * @example &lt;caption&gt;ensures string argument colorOrColors is converted to an array&lt;/caption&gt;
+ * const persons = Iterables.asArray(colorOrColors, String);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-iterables&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/iterables&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_iterators_asarray&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_iterators_asarray&lt;/code&gt;, examples &#x2460; &amp; &#x2461;&lt;/a&gt;
+ * @see {@link asIterable}
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from&quot;
+ *    target=&quot;_blank&quot;&gt;Array.from (MDN)&lt;/a&gt;
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator&quot;
+ *    target=&quot;_blank&quot;&gt;spread syntax (MDN)&lt;/a&gt;
+ * @since 0.0.1
+ */
+export function asArray(valueOrSequence, ctor) {
+    /* tslint:enable:max-line-length */
+    if (valueOrSequence === undefined) {
+        return [];
+    }
+    if (typeof ctor !== &apos;undefined&apos;) {
+        // Quiet Typescript 2.1.beta / VSCode 1.4.0 compiler error.
+        // tslint:disable:no-shadowed-variable
+        const localCtor = ctor;
+        if (valueOrSequence instanceof localCtor ||
+            typeof valueOrSequence === &apos;string&apos; &amp;&amp; localCtor === String) {
+            return [valueOrSequence];
+        }
+        const iterableTypeGuard = makeIsIterable(e =&gt; e instanceof localCtor, false);
+        if (iterableTypeGuard(valueOrSequence)) {
+            if (Array.isArray(valueOrSequence)) {
+                return valueOrSequence;
+            }
+            return [...valueOrSequence];
+        }
+    }
+    if (Array.isArray(valueOrSequence)) {
+        return valueOrSequence;
+    }
+    if (isIterable(valueOrSequence)) {
+        return [...valueOrSequence];
+    }
+    return [valueOrSequence];
+}
+/**
+ * Converts an argument that could either be a value of a type or a sequence of that type to
+ * a sequence of that type.
+ *
+ * Specify the constructor to specify the iteration type. Use for values, such as strings, that are
+ * also iterables of another type.
+ *
+ * &gt; **Note:** To treat a string as a value rather than a sequence of characters, you must specify
+ * &gt; the `String` constructor.
+ *
+ * &gt; **Note:** To ensure an Array value, use {@link toArray}.
+ *
+ * @param T -
+ *    The `value` type. **Note:** This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {T | Iterable&lt;T&gt;} valueOrSequence -
+ *    A value that could be a value or an Iterable of that value type.
+ * @param {function (...args: any[]): T} [ctor] -
+ *    Optional constructor for the type being iterated.
+ * @return {Iterable&lt;T&gt;}
+ *
+ * @example &lt;caption&gt;ensures argument idOrIds is converted to an iterable&lt;/caption&gt;
+ * const ids = Iterables.asIterable(idOrIds);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-iterables&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/iterables&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_iterators_asiterable&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_iterators_asiterable&lt;/code&gt;, examples &#x2460; &amp; &#x2461;&lt;/a&gt;
+ * @see {@link asArray}
+ * @since 0.0.1
+ */
+export function asIterable(valueOrSequence, ctor) {
+    if (typeof valueOrSequence === &apos;undefined&apos;) {
+        return [];
+    }
+    if (typeof ctor !== &apos;undefined&apos;) {
+        // Quiet Typescript 2.1.beta / VSCode 1.4.0 compiler error.
+        // tslint:disable:no-shadowed-variable
+        const localCtor = ctor;
+        if (valueOrSequence instanceof localCtor ||
+            typeof valueOrSequence === &apos;string&apos; &amp;&amp; localCtor === String) {
+            return [valueOrSequence];
+        }
+        const iterableTypeGuard = makeIsIterable(e =&gt; e instanceof localCtor, false);
+        if (iterableTypeGuard(valueOrSequence)) {
+            if (Array.isArray(valueOrSequence)) {
+                return valueOrSequence;
+            }
+            return [...valueOrSequence];
+        }
+    }
+    if (Array.isArray(valueOrSequence)) {
+        return valueOrSequence;
+    }
+    if (isIterable(valueOrSequence)) {
+        return [...valueOrSequence];
+    }
+    return [valueOrSequence];
+}
+/* tslint:disable:max-line-length */
+/**
+ * Concatenates a sequence of a type with zero or more other sequences of that type.
+ *
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {!Iterable&lt;T&gt;[]} items -
+ *    Array of `Iterable` to concatenate.
+ * @returns {Iterable&lt;T&gt;} -
+ *    A sequence of elements
+ *
+ * @see &lt;a href=&apos;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat&apos;
+ *     target=&quot;_blank&quot;&gt;Array#concat&lt;/a&gt;
+ *
+ * @since 0.0.1
+ */
+export function* concat(sequence, ...items) {
+    /* tslint:enable:max-line-length */
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    ArgumentVerifiers.verifyArray(&apos;items&apos;, items);
+    // In concat, do not check for array since items may also not be arrays.
+    for (const element of sequence) {
+        yield element;
+    }
+    for (const item of items) {
+        for (const element of item) {
+            yield element;
+        }
+    }
+}
+/* tslint:disable:max-line-length */
+/**
+ * Returns a value indicating whether every element fulfills the specified test.
+ *
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {!ElementTest&lt;T&gt;} test -
+ *    A function that returns a value indicating whether an element of the sequence fulfills the
+ *    requirement.
+ *
+ * @see &lt;a href=&apos;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every&apos;
+ *     target=&quot;_blank&quot;&gt;Array#every&lt;/a&gt;
+ *
+ * @since 0.0.1
+ */
+export function every(sequence, test) {
+    /* tslint:enable:max-line-length */
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    ArgumentVerifiers.verifyFunction(&apos;test&apos;, test);
+    if (Array.isArray(sequence)) {
+        return sequence.every(test);
+    }
+    let index = 0;
+    for (const element of sequence) {
+        if (!test(element, index, sequence)) {
+            return false;
+        }
+        index += 1;
+    }
+    return true;
+}
+/* tslint:disable:max-line-length */
+/**
+ * Returns a subset of the sequence of those elements that pass the specified test.
+ *
+ * &gt; **Note:** To return whether a match was found, use {@link includes}. To return the first
+ * &gt; matching value, use {@link find}.
+ *
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {!ElementTest&lt;T&gt;} test -
+ *    The filter function
+ * @return {Iterable&lt;T&gt;} -
+ *    A sequence of elements
+ *
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter&quot;
+ *     target=&quot;_blank&quot;&gt;Array#filter&lt;/a&gt;
+ * @see {@link find}
+ * @see {@link includes}
+ * @since 0.0.1
+ */
+export function* filter(sequence, test) {
+    /* tslint:enable:max-line-length */
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    ArgumentVerifiers.verifyFunction(&apos;test&apos;, test);
+    let index = 0;
+    for (let element of sequence) {
+        if (test(element, index, sequence)) {
+            yield element;
+        }
+        index += 1;
+    }
+}
+/* tslint:disable:max-line-length */
+/**
+ * Returns the first value matching the specified test or `undefined` if no match was found. If no
+ * test is specified, returns the first element, or `undefined` if the sequence is empty.
+ *
+ * &gt; **Note:** To return whether a match was found, use {@link some}. To match a specific element
+ * &gt; value, use {@link includes}. To return all matching values, use {@link filter}.
+ *
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {ElementTest&lt;T&gt;} [test] -
+ *    A function that returns a value indicating whether an element of the sequence fulfills the
+ *    requirement.
+ * @return {T | undefined} -
+ *    The matched element or `undefined` if no match is found.
+ *
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find&quot;
+ *     target=&quot;_blank&quot;&gt;Array#find&lt;/a&gt;
+ * @see {@link filter}
+ * @see {@link includes}
+ * @see {@link some}
+ * @since 0.0.1
+ */
+export function find(sequence, test) {
+    /* tslint:enable:max-line-length */
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    if (test) {
+        ArgumentVerifiers.verifyFunction(&apos;test&apos;, test);
+    }
+    ;
+    if (!test) {
+        for (const element of sequence) {
+            return element;
+        }
+        return undefined;
+    }
+    if (Array.isArray(sequence)) {
+        return sequence.find(test);
+    }
+    let index = 0;
+    for (let element of sequence) {
+        if (test(element, index, sequence)) {
+            return element;
+        }
+    }
+    return undefined;
+}
+/* tslint:disable:max-line-length */
+/**
+ * Returns a value indicating whether a match for the specified test was found.
+ *
+ * &gt; **Note:** To return the first matching value, use {@link find}. To return all matching values
+ * &gt; use {@link filter}.
+ *
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {?T} value -
+ *    The value search for strictly.
+ * @param {number} [fromIndex] -
+ * @return {boolean} -
+ *    `true` if the element was found; otherwise, `false`.
+ *
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes&quot;
+ *     target=&quot;_blank&quot;&gt;Array#includes&lt;/a&gt;
+ * @see {@link find}
+ * @see {@link filter}
+ * @since 0.0.1
+ */
+export function includes(sequence, value, fromIndex) {
+    /* tslint:enable:max-line-length */
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    if (fromIndex) {
+        ArgumentVerifiers.verifyNumber(&apos;fromIndex&apos;, fromIndex);
+    }
+    sequence.includes(value, fromIndex);
+    const test = Number.isNaN(value)
+        ? (e) =&gt; Number.isNaN(e)
+        : (e) =&gt; e === value;
+    const localSequence = fromIndex
+        ? slice(sequence, fromIndex)
+        : sequence;
+    return some(localSequence, test);
+}
+/* tslint:disable:max-line-length */
+/**
+ * Returns a sequence of elements that are the result of calling the specified converter function on
+ * each element.
+ *
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param U -
+ *    The result type of the converter function. NOTE: This is a TypeScript type parameter, not a
+ *    parameter of the function.
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {!ElementConverter&lt;T, U&gt;} converter -
+ *    The element conversion function.
+ * @return {Iterable&lt;U&gt;} -
+ *    A sequence of converted elements.
+ *
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map&quot;
+ *     target=&quot;_blank&quot;&gt;Array#map&lt;/a&gt;
+ *
+ * @since 0.0.1
+ */
+export function* map(sequence, converter) {
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    ArgumentVerifiers.verifyFunction(&apos;converter&apos;, converter);
+    if (Array.isArray(sequence)) {
+        yield* sequence.map(converter);
+        return;
+    }
+    let index = 0;
+    for (const element of sequence) {
+        yield converter(element, index, sequence);
+        index += 1;
+    }
+}
+/* tslint:disable:max-line-length */
+/**
+ * Aggregates a sequence to a single computed element value.
+ *
+ * If `initialValue` is specified `accumulator` is called for the first element using the initial
+ * value. Otherwise, it is called against the second element using the first element as the initial
+ * value.
+ *
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param U -
+ *    The accumulator result type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {!ElementAccumulator&lt;T, U&gt;} accumulator -
+ *    The element aggregation function
+ * @param {T} [initialValue] -
+ *    Optional initial value; otherwise, first element is used as initial value
+ * @return {Iterable&lt;U&gt;} -
+ *    A sequence of converted elements
+ *
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce&quot;
+ *     target=&quot;_blank&quot;&gt;Array#reduce&lt;/a&gt;
+ *
+ * @since 0.0.1
+ */
+export function reduce(sequence, accumulator, initialValue) {
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    ArgumentVerifiers.verifyFunction(&apos;accumulator&apos;, accumulator);
+    let index = 0;
+    // Assignment to quiet TypeScript compiler.
+    let value = undefined;
+    for (const element of sequence) {
+        if (index === 0) {
+            if (initialValue !== undefined) {
+                value = accumulator(initialValue, element, index, sequence);
+            }
+            else {
+                value = element;
+            }
+        }
+        else {
+            value = accumulator(value, element, index, sequence);
+        }
+        index = index + 1;
+    }
+    return value;
+}
+/* tslint:disable:max-line-length */
+/**
+ * Returns a segment of the original sequence.
+ *
+ * Skips `begin` elements and takes `end - begin` elements or the rest of the elements if `end` is
+ * not specified. If begin is past the last element, no elements are returned. If `begin` or `end`
+ * is a negative value, the sequence is converted to an array and &lt;a
+ * href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice&quot;
+ * target=&quot;_blank&quot;&gt;Array#slice&lt;/a&gt; is called.
+ *
+ * &gt; **Note:** To retrieve the first element, use {@link first} or {@link firstOrDefault}.
+ *
+ * @param T -
+ *    The `Iterator` element type. NOTE: This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {number} [begin] -
+ *    The first element to include. If negative, converts to an array and uses &lt;a
+ *    href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice&quot;
+ *    target=&quot;_blank&quot;&gt;Array#slice&lt;/a&gt;
+ * @param {number} [end] -
+ *    The first element to include.
+ *
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice&quot;
+ *     target=&quot;_blank&quot;&gt;Array#slice&lt;/a&gt;
+ *
+ * @since 0.0.1
+ */
+export function* slice(sequence, begin, end) {
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    if (begin !== undefined) {
+        ArgumentVerifiers.verifyNumber(&apos;begin&apos;, begin);
+    }
+    if (end !== undefined) {
+        ArgumentVerifiers.verifyNumber(&apos;end&apos;, end);
+    }
+    if (Array.isArray(sequence)) {
+        return yield* sequence.slice(begin, end);
+    }
+    if (begin &lt; 0 || end &lt; 0) {
+        return [...sequence].slice(begin, end);
+    }
+    let index = 0;
+    for (const element of sequence) {
+        if (index &gt;= begin || 0) {
+            if (end !== undefined &amp;&amp; index === end) {
+                break;
+            }
+            yield element;
+        }
+        index += 1;
+    }
+}
+/* tslint:disable:max-line-length */
+/**
+ * Returns a value indicating whether any of the elements of a sequence pass the specified test.
+ *
+ * &gt; **Note:** To return the first matching value, use {@link find}. To return all matching values,
+ * &gt; use {@link filter}. To match on equality, use {@link includes}.
+ *
+ * @param T -
+ *    The `Iterator` element type. &lt;b&gt;NOTE:&lt;/b&gt; This is a TypeScript type parameter, not a
+ *    parameter of the function.
+ * @param {Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {?ElementTest&lt;T&gt;} [test] -
+ *    If not defined, indicates that the function should test for any existing elements; otherwise,
+ *    a function that indicates whether an element meets a requirement.
+ * @return {boolean} -
+ *    `true` if an element was found that meets the test; otherwise, `false`;
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some&quot;
+ *     target=&quot;_blank&quot;&gt;Array#some&lt;/a&gt;
+ * @see {@link filter}
+ * @see {@link find}
+ * @see {@link includes}
+ * @since 0.0.1
+ */
+export function some(sequence, test) {
+    /* tslint:enable:max-line-length */
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    if (test === undefined) {
+        for (let element of sequence) {
+            element = element; // This quiets the compiler error for `noUnusedLocals`.
+            return true;
+        }
+        return false;
+    }
+    if (Array.isArray(sequence)) {
+        return sequence.some(test);
+    }
+    let index = 0;
+    for (let element of sequence) {
+        if (test(element, index, sequence)) {
+            return true;
+        }
+        index += 1;
+    }
+    return false;
+}
+/**
+ * Converts a sequence to a {@link Map} using the specified key selector function.
+ *
+ * @param TKey -
+ *    The key type for the {@link Map}. NOTE: This is a TypeScript type parameter, not a parameter
+ *    of the function.
+ * @param TValue -
+ *    The `Iterable` element type and the value type for the {@link Map}. NOTE: This is a TypeScript
+ *    type parameter, not a parameter of the function.
+ * @param {Iterable&lt;T&gt;} sequence -
+ *    The `Iterable` to operate on
+ * @param {function(value: TValue): TKey} keySelector -
+ *    The function that retrieves a key for the specified element.
+ * @return {Map&lt;TKey, TValue&gt;} -
+ *    The new map.
+ * @since 0.0.1
+ */
+export function toMap(sequence, keySelector) {
+    ArgumentVerifiers.verifyIterable(&apos;sequence&apos;, sequence);
+    ArgumentVerifiers.verifyFunction(&apos;keySelector&apos;, keySelector);
+    let map = new Map();
+    for (const value of sequence) {
+        map.set(keySelector(value), value);
+    }
+    return map;
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,572 @@
+# jali_util
+Examples for package `@jali-ms/util`
+
+## jali_util_errors
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/errors`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    // Demonstrates verifying function arguments for low-level libraries. In service operations,
+    // use Jali Notification Messages instead.
+    function functionWithParameters(
+        notNullNumber: number, notWhitespaceString: string, truthyBoolean: boolean): void {
+
+      // Verifying JavaScript type or common scenarios. Often redundant in TypeScript but needed if
+      // called otherwise. See examples ①, ②, & ③.
+      Util.Errors.verifyNotNull('nonNullNumber', notNullNumber);
+      Errors.verifyNotWhitespace('notWhitespaceString', notWhitespaceString);
+      verifyTruthy('truthyBoolean', truthyBoolean);
+
+      // Verifying invariants. In this case, the argument cannot contain a whitespace character
+      // anywhere. See example ④.
+      verifyArgument('notWhitespaceString', notWhitespaceString, arg => !arg.match(/\w/u));
+
+      // Verifying with a custom message. In this case, the permitted range is specified. See
+      // example ⑤.
+      verifyArgument(
+        'notNullNumber',
+        notNullNumber,
+        arg => arg >= 10 && arg < 20,
+        arg => `Argument must be between 10 and 19. Yours is '${arg}'`)
+    }
+
+    writer.logIndented(2, `Example for function 'verifyNotNull'`, '①');
+    writer.logException(3, () => functionWithParameters(null as any as number, 'value', true));
+
+    writer.log();
+
+    writer.logIndented(2, `Example for function 'verifyNotWhitespace'`, '②');
+    writer.logException(3, () => functionWithParameters(1, ' \t\v', true));
+
+    writer.log();
+
+    writer.logIndented(2, `Example for function 'verifyTruthy'`, '③');
+    writer.logException(3, () => functionWithParameters(1, 'value', NaN as any as boolean));
+
+    writer.log();
+
+    // U+1680	OGHAM SPACE MARK
+    writer.logIndented(2, `Example for function 'verifyArgument'`, '④');
+    writer.logException(3, () => functionWithParameters(1, 'HasA\u{1680}Space', true));
+
+    writer.log();
+
+    writer.logIndented(
+      2, `Example for function 'verifyArgument' with specified message function`, '⑤');
+
+    writer.logException(3, () => functionWithParameters(20, 'value', true));
+
+    writer.log();
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Example for function 'verifyNotNull'                                                          ①
+      Error: Error in argument 'nonNullNumber': Argument must have a non-null value. Yours is 'null'
+
+    Example for function 'verifyNotWhitespace'                                                    ②
+      Error: Error in argument 'notWhitespaceString': Argument must contain non-whitespace
+      characters. Yours has only whitespace
+
+    Example for function 'verifyTruthy'                                                           ③
+      Error: Error in argument 'truthyBoolean': Argument must have a truthy value. Yours is 'NaN'
+
+    Example for function 'verifyArgument'                                                         ④
+      Error: Error in argument 'notWhitespaceString'
+
+    Example for function 'verifyArgument' with specified message function                         ⑤
+      Error: Error in argument 'notWhitespaceString'
+
+```
+
+## jali_util_iterators_asarray
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `asArray`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `number to number[]`, '①');
+
+    const numberOrNumbers: number | Iterable<number> = 2;
+    const array = Iterables.asArray(numberOrNumbers);
+    const isArrayOfNumber = TypeGuards.makeIsIterable(e => typeof e === 'number', true);
+
+    const output =
+      `Is '${array}' a 'number[]' (${isArrayOfNumber(array)}) with length '1' ` +
+      `(${array.length === 1}) and first value of '2'? '${Iterables.find(array) === 2}'`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `string to string[]`, '②');
+
+    const stringOrStrings: string | Iterable<string> = 'DodgerBlue';
+    const array2 = Iterables.asArray(stringOrStrings, String);
+    const array3 = Iterables.asArray(stringOrStrings);
+    const isArrayOfString = TypeGuards.makeIsIterable(e => typeof e === 'string', true);
+
+    const output2 =
+      `Is '${array2}' a 'string[]' (${isArrayOfString(array2)}) with length '1' ` +
+      `(${array2.length === 1}) and first value of 'DodgerBlue'? ` +
+      `'${Iterables.find(array2) === 'DodgerBlue'}'`;
+
+    writer.logIndented(3, output2);
+
+    const output3 =
+      `Is '${array3}' a 'string[]' (${isArrayOfString(array3)}) with length '1' ` +
+      `(${array3.length === 1}) and first value of 'DodgerBlue'? ` +
+      `'${Iterables.find(array3) === 'DodgerBlue'}'`;
+
+    writer.logIndented(3, output3);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    number to number[]                                                                            ①
+      Is '2' a 'number[]' (true) with length '1' (true) and first value of '2'? 'true'
+
+    string to string[]                                                                            ②
+      Is 'DodgerBlue' a 'string[]' (true) with length '1' (true) and first value of 'DodgerBlue'?
+      'true'
+      Is 'D,o,d,g,e,r,B,l,u,e' a 'string[]' (true) with length '1' (false) and first value of
+      'DodgerBlue'? 'false'
+```
+
+## jali_util_iterators_asiterable
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `asIterable`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `undefined to Iterable<number>`, '①');
+
+    const numberOrNumbers: number | Iterable<number> | undefined = undefined;
+    const iterable = Iterables.asIterable(numberOrNumbers);
+    const isIterableOfNumber = TypeGuards.makeIsIterable(e => typeof e === 'number', true);
+
+    const output =
+      `Is '${iterable}' an 'Iterable<number>' (${isIterableOfNumber(iterable)}) with length '0': ` +
+      `'${[...iterable].length === 0}'`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `string to Iterable<string>`, '②');
+
+    const stringOrStrings: string | Iterable<string> = 'DodgerBlue';
+    const iterable2 = Iterables.asIterable(stringOrStrings, String);
+    const iterable3 = Iterables.asIterable(stringOrStrings);
+    const isIterableOfString = TypeGuards.makeIsIterable(e => typeof e === 'string', true);
+
+    const output2 =
+      `Is '${iterable2}' an 'Iterable<string>' (${isIterableOfString(iterable2)}) with length ` +
+      `'1' (${[...iterable2].length === 1}) and first value of 'DodgerBlue'? ` +
+      `'${Iterables.find(iterable2) === 'DodgerBlue'}'`;
+
+    writer.logIndented(3, output2);
+
+    const output3 =
+      `Is '${iterable3}' a 'Iterable<string>' (${isIterableOfString(iterable3)}) with length ` +
+      `'1' (${[...iterable3].length === 1}) and first value of 'DodgerBlue'? ` +
+      `'${Iterables.find(iterable3) === 'DodgerBlue'}'`;
+
+    writer.logIndented(3, output3);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    undefined to Iterable<number>                                                                 ①
+      Is '' an 'Iterable<number>' (true) with length '0': 'true'
+
+    string to Iterable<string>                                                                    ②
+      Is 'DodgerBlue' an 'Iterable<string>' (true) with length '1' (true) and first value of
+      'DodgerBlue'? 'true'
+      Is 'D,o,d,g,e,r,B,l,u,e' a 'Iterable<string>' (true) with length '1' (false) and first value
+      of 'DodgerBlue'? 'false'
+```
+
+## jali_util_iterators_concat
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `concat`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Concatenate three sequences.`, '①');
+    const weekendDays = ['Sunday', 'Saturday'];
+    const workWeekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+
+    const daysOfWeek = Iterables.concat([weekendDays[0]], workWeekDays, [weekendDays[1]]);
+    writer.logIndented(3, `Days of Week: '${Iterables.asArray(daysOfWeek)}`);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Concatenate three sequences.                                                                  ①
+      Days of Week: 'Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
+```
+
+## jali_util_iterators_every
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `every`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Test for only even numbers`, '①');
+
+    const numbers = [2, 6, 10, 22, 999];
+    const result = Iterables.every(numbers, e => e % 2 === 0);
+
+    const output =
+      `Sequence '${numbers}' ${result ? 'has' : 'does not have'} only even values.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Test that all elements are multiple of position`, '②');
+    const numbers2 = [1, 6, 6, 24];
+    const multiples = Iterables.every(numbers2, (e, i) => e / (i + 1) % 1 === 0);
+
+    const output2 =
+      `Elements of sequence '${numbers2}' ${multiples ? 'are' : 'are not'} multiples of their position.`;
+
+    writer.logIndented(3, output2);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Test for only even numbers                                                                    ①
+      Sequence '2,6,10,22,999' does not have only even values.
+
+    Test that all elements are multiple of position                                               ②
+      Elements of sequence '1,6,6,24' are multiples of their position.
+```
+
+## jali_util_iterators_filter
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `filter`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Select even numbers`, '①');
+
+    const numbers = [2, 6, 10, 22, 999];
+    const evens = Iterables.filter(numbers, e => e % 2 === 0);
+
+    const output =
+      `Sequence '${numbers}' has these even values: '${Iterables.asArray(evens)}'.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Select every other element`, '②');
+    const numbers2 = [1, 6, 6, 24];
+    const evenIndexed = Iterables.filter(numbers2, (_, i) => i % 2 === 0);
+
+    const output2 =
+      `Even indexed elements of sequence '${numbers2}' are '${Iterables.asArray(evenIndexed)}'.`;
+
+    writer.logIndented(3, output2);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Select even numbers                                                                           ①
+      Sequence '2,6,10,22,999' has these even values: '2,6,10,22'.
+
+    Select every other element                                                                    ②
+      Even indexed elements of sequence '1,6,6,24' are '1,6'.
+```
+
+## jali_util_iterators_find
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `find`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Find first element divisible by 5`, '①');
+
+    const numbers = [2, 6, 10, 22, 999];
+    const divisible = Iterables.find(numbers, e => e % 5 === 0);
+
+    const output =
+      `The first element of '${numbers}' divisible by five is: '${divisible}'.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Select fourth element`, '②');
+    const numbers2 = [1, 6, 6, 24];
+    const fourth = Iterables.find(numbers2, (_, i) => i === 3);
+
+    const output2 =
+      `The fourth element of sequence '${numbers2}' is '${fourth}'.`;
+
+    writer.logIndented(3, output2);
+
+    writer.log();
+
+    writer.logIndented(2, `Get the first element`, '③');
+    const first = Iterables.find(numbers);
+
+    const output3 =
+      `The first element in sequence '${numbers}' is '${first}'.`;
+
+    writer.logIndented(3, output3);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Find first element divisible by 5                                                             ①
+      The first element of '2,6,10,22,999' divisible by five is: '10'.
+
+    Select fourth element                                                                         ②
+      The fourth element of sequence '1,6,6,24' is '24'.
+
+    Get the first element                                                                         ③
+      The first element in sequence '2,6,10,22,999' is '2'.
+```
+
+## jali_util_iterators_includes
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `includes`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Find an element`, '①');
+
+    const numbers = [2, 6, 10, 22, 999];
+    const didFind = Iterables.includes(numbers, 999);
+    const output = `Was '999' found in sequence '${numbers}'? '${didFind}'.`;
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Don't find an element starting at an index`, '②');
+    const numbers2 = [1, 6, 6, 24];
+    const didNotFind = Iterables.includes(numbers2, 1, 2);
+    const output2 = `Was '1' found in sequence '${numbers2}' starting at index '2'? '${didNotFind}'.`;
+
+    writer.logIndented(3, output2);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Find an element                                                                               ①
+      Was '999' found in sequence '2,6,10,22,999'? 'true'.
+
+    Don't find an element starting at an index                                                    ②
+      Was '1' found in sequence '1,6,6,24' starting at index '2'? 'false'.
+```
+
+## jali_util_iterators_map
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `map`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Transform to objects`, '①');
+
+    const numbers = [2, 6, 10, 22, 999];
+    const objects = Iterables.map(numbers, e => { return {id: e} });
+    const objectsDisplay = [...objects].map(o => JSON.stringify(o)).join();
+
+    const output =
+      `Sequence '${objectsDisplay}' has these Ids: '${numbers}'.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Multiply element by position`, '②');
+    const numbers2 = [1, 6, 6, 24];
+    const scaled = Iterables.map(numbers2, (e, i) => e * (i + 1));
+    const output2 = `Sequence '${numbers2}' elements scaled by position: '${[...scaled]}'.`;
+
+    writer.logIndented(3, output2);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Transform to objects                                                                          ①
+      Sequence '{"id":2},{"id":6},{"id":10},{"id":22},{"id":999}' has these Ids: '2,6,10,22,999'.
+
+    Multiply element by position                                                                  ②
+      Sequence '1,6,6,24' elements scaled by position: '1,12,18,96'.
+```
+
+## jali_util_iterators_reduce
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `reduce`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Compute average`, '①');
+
+    let average = { count: 0, value: 0, };
+
+    const numbers = [2, 6, 10, 22, 999];
+    const result = Iterables.reduce(numbers, (p, e) => {
+      return {
+        count: p.count + 1,
+        value: (p.value * p.count + e) / (p.count + 1)
+      }
+    }, average);
+
+    const output =
+      `The average of sequence '${numbers}' is: '${result.value}'.`;
+
+    writer.logIndented(3, output);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Compute average                                                                               ①
+      The average of sequence '2,6,10,22,999' is: '207.8'.
+```
+
+## jali_util_iterators_slice
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `slice`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Get paged data from a store`, '①');
+
+
+    const computeValue = (i: number) => Array.from(
+      'abcde', (c, ci) => {
+        const offset = i % 26 - (i % 26 + ci >= 26 ? 26 : 0);
+        return String.fromCharCode(c.charCodeAt(0) + offset);
+    }).join('');
+
+
+    const store: {id: number, value: string}[] = [];
+    for (let i = 0; i < 1000; i++) {
+      store.push({
+        id: i,
+        value: computeValue(i),
+      });
+    }
+
+    const getPage = (pageNumber: number, pageSize: number) =>
+      Iterables.slice(store, pageNumber * pageSize, pageNumber * pageSize + pageSize);
+
+    const writePage = (pageNumber: number, page: Iterable<{id: number, value: string}>) => {
+      const output =
+        `Data for page '${pageNumber}' is '${JSON.stringify(Array.from(page))}'.`;
+
+      writer.logIndented(3, output);
+    }
+
+    const pageSize = 10;
+
+    let pageNumber = 0;
+
+    let page = getPage(pageNumber, pageSize);
+    writePage(pageNumber, page);
+
+    writer.log();
+
+    pageNumber = 43;
+    page = getPage(pageNumber, pageSize);
+    writePage(pageNumber, page);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Get paged data from a store                                                                   ①
+      Data for page '0' is
+      '[{"id":0,"value":"abcde"},{"id":1,"value":"bcdef"},{"id":2,"value":"cdefg"},{"id":3,"value":"
+      defgh"},{"id":4,"value":"efghi"},{"id":5,"value":"fghij"},{"id":6,"value":"ghijk"},{"id":7,"va
+      lue":"hijkl"},{"id":8,"value":"ijklm"},{"id":9,"value":"jklmn"}]'.
+
+      Data for page '43' is
+      '[{"id":430,"value":"opqrs"},{"id":431,"value":"pqrst"},{"id":432,"value":"qrstu"},{"id":433,"
+      value":"rstuv"},{"id":434,"value":"stuvw"},{"id":435,"value":"tuvwx"},{"id":436,"value":"uvwxy
+      "},{"id":437,"value":"vwxyz"},{"id":438,"value":"wxyza"},{"id":439,"value":"xyzab"}]'.
+```
+
+## jali_util_iterators_some
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `some`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Determine if any element is divisible by 5`, '①');
+
+    const numbers = [2, 6, 10, 22, 999];
+    const areDivisible = Iterables.some(numbers, e => e % 5 === 0);
+
+    const output =
+      `Are any element of '${numbers}' divisible by five? '${areDivisible}'.`;
+
+    writer.logIndented(3, output);
+
+    writer.log();
+
+    writer.logIndented(2, `Determine if there is a fourth element`, '②');
+    const numbers2 = [1, 6, 6, 24];
+    const hasFourth = Iterables.some(numbers2, (_, i) => i === 3);
+
+    const output2 =
+      `Is there a fourth element in sequence '${numbers2}'? '${hasFourth}'.`;
+
+    writer.logIndented(3, output2);
+
+    writer.log();
+
+    writer.logIndented(2, `Determine if the sequence is empty`, '③');
+    const hasAny = Iterables.some(numbers2);
+
+    const output3 =
+      `Is sequence '${numbers2}' empty? '${!hasAny}'.`;
+
+    writer.logIndented(3, output3);
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Determine if any element is divisible by 5                                                    ①
+      Are any element of '2,6,10,22,999' divisible by five? 'true'.
+
+    Determine if there is a fourth element                                                        ②
+      Is there a fourth element in sequence '1,6,6,24'? 'true'.
+
+    Determine if the sequence is empty                                                            ③
+      Is sequence '1,6,6,24' empty? 'false'.
+```
+
+## jali_util_iterators_tomap
+Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `toMap`
+
+**ᴇxᴀᴍᴩʟᴇ**
+```typescript
+ {
+    writer.logIndented(2, `Entities mapped by id`, '①');
+
+    const queryResult = [
+      {id: 4, firstName: 'Sam', lastName: 'Smith',},
+      {id: 10, firstName: 'Janet', lastName: 'Jones',},
+      {id: 7, firstName: 'Karina', lastName: 'Kelly',},
+    ];
+
+    const byId = Iterables.toMap(queryResult, e => e.id);
+
+    for (const id of Array.from(byId.keys()).sort((a, b) => a < b ? -1 : a === b ? 0 : 1)) {
+      writer.logIndented(3, JSON.stringify(byId.get(id)));
+    }
+  }
+```
+<br>**ᴏᴜᴛᴩᴜᴛ**
+```
+    Entities mapped by id                                                                         ①
+      {"id":4,"firstName":"Sam","lastName":"Smith"}
+      {"id":7,"firstName":"Karina","lastName":"Kelly"}
+      {"id":10,"firstName":"Janet","lastName":"Jones"}
+```

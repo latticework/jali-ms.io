@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Jali specification-driven serverless microservice framework API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/latticework/jali.git" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/core/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/core/src/structured-error.js~StructuredError.html">StructuredError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-error">error</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-get_Errors">get_Errors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotificationMessage">isNotificationMessage</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/note/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/message-code.js~MessageCode.html">MessageCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/standard-message-encoding.js~StandardMessageEncoding.html">StandardMessageEncoding</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/typed-message.js~TypedMessage.html">TypedMessage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-extended">extended</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-local">local</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-standard">standard</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/util/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-empty-string-error.js~ArgumentEmptyStringError.html">ArgumentEmptyStringError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-error.js~ArgumentError.html">ArgumentError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-false-error.js~ArgumentFalseError.html">ArgumentFalseError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-falsy-error.js~ArgumentFalsyError.html">ArgumentFalsyError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-nan-error.js~ArgumentNanError.html">ArgumentNanError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-null-error.js~ArgumentNullError.html">ArgumentNullError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-type-error.js~ArgumentTypeError.html">ArgumentTypeError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-undefined-error.js~ArgumentUndefinedError.html">ArgumentUndefinedError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-whitespace-string-error.js~ArgumentWhitespaceStringError.html">ArgumentWhitespaceStringError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-zero-error.js~ArgumentZeroError.html">ArgumentZeroError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/invalid-state-error.js~InvalidStateError.html">InvalidStateError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyArgument">verifyArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyArray">verifyArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyBoolean">verifyBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyDefined">verifyDefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyFunction">verifyFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyIterable">verifyIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNonEmpty">verifyNonEmpty</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNonZero">verifyNonZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNotNull">verifyNotNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNotWhitespace">verifyNotWhitespace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNumber">verifyNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyObject">verifyObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyString">verifyString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyTrue">verifyTrue</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyTruthy">verifyTruthy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-asArray">asArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-asIterable">asIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-concat">concat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-every">every</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-filter">filter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-includes">includes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduce">reduce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-slice">slice</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-some">some</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toMap">toMap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isError">isError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isIterable">isIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-makeIsIterable">makeIsIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementAccumulator">ElementAccumulator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementConverter">ElementConverter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementTest">ElementTest</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="jali">Jali</h1>
+<p><!-- cSpell:ignore atlassian, cirkel, clas, gitter, lerna -->
+</p>
+<p>Specification-driven serverless microservice DevOps framework and
+infrastructure <a href="http://jali-ms.io/">http://jali-ms.io/</a></p>
+<p><!-- badges -->
+</p>
+<p><a href="https://www.openhub.net/p/jali"><img src="https://www.openhub.net/p/jali/widgets/project_thin_badge.gif" alt="OpenHub stats"></a>
+<a href="https://github.com/latticework/jali/milestones"><img src="https://img.shields.io/badge/project_status-pre--alpha-AA0114.svg" alt="project status"></a>
+<a href="https://github.com/latticework/jali/milestones#boards?repos=45436564&amp;milestones=0.1.0#"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png" alt="ZenHub"></a>
+<a href="https://dependencyci.com/github/latticework/jali"><img src="https://dependencyci.com/github/latticework/jali/badge" alt="Dependency Status"></a>
+<a href="https://www.bithound.io/github/latticework/jali"><img src="https://www.bithound.io/github/latticework/jali/badges/score.svg" alt="bitHound Overall Score"></a></p>
+<p><a href="https://cla-assistant.io/latticework/jali"><img src="https://cla-assistant.io/readme/badge/latticework/jali" alt="CLA assistant"></a>
+<a href="https://gitter.im/latticework/jali?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/latticework/jali.svg" alt="Gitter"></a>
+<a href="https://semaphoreci.com/latticework/jali"><img src="https://semaphoreci.com/api/v1/latticework/jali/branches/master/shields_badge.svg" alt="Build Status"></a></p>
+<p><!-- markdownlint-disable ul-style -->
+</p>
+<blockquote>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#developing-jali">Developing Jali</a></li>
+<li><a href="#technologies-demonstrated">Technologies Demonstrated</a><ul>
+<li><a href="#development-environment">Development environment</a></li>
+<li><a href="#cloud-development-tools">Cloud development tools</a></li>
+<li><a href="#nodejs-development-tools">NodeJS Development Tools</a></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p><!-- markdownlint-enable ul-style -->
+</p>
+<h2 id="introduction">Introduction</h2>
+<h3 id="-jali-is"><strong>Jali</strong> is</h3>
+<ul>
+<li><strong>specification-driven</strong> permitting consumer driven contracts and
+multi-version management</li>
+<li><strong>serverless</strong> so you can write just your routines and run using any
+and all configurable platforms</li>
+<li>where the <strong>microservice</strong> is the unit of development, delivery and
+management</li>
+<li>a full multitenant, partitionable <strong>DevOps</strong> platform because modern
+microservice delivery is continuous</li>
+<li>an extensible, polyglot <strong>framework</strong> providing circuit breaking and
+self-documenting APIs and explicit routine services</li>
+<li>an <strong>infrastructure</strong> pluggable for many major microservice platforms
+(eventually...)</li>
+</ul>
+<p>To learn more about developing and managing microservices with Jali,
+  visit our <a href="http://jali-ms.io/">website</a>.</p>
+<h2 id="developing-jali">Developing Jali</h2>
+<p><em>See <a href="./CONTRIBUTING.md">CONTRIBUTING.md</a>.</em></p>
+<h2 id="project-design">Project Design</h2>
+<p><em>See <a href="./DESIGN.md">DESIGN.md</a>.</em></p>
+<h2 id="technologies-demonstrated">Technologies Demonstrated</h2>
+<p>See <a href="./CREDITS.md">CREDITS.md</a> for instructions or examples how to use
+some of these technologies.</p>
+<h3 id="development-environment">Development environment</h3>
+<ul>
+<li><a href="https://www.virtualbox.org/">VirtualBox</a> (<a href="https://en.wikipedia.org/wiki/VirtualBox">wiki</a>) a free and open-source
+hypervisor for x86 computers</li>
+<li><a href="https://www.vagrantup.com/">Vagrant</a> (<a href="https://en.wikipedia.org/wiki/Vagrant_(software)">wiki</a>) manages virtual development
+environments<ul>
+<li><a href="https://www.vagrantup.com/docs/provisioning/chef_zero.html">chef_zero provisioner</a> allows you to
+provision the guest OS using Chef</li>
+<li><a href="https://github.com/chef/vagrant-omnibus">vagrant-omnibus</a> &quot;ensures the desired version of Chef is installed&quot;</li>
+<li><a href="https://github.com/berkshelf/vagrant-berkshelf">vagrant-berkshelf</a> &quot;plugin to add Berkshelf integration to the Chef
+provisioners&quot;</li>
+</ul>
+</li>
+<li><a href="http://www.ubuntu.com/">Ubuntu</a> (<a href="https://en.wikipedia.org/wiki/Ubuntu">wiki</a>) development platform vagrant guest OS</li>
+<li><a href="https://www.chef.io/">Chef</a> (<a href="https://en.wikipedia.org/wiki/Chef_(software)">wiki</a>) configuration management for Ubuntu
+development environment<ul>
+<li><a href="https://downloads.chef.io/chef-dk/">ChefDK</a> Chef developer tools<ul>
+<li><a href="http://berkshelf.com/">Berkshelf</a> Chef cookbook dependency manager</li>
+<li><a href="https://docs.chef.io/ctl_chef_client.html#run-in-local-mode">chef-zero</a> &quot;lightweight Chef server that runs in-memory on the
+local machine&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> (<a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">wiki</a>) cross platform
+source code editor<ul>
+<li>Extensions<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">vscode-markdownlint</a> Markdown linting and style checking for Visual
+Studio Code</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">code-spell-checker</a> Spelling checker for source code</li>
+<li>Many more. See <code>clavecoder&apos;s</code> Visual Studio Code Sync Settings
+<a href="https://gist.github.com/clavecoder/fa29a8846199bee62bc99ef94fbe86df#file-extensions-json">clavecoder-extensions</a> file for a full list of useful Visual
+Studio Code extensions.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://github.com/latticework/jalidev">JaliDev</a> seed project for providing team-consistent development
+environments using the
+technologies above.</li>
+</ul>
+<h3 id="cloud-github-development-tools">Cloud/GitHub development tools</h3>
+<ul>
+<li>ALM<ul>
+<li><a href="https://www.zenhub.com/">ZenHub</a> GitHub-integrated agile project management</li>
+</ul>
+</li>
+<li>CI<ul>
+<li><a href="https://semaphoreci.com/">Semaphore</a>: Make continuous delivery easy</li>
+</ul>
+</li>
+<li>PR policy checks<ul>
+<li><a href="https://www.bithound.io/">bitHound</a>: Node.js code analysis your team can agree on</li>
+<li><a href="https://www.versioneye.com/">VersionEye</a>: notifies you about out-dated dependencies, security
+vulnerabilities and license violations in your Git repositories</li>
+<li><a href="https://dependencyci.com/">Dependency CI</a>: Continuously Test Your Dependencies</li>
+<li><a href="https://cla-assistant.io/">CLA assistant</a>: Easily handle Contributor License
+Agreements (CLAs)</li>
+</ul>
+</li>
+</ul>
+<h3 id="nodejs-development-tools">NodeJS Development Tools</h3>
+<ul>
+<li><code>monorepo</code>-style projects<ul>
+<li><a href="https://github.com/babel/babel/blob/master/doc/design/monorepo.md#why-is-babel-a-monorepo">Why is Babel a monorepo?</a></li>
+<li><a href="http://www.macwright.org/2016/07/08/lerna-npm-organizations-new-wave-modularity.html">New wave modularity with Lerna, monorepos, and npm organizations</a></li>
+<li><a href="http://staltz.com/setting-up-a-javascript-monorepo.html">SETTING UP A JAVASCRIPT MONOREPO</a></li>
+<li><a href="https://developer.atlassian.com/blog/2015/10/monorepos-in-git/">Monorepos in Git</a></li>
+</ul>
+</li>
+<li><code>npm</code> as a task runner<ul>
+<li><a href="https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/">How to Use npm as a Build Tool</a></li>
+</ul>
+</li>
+<li><a href="https://blogs.msdn.microsoft.com/typescript/2016/07/11/announcing-typescript-2-0-beta/">TypeScript 2.1</a> (<a href="https://en.wikipedia.org/wiki/TypeScript">wiki</a>) adds optional
+static typing to JavaScript<ul>
+<li><a href="http://typedoc.io/">TypeDoc</a> TypeScript document generator<blockquote>
+<p>Warning: <a href="https://github.com/TypeStrong/typedoc/issues/234"><strong>TypeDoc</strong> doesn&apos;t work with TypeScript 2 yet</a></p>
+</blockquote>
+</li>
+<li><a href="https://palantir.github.io/tslint/">tslint</a> An extensible linter for the TypeScript language</li>
+</ul>
+</li>
+<li><a href="https://github.com/tc39/proposals">EcmaScript 2017+</a> (<a href="https://en.wikipedia.org/wiki/ECMAScript">wiki</a>) The maturing
+JavaScript language<ul>
+<li>See <a href="./ECMASCRIPT-PROPOSALS.md">ECMASCRIPT-PROPOSALS.md</a> for what
+features and proposals are implemented in Jali</li>
+<li><a href="https://esdoc.org/">esdoc</a>  (integrated by Jali)</li>
+<li><a href="http://eslint.org/">eslint</a> The pluggable linting utility for JavaScript and JSX</li>
+</ul>
+</li>
+<li><a href="https://gist.github.com/sokra/27b24881210b56bbaff7">webpack 2</a> (<a href="https://en.wikipedia.org/wiki/Webpack">wiki</a>) NodeJS module loader</li>
+<li><a href="https://babeljs.io/">Babel 6</a> JavaScript parser and transpilation platform</li>
+<li><a href="https://github.com/avajs/ava">AVA</a> Concurrent JavaScript test framework for EcmaScript + Babel<ul>
+<li><a href="https://github.com/gotwarlost/istanbul">istanbul</a> JavaScript code coverage tool<ul>
+<li><a href="https://github.com/istanbuljs/nyc">nyc</a> Istanbul CLI</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://github.com/igrigorik/ga-beacon"><img src="https://ga-beacon.appspot.com/UA-81234965-2/welcome-page" alt="Analytics"></a></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

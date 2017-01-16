@@ -1,0 +1,1147 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "ArgumentError",
+          "range": [
+            1189,
+            1202
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 21
+            },
+            "end": {
+              "line": 28,
+              "column": 34
+            }
+          }
+        },
+        "superClass": {
+          "type": "Identifier",
+          "name": "Error",
+          "range": [
+            1211,
+            1216
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 43
+            },
+            "end": {
+              "line": 28,
+              "column": 48
+            }
+          }
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  1566,
+                  1577
+                ],
+                "loc": {
+                  "start": {
+                    "line": 39,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 39,
+                    "column": 15
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "name",
+                    "range": [
+                      1578,
+                      1582
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 39,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 39,
+                        "column": 20
+                      }
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "message",
+                    "range": [
+                      1584,
+                      1591
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 39,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 39,
+                        "column": 29
+                      }
+                    }
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Super",
+                          "range": [
+                            1603,
+                            1608
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 40,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 40,
+                              "column": 13
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "computed": false,
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Class",
+                                "range": [
+                                  1609,
+                                  1614
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 40,
+                                    "column": 14
+                                  },
+                                  "end": {
+                                    "line": 40,
+                                    "column": 19
+                                  }
+                                }
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "makeMessage",
+                                "range": [
+                                  1615,
+                                  1626
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 40,
+                                    "column": 20
+                                  },
+                                  "end": {
+                                    "line": 40,
+                                    "column": 31
+                                  }
+                                }
+                              },
+                              "range": [
+                                1609,
+                                1626
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 40,
+                                  "column": 14
+                                },
+                                "end": {
+                                  "line": 40,
+                                  "column": 31
+                                }
+                              }
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "name",
+                                "range": [
+                                  1627,
+                                  1631
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 40,
+                                    "column": 32
+                                  },
+                                  "end": {
+                                    "line": 40,
+                                    "column": 36
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Identifier",
+                                "name": "message",
+                                "range": [
+                                  1633,
+                                  1640
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 40,
+                                    "column": 38
+                                  },
+                                  "end": {
+                                    "line": 40,
+                                    "column": 45
+                                  }
+                                }
+                              }
+                            ],
+                            "range": [
+                              1609,
+                              1641
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 40,
+                                "column": 14
+                              },
+                              "end": {
+                                "line": 40,
+                                "column": 46
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          1603,
+                          1642
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 40,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 40,
+                            "column": 47
+                          }
+                        }
+                      },
+                      "range": [
+                        1603,
+                        1643
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 40,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 40,
+                          "column": 48
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    1593,
+                    1649
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 39,
+                      "column": 31
+                    },
+                    "end": {
+                      "line": 41,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  1577,
+                  1649
+                ],
+                "loc": {
+                  "start": {
+                    "line": 39,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 41,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                1566,
+                1649
+              ],
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 4
+                },
+                "end": {
+                  "line": 41,
+                  "column": 5
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n     * Initializes a new instance of the {@link ArgumentError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    An optional message. Default is no message. See class documentation for more details.*.\n     * @public\n     * @since 0.0.1\n     ",
+                  "range": [
+                    1223,
+                    1561
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 38,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "* @private ",
+                  "range": [
+                    1654,
+                    1669
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 42,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 19
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "makeMessage",
+                "range": [
+                  1681,
+                  1692
+                ],
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 22
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "name",
+                    "range": [
+                      1693,
+                      1697
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 43,
+                        "column": 23
+                      },
+                      "end": {
+                        "line": 43,
+                        "column": 27
+                      }
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "message",
+                    "range": [
+                      1699,
+                      1706
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 43,
+                        "column": 29
+                      },
+                      "end": {
+                        "line": 43,
+                        "column": 36
+                      }
+                    }
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "TemplateLiteral",
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "Error in argument",
+                              "cooked": "Error in argument"
+                            },
+                            "tail": false,
+                            "range": [
+                              1725,
+                              1745
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 44,
+                                "column": 15
+                              },
+                              "end": {
+                                "line": 44,
+                                "column": 35
+                              }
+                            }
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": false,
+                            "range": [
+                              1769,
+                              1772
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 44,
+                                "column": 59
+                              },
+                              "end": {
+                                "line": 44,
+                                "column": 62
+                              }
+                            }
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true,
+                            "range": [
+                              1803,
+                              1805
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 44,
+                                "column": 93
+                              },
+                              "end": {
+                                "line": 44,
+                                "column": 95
+                              }
+                            }
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "ConditionalExpression",
+                            "test": {
+                              "type": "Identifier",
+                              "name": "name",
+                              "range": [
+                                1745,
+                                1749
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 44,
+                                  "column": 35
+                                },
+                                "end": {
+                                  "line": 44,
+                                  "column": 39
+                                }
+                              }
+                            },
+                            "consequent": {
+                              "type": "TemplateLiteral",
+                              "quasis": [
+                                {
+                                  "type": "TemplateElement",
+                                  "value": {
+                                    "raw": " '",
+                                    "cooked": " '"
+                                  },
+                                  "tail": false,
+                                  "range": [
+                                    1752,
+                                    1757
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 44,
+                                      "column": 42
+                                    },
+                                    "end": {
+                                      "line": 44,
+                                      "column": 47
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "TemplateElement",
+                                  "value": {
+                                    "raw": "'",
+                                    "cooked": "'"
+                                  },
+                                  "tail": true,
+                                  "range": [
+                                    1761,
+                                    1764
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 44,
+                                      "column": 51
+                                    },
+                                    "end": {
+                                      "line": 44,
+                                      "column": 54
+                                    }
+                                  }
+                                }
+                              ],
+                              "expressions": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "name",
+                                  "range": [
+                                    1757,
+                                    1761
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 44,
+                                      "column": 47
+                                    },
+                                    "end": {
+                                      "line": 44,
+                                      "column": 51
+                                    }
+                                  }
+                                }
+                              ],
+                              "range": [
+                                1752,
+                                1764
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 44,
+                                  "column": 42
+                                },
+                                "end": {
+                                  "line": 44,
+                                  "column": 54
+                                }
+                              }
+                            },
+                            "alternate": {
+                              "type": "Literal",
+                              "value": "",
+                              "raw": "''",
+                              "range": [
+                                1767,
+                                1769
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 44,
+                                  "column": 57
+                                },
+                                "end": {
+                                  "line": 44,
+                                  "column": 59
+                                }
+                              }
+                            },
+                            "range": [
+                              1745,
+                              1769
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 44,
+                                "column": 35
+                              },
+                              "end": {
+                                "line": 44,
+                                "column": 59
+                              }
+                            }
+                          },
+                          {
+                            "type": "ConditionalExpression",
+                            "test": {
+                              "type": "Identifier",
+                              "name": "message",
+                              "range": [
+                                1773,
+                                1780
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 44,
+                                  "column": 63
+                                },
+                                "end": {
+                                  "line": 44,
+                                  "column": 70
+                                }
+                              }
+                            },
+                            "consequent": {
+                              "type": "TemplateLiteral",
+                              "quasis": [
+                                {
+                                  "type": "TemplateElement",
+                                  "value": {
+                                    "raw": ": ",
+                                    "cooked": ": "
+                                  },
+                                  "tail": false,
+                                  "range": [
+                                    1784,
+                                    1789
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 44,
+                                      "column": 74
+                                    },
+                                    "end": {
+                                      "line": 44,
+                                      "column": 79
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "TemplateElement",
+                                  "value": {
+                                    "raw": "",
+                                    "cooked": ""
+                                  },
+                                  "tail": true,
+                                  "range": [
+                                    1796,
+                                    1798
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 44,
+                                      "column": 86
+                                    },
+                                    "end": {
+                                      "line": 44,
+                                      "column": 88
+                                    }
+                                  }
+                                }
+                              ],
+                              "expressions": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "message",
+                                  "range": [
+                                    1789,
+                                    1796
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 44,
+                                      "column": 79
+                                    },
+                                    "end": {
+                                      "line": 44,
+                                      "column": 86
+                                    }
+                                  }
+                                }
+                              ],
+                              "range": [
+                                1784,
+                                1798
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 44,
+                                  "column": 74
+                                },
+                                "end": {
+                                  "line": 44,
+                                  "column": 88
+                                }
+                              }
+                            },
+                            "alternate": {
+                              "type": "Literal",
+                              "value": "",
+                              "raw": "''",
+                              "range": [
+                                1801,
+                                1803
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 44,
+                                  "column": 91
+                                },
+                                "end": {
+                                  "line": 44,
+                                  "column": 93
+                                }
+                              }
+                            },
+                            "range": [
+                              1772,
+                              1803
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 44,
+                                "column": 62
+                              },
+                              "end": {
+                                "line": 44,
+                                "column": 93
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          1725,
+                          1805
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 44,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 44,
+                            "column": 95
+                          }
+                        }
+                      },
+                      "range": [
+                        1718,
+                        1806
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 44,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 44,
+                          "column": 96
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    1708,
+                    1812
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 43,
+                      "column": 38
+                    },
+                    "end": {
+                      "line": 45,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  1692,
+                  1812
+                ],
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 22
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                1674,
+                1812
+              ],
+              "loc": {
+                "start": {
+                  "line": 43,
+                  "column": 4
+                },
+                "end": {
+                  "line": 45,
+                  "column": 5
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "* @private ",
+                  "range": [
+                    1654,
+                    1669
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 42,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 19
+                    }
+                  }
+                }
+              ],
+              "static": true
+            }
+          ],
+          "range": [
+            1217,
+            1814
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 49
+            },
+            "end": {
+              "line": 46,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          1183,
+          1814
+        ],
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 15
+          },
+          "end": {
+            "line": 46,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "range": [
+              0,
+              1167
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 27,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        1168,
+        1814
+      ],
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 0
+        },
+        "end": {
+          "line": 46,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "range": [
+            0,
+            1167
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 27,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "Class",
+            "range": [
+              1821,
+              1826
+            ],
+            "loc": {
+              "start": {
+                "line": 47,
+                "column": 6
+              },
+              "end": {
+                "line": 47,
+                "column": 11
+              }
+            }
+          },
+          "init": {
+            "type": "Identifier",
+            "name": "ArgumentError",
+            "range": [
+              1829,
+              1842
+            ],
+            "loc": {
+              "start": {
+                "line": 47,
+                "column": 14
+              },
+              "end": {
+                "line": 47,
+                "column": 27
+              }
+            }
+          },
+          "range": [
+            1821,
+            1842
+          ],
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 6
+            },
+            "end": {
+              "line": 47,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "kind": "const",
+      "range": [
+        1815,
+        1843
+      ],
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 28
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": " tslint:disable-line:variable-name no-use-before-declare",
+          "range": [
+            1844,
+            1902
+          ],
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 29
+            },
+            "end": {
+              "line": 47,
+              "column": 87
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    1168,
+    1843
+  ],
+  "loc": {
+    "start": {
+      "line": 28,
+      "column": 0
+    },
+    "end": {
+      "line": 47,
+      "column": 28
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "range": [
+        0,
+        1167
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n     * Initializes a new instance of the {@link ArgumentError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    An optional message. Default is no message. See class documentation for more details.*.\n     * @public\n     * @since 0.0.1\n     ",
+      "range": [
+        1223,
+        1561
+      ],
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "* @private ",
+      "range": [
+        1654,
+        1669
+      ],
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 4
+        },
+        "end": {
+          "line": 42,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " tslint:disable-line:variable-name no-use-before-declare",
+      "range": [
+        1844,
+        1902
+      ],
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 29
+        },
+        "end": {
+          "line": 47,
+          "column": 87
+        }
+      }
+    }
+  ]
+}

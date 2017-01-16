@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">all/@jali-ms/util/src/argument-verifiers.js | Jali specification-driven serverless microservice framework API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/latticework/jali.git" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/core/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/core/src/structured-error.js~StructuredError.html">StructuredError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-error">error</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-get_Errors">get_Errors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNotificationMessage">isNotificationMessage</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/note/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/message-code.js~MessageCode.html">MessageCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/standard-message-encoding.js~StandardMessageEncoding.html">StandardMessageEncoding</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/note/src/typed-message.js~TypedMessage.html">TypedMessage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-extended">extended</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-local">local</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-standard">standard</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">@jali-ms/util/src</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-empty-string-error.js~ArgumentEmptyStringError.html">ArgumentEmptyStringError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-error.js~ArgumentError.html">ArgumentError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-false-error.js~ArgumentFalseError.html">ArgumentFalseError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-falsy-error.js~ArgumentFalsyError.html">ArgumentFalsyError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-nan-error.js~ArgumentNanError.html">ArgumentNanError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-null-error.js~ArgumentNullError.html">ArgumentNullError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-type-error.js~ArgumentTypeError.html">ArgumentTypeError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-undefined-error.js~ArgumentUndefinedError.html">ArgumentUndefinedError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-whitespace-string-error.js~ArgumentWhitespaceStringError.html">ArgumentWhitespaceStringError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/argument-zero-error.js~ArgumentZeroError.html">ArgumentZeroError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/all/@jali-ms/util/src/invalid-state-error.js~InvalidStateError.html">InvalidStateError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyArgument">verifyArgument</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyArray">verifyArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyBoolean">verifyBoolean</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyDefined">verifyDefined</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyFunction">verifyFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyIterable">verifyIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNonEmpty">verifyNonEmpty</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNonZero">verifyNonZero</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNotNull">verifyNotNull</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNotWhitespace">verifyNotWhitespace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyNumber">verifyNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyObject">verifyObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyString">verifyString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyTrue">verifyTrue</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-verifyTruthy">verifyTruthy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-asArray">asArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-asIterable">asIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-concat">concat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-every">every</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-filter">filter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-includes">includes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduce">reduce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-slice">slice</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-some">some</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-toMap">toMap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isError">isError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isIterable">isIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-makeIsIterable">makeIsIterable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementAccumulator">ElementAccumulator</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementConverter">ElementConverter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ElementTest">ElementTest</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">all/@jali-ms/util/src/argument-verifiers.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import * as TypeGuards from &apos;./type-guards&apos;;
+import ArgumentEmptyStringError from &apos;./argument-empty-string-error&apos;;
+import ArgumentError from &apos;./argument-error&apos;;
+import ArgumentFalseError from &apos;./argument-false-error&apos;;
+import ArgumentFalsyError from &apos;./argument-falsy-error&apos;;
+import ArgumentNanError from &apos;./argument-nan-error&apos;;
+import ArgumentNullError from &apos;./argument-null-error&apos;;
+import ArgumentTypeError from &apos;./argument-type-error&apos;;
+import ArgumentUndefinedError from &apos;./argument-undefined-error&apos;;
+import ArgumentWhitespaceStringError from &apos;./argument-whitespace-string-error&apos;;
+import ArgumentZeroError from &apos;./argument-zero-error&apos;;
+/**
+ * Throws an error if the specified argument value does not pass the specified test.
+ *
+ * @param T -
+ *    The `value` type. **Note:** This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!string} name -
+ *    The formal parameter name.
+ * @param {T} value -
+ *    The function argument.
+ * @param {!function(value: T) =&gt; boolean} test -
+ *    Evaluates whether the value meets expectations.
+ * @param {(string | function(value: string): string)} [message] -
+ *    Optional custom message or message factory.
+ *
+ * @throws {ArgumentError}
+ *    The test failed.
+ *
+ * @example &lt;caption&gt;verify that parameter deposit is non-negative&lt;/caption&gt;
+ * verifyArgument(&apos;deposit&apos;, deposit, arg =&gt; arg &gt; 0.0);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, examples &#x2463; &amp; &#x2464;&lt;/a&gt;
+ * @see {@link ArgumentError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyTruthy}
+ * @since 0.0.1
+ */
+export function verifyArgument(name, value, test, message) {
+    if (!test(value)) {
+        throw new ArgumentError(name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument is not an `Array`.
+ *
+ * &gt; **Note:** Calls {@link Array.isArray}.
+ *
+ * @param T -
+ *    The `element` type. **Note:** This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!string} name -
+ *    The formal parameter name.
+ * @param {T} value -
+ *    The function argument.
+ * @param {(string | function(value: string): string)} [message] -
+ *    Optional custom message or message factory.
+ *
+ * @throws {ArgumentUndefinedError}
+ *    The argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    The argument is not an `Array`.
+ *
+ * @example &lt;caption&gt;verify that parameter collection is an Array&lt;/caption&gt;
+ * verifyArray(&apos;collection&apos;, collection);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link isIterable}
+ * @see {@link verifyIterable}
+ * @since 0.0.1
+ */
+export function verifyArray(name, value, message) {
+    verifyDefined(name, value, message);
+    if (!Array.isArray(value)) {
+        throw new ArgumentTypeError(&apos;Array&apos;, name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument is not strictly a boolean value.
+ *
+ * &gt; **Note:** If you want to test for _truthy_ values, use {@link verifyTruthy}.
+ *
+ * @param {!string} name -
+ *    The formal parameter name.
+ * @param {boolean} value -
+ *    The function argument.
+ * @param {(string | function(value: string): string)} [message] -
+ *    Optional custom message or message factory.
+ *
+ * @throws {ArgumentUndefinedError}
+ *    The argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    The argument is not `boolean`.
+ *
+ * @example &lt;caption&gt;verify that parameter isValid is boolean&lt;/caption&gt;
+ * verifyBoolean(&apos;isValid&apos;, isValid);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyTruthy}
+ * @since 0.0.1
+ */
+export function verifyBoolean(name, value, message) {
+    verifyDefined(name, value, message);
+    if (typeof value !== &apos;boolean&apos;) {
+        throw new ArgumentTypeError(&apos;boolean&apos;, name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument is `undefined`.
+ *
+ * &gt; **Note:** If you want to test for _truthy_ values, use {@link verifyTruthy}.
+ *
+ * @param T -
+ *    The `value` type. **Note:** This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!string} name -
+ *    The formal parameter name.
+ * @param {T} value -
+ *    The function argument.
+ * @param {(string | function(value: string): string)} [message] -
+ *    Optional custom message or message factory.
+ *
+ * @throws {ArgumentUndefinedError}
+ *    The argument is `undefined`.
+ *
+ * @example &lt;caption&gt;verify that parameter element is defined&lt;/caption&gt;
+ * verifyDefined(&apos;element&apos;, element);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link verifyTruthy}
+ * @since 0.0.1
+ */
+export function verifyDefined(name, value, message) {
+    if (value === undefined) {
+        throw new ArgumentUndefinedError(name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument is not strictly a function expression.
+ *
+ * &gt; **Note:** If you want to test for _truthy_ values, use {@link verifyTruthy}.
+ *
+ * @param {!string} name -
+ *    The formal parameter name.
+ * @param {Function} value -
+ *    The function argument.
+ * @param {(string | function(value: string): string)} [message] -
+ *    Optional custom message or message factory.
+ *
+ * @throws {ArgumentUndefinedError}
+ *    The argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    The argument is not a `function`.
+ *
+ * @example &lt;caption&gt;verify that parameter factory is a function&lt;/caption&gt;
+ * verifyFunction(&apos;factory&apos;, factory);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyTruthy}
+ * @since 0.0.1
+ */
+export function verifyFunction(name, value, message) {
+    verifyDefined(name, value, message);
+    if (typeof value !== &apos;function&apos;) {
+        throw new ArgumentTypeError(&apos;function&apos;, name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument does not support iteration.
+ *
+ * &gt; **Note:** Calls {@link isIterable} to determine iterability.
+ *
+ * @param T -
+ *    The `element` type. **Note:** This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {!string} name -
+ *    The formal parameter name.
+ * @param {T} value -
+ *    The function argument.
+ * @param {(string | function(value: string): string)} [message] -
+ *    Optional custom message or message factory.
+ *
+ * @throws {ArgumentUndefinedError}
+ *    The argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    The argument does not support iteration.
+ *
+ * @example &lt;caption&gt;verify that parameter collection is iterable&lt;/caption&gt;
+ * verifyIterable(&apos;collection&apos;, collection);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link isIterable}
+ * @see {@link verifyArray}
+ * @since 0.0.1
+ */
+export function verifyIterable(name, value, message) {
+    verifyDefined(name, value, message);
+    if (!TypeGuards.isIterable(value)) {
+        throw new ArgumentTypeError(&apos;iterable&apos;, name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument value is not a non-empty string.
+ *
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {string} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    the argument is not a `string`.
+ * @throws {ArgumentEmptyStringError}
+ *    the argument is an empty `string`.
+ *
+ * @example &lt;caption&gt;verify that parameter firstName is a non-empty string&lt;/caption&gt;
+ * verifyNonEmpty(&apos;firstName&apos;, firstName);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, example &#x2461;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentEmptyStringError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyString}
+ * @see {@link verifyNotWhitespace}
+ * @since 0.0.1
+ */
+export function verifyNonEmpty(name, value, message) {
+    verifyString(name, value, message);
+    if (value === &apos;&apos;) {
+        throw new ArgumentEmptyStringError(name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument value is not a non-zero number.
+ *
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {number} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    the argument is not a `number`.
+ * @throws {ArgumentNanError}
+ *    the argument is `NaN`.
+ * @throws {ArgumentZeroError}
+ *    the argument is a number the value zero.
+ *
+ * @example &lt;caption&gt;verify that parameter height has a nonzero value&lt;/caption&gt;
+ * verifyNonEmpty(&apos;height&apos;, height);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentNanError}
+ * @see {@link ArgumentZeroError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyNumber}
+ * @since 0.0.1
+ */
+export function verifyNonZero(name, value, message) {
+    verifyNumber(name, value, message);
+    if (value === 0) {
+        throw new ArgumentZeroError(name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument value is `undefined` or `null`.
+ *
+ * &gt; **Note:** Consider using {@link verifyTruthy} or {@link verifyObject}.
+ *
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {number} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    the argument is not a `number`.
+ * @throws {ArgumentNanError}
+ *    the argument is `NaN`.
+ * @throws {ArgumentZeroError}
+ *    the argument is a number the value zero.
+ *
+ * @example &lt;caption&gt;verify that parameter height has a nonzero value&lt;/caption&gt;
+ * verifyNonEmpty(&apos;height&apos;, height);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, example &#x2460;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentNanError}
+ * @see {@link ArgumentZeroError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyNumber}
+ * @since 0.0.1
+ */
+export function verifyNotNull(name, value, message) {
+    verifyDefined(name, value, message);
+    if (value === null) {
+        throw new ArgumentNullError(name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument is not a string with non whitespace characters.
+ *
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {string} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    the argument is not a `string`.
+ * @throws {ArgumentEmptyStringError}
+ *    the argument is an empty `string`.
+ * @throws {ArgumentWhitespaceStringError}
+ *    the argument has only whitespace characters.
+ *
+ * @example &lt;caption&gt;verify that parameter firstName has non-whitespace characters&lt;/caption&gt;
+ * verifyNotWhitespace(&apos;firstName&apos;, firstName);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, example &#x2461;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentEmptyStringError}
+ * @see {@link ArgumentWhitespaceStringError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyString}
+ * @see {@link verifyNonEmpty}
+ * @since 0.0.1
+ */
+export function verifyNotWhitespace(name, value, message) {
+    verifyNonEmpty(name, value, message);
+    if (value.trim() === &apos;&apos;) {
+        throw new ArgumentWhitespaceStringError(name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument value is not a `number` or has a value of `NaN`.
+ *
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {number} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    the argument is not a `number`.
+ * @throws {ArgumentNanError}
+ *    the argument is `NaN`.
+ * @throws {ArgumentZeroError}
+ *    the argument is a number the value zero.
+ *
+ * @example &lt;caption&gt;verify that parameter price is a number&lt;/caption&gt;
+ * verifyNumber(&apos;price&apos;, price);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentNanError}
+ * @see {@link ArgumentZeroError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyNonZero}
+ * @since 0.0.1
+ */
+export function verifyNumber(name, value, message) {
+    verifyDefined(name, value, message);
+    if (typeof value !== &apos;number&apos;) {
+        throw new ArgumentTypeError(&apos;number&apos;, name, errorMessage(value, message));
+    }
+    if (Number.isNaN(value)) {
+        throw new ArgumentNanError(name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument value is not an `Object`.
+ *
+ * &gt; **Note:** To exclude `null` values also call {@link verifyNotNull}
+ *
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {Object} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    the argument is not an `Object`.
+ *
+ * @example &lt;caption&gt;verify that parameter height has a nonzero value&lt;/caption&gt;
+ * verifyNonEmpty(&apos;height&apos;, height);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentNanError}
+ * @see {@link ArgumentZeroError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyNonZero}
+ * @since 0.0.1
+ */
+export function verifyObject(name, value, message) {
+    verifyDefined(name, value, message);
+    if (typeof value !== &apos;object&apos;) {
+        throw new ArgumentTypeError(&apos;object&apos;, name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument value is not a `string`.
+ *
+ * &gt; **Note:** To verify a meaningful value consider using {@link verifyNonEmpty} or
+ * &gt; {@link verifyNotWhitespace}.
+ *
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {string} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    the argument is not a `string`.
+ *
+ * @example &lt;caption&gt;verify that parameter alphabet is a string&lt;/caption&gt;
+ * verifyNonEmpty(&apos;alphabet&apos;, alphabet);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyNonEmpty}
+ * @see {@link verifyNotWhitespace}
+ * @since 0.0.1
+ */
+export function verifyString(name, value, message) {
+    verifyDefined(name, value, message);
+    if (typeof value !== &apos;string&apos;) {
+        throw new ArgumentTypeError(&apos;string&apos;, name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument value is not a boolean with the value &apos;true&apos;.
+ *
+ * &gt; **Note:** To verify a _truthy_ value, use {@link verifyTruthy}.
+ *
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {boolean} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined`.
+ * @throws {ArgumentTypeError}
+ *    the argument is not a `boolean`.
+ * @throws {ArgumentFalseError}
+ *    the argument is a number the value zero.
+ *
+ * @example &lt;caption&gt;verify that parameter isValid is true&lt;/caption&gt;
+ * verifyNonEmpty(&apos;isValid&apos;, isValid);
+ *
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentTypeError}
+ * @see {@link ArgumentFalseError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyBoolean}
+ * @see {@link verifyTruthy}
+ * @since 0.0.1
+ */
+export function verifyTrue(name, value, message) {
+    verifyBoolean(name, value, message);
+    if (value === false) {
+        throw new ArgumentFalseError(name, errorMessage(value, message));
+    }
+}
+/**
+ * Throws an error if the specified argument value is not _truthy_.
+ *
+ * The `loose` parameter changes what exception is thrown. If `loose`, then only
+ * {@link ArgumentFalsyError} is thrown. Otherwise, the exception for the appropriate _falsy_ value
+ * is thrown.
+ *
+ * &gt; **Note:** You can test for any of the _falsy_ values individually using the appropriate
+ * &gt; `verify...` function.
+ *
+ * @param T -
+ *    The `value` type. **Note:** This is a TypeScript type parameter, not a parameter of the
+ *    function.
+ * @param {string} name -
+ *    the formal parameter name
+ * @param {T} value -
+ *    the function argument
+ * @param {?(string | function(value: string): string)} message -
+ *    optional custom message or message factory
+ *
+ * @throws {ArgumentFalsyError}
+ *    the argument is _falsy_ and `loose` is specified.
+ * @throws {ArgumentEmptyStringError}
+ *    the argument is an empty `string` and `loose` is not specified.
+ * @throws {ArgumentFalseError}
+ *    the argument has the value `false` and `loose` is not specified.
+ * @throws {ArgumentNanError}
+ *    the argument has the value `NaN` and `loose` is not specified.
+ * @throws {ArgumentNullError}
+ *    the argument has the value `null` and `loose` is not specified.
+ * @throws {ArgumentUndefinedError}
+ *    the argument is `undefined` and `loose` is not specified.
+ * @throws {ArgumentUndefinedError}
+ *    the argument is zero and `loose` is not specified.
+ *
+ * @example &lt;caption&gt;verify that parameter item is truthy&lt;/caption&gt;
+ * verifyTruthy(&apos;item&apos;, item);
+ *
+ * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/Falsy&quot; target=&quot;_blank&quot;&gt;
+ *    Definition of falsy&lt;/a&gt; (MDN)
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, example &#x2462;&lt;/a&gt;
+ * @see {@link ArgumentEmptyStringError}
+ * @see {@link ArgumentFalseError}
+ * @see {@link ArgumentNanError}
+ * @see {@link ArgumentNullError}
+ * @see {@link ArgumentUndefinedError}
+ * @see {@link ArgumentZeroError}
+ * @see {@link verifyDefined}
+ * @see {@link verifyNonEmpty}
+ * @see {@link verifyNonZero}
+ * @see {@link verifyNotNull}
+ * @see {@link verifyNumber}
+ * @see {@link verifyTrue}
+ * @since 0.0.1
+ */
+export function verifyTruthy(name, value, loose = false, message) {
+    if (!value) {
+        if (loose) {
+            throw new ArgumentFalsyError(name, errorMessage(value, message));
+        }
+        verifyNotNull(name, value, message); // Also checks for defined.
+        if (typeof value === &apos;boolean&apos;) {
+            verifyTrue(name, value, errorMessage(value, message));
+        }
+        else if (typeof value === &apos;string&apos;) {
+            verifyNonEmpty(name, value, errorMessage(value, message));
+        }
+        else if (typeof value === &apos;number&apos;) {
+            // Also checks for not NaN
+            verifyNonZero(name, value, errorMessage(value, message));
+        }
+    }
+}
+function errorMessage(value, message) {
+    return (typeof message === &apos;function&apos;) ? message(value) : message;
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

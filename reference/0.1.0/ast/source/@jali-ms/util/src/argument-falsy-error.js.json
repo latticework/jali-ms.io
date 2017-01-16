@@ -1,0 +1,1135 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ArgumentError",
+            "range": [
+              20,
+              33
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 20
+              },
+              "end": {
+                "line": 1,
+                "column": 33
+              }
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "name": "default",
+            "range": [
+              9,
+              16
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 9
+              },
+              "end": {
+                "line": 1,
+                "column": 16
+              }
+            }
+          },
+          "range": [
+            9,
+            33
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 9
+            },
+            "end": {
+              "line": 1,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./argument-error",
+        "raw": "'./argument-error'",
+        "range": [
+          41,
+          59
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 41
+          },
+          "end": {
+            "line": 1,
+            "column": 59
+          }
+        }
+      },
+      "range": [
+        0,
+        60
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 60
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "range": [
+            61,
+            813
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "ArgumentFalsyError",
+          "range": [
+            835,
+            853
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 21
+            },
+            "end": {
+              "line": 22,
+              "column": 39
+            }
+          }
+        },
+        "superClass": {
+          "type": "Identifier",
+          "name": "ArgumentError",
+          "range": [
+            862,
+            875
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 48
+            },
+            "end": {
+              "line": 22,
+              "column": 61
+            }
+          }
+        },
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "constructor",
+                "range": [
+                  1271,
+                  1282
+                ],
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 34,
+                    "column": 15
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "name",
+                    "range": [
+                      1283,
+                      1287
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 34,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 34,
+                        "column": 20
+                      }
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "message",
+                    "range": [
+                      1289,
+                      1296
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 34,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 34,
+                        "column": 29
+                      }
+                    }
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Super",
+                          "range": [
+                            1308,
+                            1313
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 35,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 35,
+                              "column": 13
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "name": "name",
+                            "range": [
+                              1314,
+                              1318
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 14
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 18
+                              }
+                            }
+                          },
+                          {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "computed": false,
+                              "object": {
+                                "type": "Identifier",
+                                "name": "Class",
+                                "range": [
+                                  1320,
+                                  1325
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 35,
+                                    "column": 20
+                                  },
+                                  "end": {
+                                    "line": 35,
+                                    "column": 25
+                                  }
+                                }
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "name": "makeFalsyTypedMessage",
+                                "range": [
+                                  1326,
+                                  1347
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 35,
+                                    "column": 26
+                                  },
+                                  "end": {
+                                    "line": 35,
+                                    "column": 47
+                                  }
+                                }
+                              },
+                              "range": [
+                                1320,
+                                1347
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 35,
+                                  "column": 20
+                                },
+                                "end": {
+                                  "line": 35,
+                                  "column": 47
+                                }
+                              }
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "message",
+                                "range": [
+                                  1348,
+                                  1355
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 35,
+                                    "column": 48
+                                  },
+                                  "end": {
+                                    "line": 35,
+                                    "column": 55
+                                  }
+                                }
+                              }
+                            ],
+                            "range": [
+                              1320,
+                              1356
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 35,
+                                "column": 20
+                              },
+                              "end": {
+                                "line": 35,
+                                "column": 56
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          1308,
+                          1357
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 35,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 35,
+                            "column": 57
+                          }
+                        }
+                      },
+                      "range": [
+                        1308,
+                        1358
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 35,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 35,
+                          "column": 58
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    1298,
+                    1364
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 34,
+                      "column": 31
+                    },
+                    "end": {
+                      "line": 36,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  1282,
+                  1364
+                ],
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "constructor",
+              "computed": false,
+              "range": [
+                1271,
+                1364
+              ],
+              "loc": {
+                "start": {
+                  "line": 34,
+                  "column": 4
+                },
+                "end": {
+                  "line": 36,
+                  "column": 5
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n     * Initializes a new instance of the {@link ArgumentFalsyError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours does not*.\n     * @public\n     * @since 0.0.1\n     ",
+                  "range": [
+                    882,
+                    1266
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 23,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "trailingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n     * Builds a default error message for subclasses.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have a\n     *    truthy value. Yours ${type ? `is '${type}'` : 'does not'*.\n     * @param {string}: [type] -\n     *    value to display in the message. Default is to display no value.\n     * @protected\n     * @since 0.0.1\n     ",
+                  "range": [
+                    1369,
+                    1786
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 37,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 46,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "static": false
+            },
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "makeFalsyTypedMessage",
+                "range": [
+                  1798,
+                  1819
+                ],
+                "loc": {
+                  "start": {
+                    "line": 47,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 47,
+                    "column": 32
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "name": "message",
+                    "range": [
+                      1820,
+                      1827
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 47,
+                        "column": 33
+                      },
+                      "end": {
+                        "line": 47,
+                        "column": 40
+                      }
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "type",
+                    "range": [
+                      1829,
+                      1833
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 47,
+                        "column": 42
+                      },
+                      "end": {
+                        "line": 47,
+                        "column": 46
+                      }
+                    }
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "argument": {
+                        "type": "LogicalExpression",
+                        "operator": "||",
+                        "left": {
+                          "type": "Identifier",
+                          "name": "message",
+                          "range": [
+                            1852,
+                            1859
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 48,
+                              "column": 15
+                            },
+                            "end": {
+                              "line": 48,
+                              "column": 22
+                            }
+                          }
+                        },
+                        "right": {
+                          "type": "TemplateLiteral",
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "Argument must have a truthy value. Yours ",
+                                "cooked": "Argument must have a truthy value. Yours "
+                              },
+                              "tail": false,
+                              "range": [
+                                1875,
+                                1919
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 49,
+                                  "column": 12
+                                },
+                                "end": {
+                                  "line": 49,
+                                  "column": 56
+                                }
+                              }
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "value": {
+                                "raw": "",
+                                "cooked": ""
+                              },
+                              "tail": true,
+                              "range": [
+                                1953,
+                                1955
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 49,
+                                  "column": 90
+                                },
+                                "end": {
+                                  "line": 49,
+                                  "column": 92
+                                }
+                              }
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "ConditionalExpression",
+                              "test": {
+                                "type": "Identifier",
+                                "name": "type",
+                                "range": [
+                                  1919,
+                                  1923
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 49,
+                                    "column": 56
+                                  },
+                                  "end": {
+                                    "line": 49,
+                                    "column": 60
+                                  }
+                                }
+                              },
+                              "consequent": {
+                                "type": "TemplateLiteral",
+                                "quasis": [
+                                  {
+                                    "type": "TemplateElement",
+                                    "value": {
+                                      "raw": "is '",
+                                      "cooked": "is '"
+                                    },
+                                    "tail": false,
+                                    "range": [
+                                      1926,
+                                      1933
+                                    ],
+                                    "loc": {
+                                      "start": {
+                                        "line": 49,
+                                        "column": 63
+                                      },
+                                      "end": {
+                                        "line": 49,
+                                        "column": 70
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "TemplateElement",
+                                    "value": {
+                                      "raw": "'",
+                                      "cooked": "'"
+                                    },
+                                    "tail": true,
+                                    "range": [
+                                      1937,
+                                      1940
+                                    ],
+                                    "loc": {
+                                      "start": {
+                                        "line": 49,
+                                        "column": 74
+                                      },
+                                      "end": {
+                                        "line": 49,
+                                        "column": 77
+                                      }
+                                    }
+                                  }
+                                ],
+                                "expressions": [
+                                  {
+                                    "type": "Identifier",
+                                    "name": "type",
+                                    "range": [
+                                      1933,
+                                      1937
+                                    ],
+                                    "loc": {
+                                      "start": {
+                                        "line": 49,
+                                        "column": 70
+                                      },
+                                      "end": {
+                                        "line": 49,
+                                        "column": 74
+                                      }
+                                    }
+                                  }
+                                ],
+                                "range": [
+                                  1926,
+                                  1940
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 49,
+                                    "column": 63
+                                  },
+                                  "end": {
+                                    "line": 49,
+                                    "column": 77
+                                  }
+                                }
+                              },
+                              "alternate": {
+                                "type": "Literal",
+                                "value": "does not",
+                                "raw": "'does not'",
+                                "range": [
+                                  1943,
+                                  1953
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 49,
+                                    "column": 80
+                                  },
+                                  "end": {
+                                    "line": 49,
+                                    "column": 90
+                                  }
+                                }
+                              },
+                              "range": [
+                                1919,
+                                1953
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 49,
+                                  "column": 56
+                                },
+                                "end": {
+                                  "line": 49,
+                                  "column": 90
+                                }
+                              }
+                            }
+                          ],
+                          "range": [
+                            1875,
+                            1955
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 49,
+                              "column": 12
+                            },
+                            "end": {
+                              "line": 49,
+                              "column": 92
+                            }
+                          }
+                        },
+                        "range": [
+                          1852,
+                          1955
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 48,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 49,
+                            "column": 92
+                          }
+                        }
+                      },
+                      "range": [
+                        1845,
+                        1956
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 48,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 49,
+                          "column": 93
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    1835,
+                    1962
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 47,
+                      "column": 48
+                    },
+                    "end": {
+                      "line": 50,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  1819,
+                  1962
+                ],
+                "loc": {
+                  "start": {
+                    "line": 47,
+                    "column": 32
+                  },
+                  "end": {
+                    "line": 50,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                1791,
+                1962
+              ],
+              "loc": {
+                "start": {
+                  "line": 47,
+                  "column": 4
+                },
+                "end": {
+                  "line": 50,
+                  "column": 5
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n     * Builds a default error message for subclasses.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have a\n     *    truthy value. Yours ${type ? `is '${type}'` : 'does not'*.\n     * @param {string}: [type] -\n     *    value to display in the message. Default is to display no value.\n     * @protected\n     * @since 0.0.1\n     ",
+                  "range": [
+                    1369,
+                    1786
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 37,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 46,
+                      "column": 7
+                    }
+                  }
+                }
+              ],
+              "static": true
+            }
+          ],
+          "range": [
+            876,
+            1964
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 62
+            },
+            "end": {
+              "line": 51,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          829,
+          1964
+        ],
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 15
+          },
+          "end": {
+            "line": 51,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "range": [
+              61,
+              813
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 21,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        814,
+        1964
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 51,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "range": [
+            61,
+            813
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "Class",
+            "range": [
+              1971,
+              1976
+            ],
+            "loc": {
+              "start": {
+                "line": 52,
+                "column": 6
+              },
+              "end": {
+                "line": 52,
+                "column": 11
+              }
+            }
+          },
+          "init": {
+            "type": "Identifier",
+            "name": "ArgumentFalsyError",
+            "range": [
+              1979,
+              1997
+            ],
+            "loc": {
+              "start": {
+                "line": 52,
+                "column": 14
+              },
+              "end": {
+                "line": 52,
+                "column": 32
+              }
+            }
+          },
+          "range": [
+            1971,
+            1997
+          ],
+          "loc": {
+            "start": {
+              "line": 52,
+              "column": 6
+            },
+            "end": {
+              "line": 52,
+              "column": 32
+            }
+          }
+        }
+      ],
+      "kind": "const",
+      "range": [
+        1965,
+        1998
+      ],
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 0
+        },
+        "end": {
+          "line": 52,
+          "column": 33
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": " tslint:disable-line:variable-name  no-use-before-declare",
+          "range": [
+            1999,
+            2058
+          ],
+          "loc": {
+            "start": {
+              "line": 52,
+              "column": 34
+            },
+            "end": {
+              "line": 52,
+              "column": 93
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    1998
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 52,
+      "column": 33
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "range": [
+        61,
+        813
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n     * Initializes a new instance of the {@link ArgumentFalsyError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours does not*.\n     * @public\n     * @since 0.0.1\n     ",
+      "range": [
+        882,
+        1266
+      ],
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n     * Builds a default error message for subclasses.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have a\n     *    truthy value. Yours ${type ? `is '${type}'` : 'does not'*.\n     * @param {string}: [type] -\n     *    value to display in the message. Default is to display no value.\n     * @protected\n     * @since 0.0.1\n     ",
+      "range": [
+        1369,
+        1786
+      ],
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 4
+        },
+        "end": {
+          "line": 46,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " tslint:disable-line:variable-name  no-use-before-declare",
+      "range": [
+        1999,
+        2058
+      ],
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 34
+        },
+        "end": {
+          "line": 52,
+          "column": 93
+        }
+      }
+    }
+  ]
+}
