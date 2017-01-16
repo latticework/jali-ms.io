@@ -1,6 +1,6 @@
 ### Welcome to GitHub Pages.
 
-[API](./reference/0.1.0])
+[API](./reference/0.1.0/)
 
 This automatic page generator is the easiest way to create beautiful
 pages for all of your projects. Author your page content here
