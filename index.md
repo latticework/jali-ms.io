@@ -1,42 +1,49 @@
-### Welcome to GitHub Pages.
+<!-- markdownlint-disable first-header-h1 first-line-h1 -->
+<!-- cSpell:ignore  -->
 
-[API](./reference/0.1.0/)
+<!-- markdownlint-disable ul-style -->
 
-This automatic page generator is the easiest way to create beautiful
-pages for all of your projects. Author your page content here
-[using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/),
-select a template crafted by a designer, and publish. After your page is
-generated, you can check out the new `gh-pages` branch locally. If
-you’re using GitHub Desktop, simply sync your repository and you’ll see
-the new branch.
+> **API Documentation**
+> - [v0.1.0](./reference/0.1.0/)
 
-### Designer Templates
+<!-- markdownlint-enable ul-style -->
 
-We’ve crafted some handsome templates for you to use. Go ahead and click
-'Continue to layouts' to browse through them. You can easily go back to
-edit your page before publishing. After publishing your page, you can
-revisit the page generator and switch to another theme. Your Page
-content will be preserved.
 
-### Creating pages manually
+### **Jali** is
 
-If you prefer to not use the automatic generator, push a branch named
-`gh-pages` to your repository to create a page manually. In addition to
-supporting regular HTML content, GitHub Pages support Jekyll, a simple,
-blog aware static site generator. Jekyll makes it easy to create
-site-wide headers and footers without having to copy them across every
-page. It also offers intelligent blog support and other advanced
-templating features.
+- **specification-driven** permitting consumer driven contracts and
+  multi-version management
+- **serverless** so you can write just your routines and run using any
+  and all configurable platforms
+- where the **microservice** is the unit of development, delivery and
+  management
+- a full multitenant, partitionable **DevOps** platform because modern
+  microservice delivery is continuous
+- an extensible, polyglot **framework** providing circuit breaking and
+  self-documenting APIs and explicit routine services
+- an **infrastructure** pluggable for many major microservice platforms
+  (eventually...)
 
-### Authors and Contributors
+### Demonstrated Practices and Technologies
 
-You can @mention a GitHub username to generate a link to their profile.
-The resulting `<a>` element will link to the contributor’s GitHub
-Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett
-(@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+**Jali** also demonstrates state of the art development practices and
+technologies.
 
-### Support or Contact
+#### Project Management
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages)
-or [contact support](https://github.com/contact) and we’ll help you sort
-it out.
+- **[GitHub][github-wiki]**-integrated project management using [ZenHub][zen-hub]
+  - [Kanban][kanban-wiki]-style project board using story points
+  - [Scrum][scrum-wiki]-supporting [milestones][jali-repo-milestones]
+    with [burn down charts][burn-down-charts]
+
+#### Compliance Management
+
+
+[burn-down-charts]: https://www.zenhub.com/blog/burndown-charts-in-github/
+[github-wiki]: https://en.wikipedia.org/wiki/GitHub
+[jali-repo-board]: https://github.com/latticework/jali#boards
+[jali-repo-milestones]: https://github.com/latticework/jali/milestones
+[jali-repo-issue-template]: https://github.com/latticework/jali/blob/master/.github/ISSUE_TEMPLATE.md
+[kanban-wiki]: https://en.wikipedia.org/wiki/Kanban
+[scrum-wiki]: https://en.wikipedia.org/wiki/Scrum_(software_development)
+[zen-hub]: https://www.zenhub.com/
