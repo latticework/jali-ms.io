@@ -1,11 +1,8 @@
-# global settings
-title: "⌗ Jali by Latticework"
-description: "specification-driven serverless microservice framework"
-permalink: "/docs/:title"
-url: http://jali-ms.io/
-relative_permalinks: false
+title: ⌗ Jali by Latticework
+description: specification-driven serverless microservice framework
+google_analytics: UA-81234965-1
+show_downloads: true
+theme: jekyll-theme-tactile
 
-# build settings
-exclude: ["script", "Gemfile", "Gemfile.lock", "README.md", "package.json"]
-markdown: kramdown
-
+gems:
+  - jekyll-mentions
