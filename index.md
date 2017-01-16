@@ -1,6 +1,6 @@
 ### Welcome to GitHub Pages.
 
-[Link][./TEST.md] to test page.
+[Link](./TEST.md]) to test page.
 
 This automatic page generator is the easiest way to create beautiful
 pages for all of your projects. Author your page content here
