@@ -1,12 +1,12 @@
 <!-- markdownlint-disable first-header-h1 first-line-h1 -->
 <!-- cSpell:ignore  -->
 
-<!-- markdownlint-disable ul-style -->
+<!-- markdownlint-disable ul-style no-inline-html -->
 
-> **API Documentation**
+> **View our API Documentation**<br>
 > - [v0.1.0](./reference/0.1.0/)
 
-<!-- markdownlint-enable ul-style -->
+<!-- markdownlint-enable ul-style no-inline-html -->
 
 
 ### **Jali** is
