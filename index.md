@@ -38,12 +38,35 @@ technologies.
 
 #### Compliance Management
 
+- Tools that integrate with GitHub's protected branch
+  [status checks][github-status-check] to document and enforce that
+  software meets compliance checks. Example: PR [#88][status-check-example]
+  - Automated Contributor License Agreement (CLA) compliance
+    - [CLA assistant][cla-assistant-example]
+  - Package license and security compliance
+    - [Dependency CI][dependency-ci-example]
+    - [VersionEye][version-eye-example] (still working on white-listing)
+  - Code quality compliance enforcement using static code analysis
+    (includes ignored errors, duplicate code, code complexity and linting)
+    - [bitHound][bit-hound-example]
 
+#### Continuous Integration
+
+- GitHub PR integrated Continuous Integration (CI) service
+  - [SemaphoreCI][semaphore-ci-example]
+
+[bit-hound-example]: https://www.bithound.io/github/latticework/jali/6be101682f84865e291f948447b2a4a93bd768f8/files
 [burn-down-charts]: https://www.zenhub.com/blog/burndown-charts-in-github/
+[cla-assistant-example]: https://cla-assistant.io/latticework/jali?pullRequest=88
+[dependency-ci-example]: https://dependencyci.com/github/latticework/jali/builds/141
+[github-status-check]: https://help.github.com/articles/enabling-required-status-checks/
 [github-wiki]: https://en.wikipedia.org/wiki/GitHub
 [jali-repo-board]: https://github.com/latticework/jali#boards
 [jali-repo-milestones]: https://github.com/latticework/jali/milestones
 [jali-repo-issue-template]: https://github.com/latticework/jali/blob/master/.github/ISSUE_TEMPLATE.md
 [kanban-wiki]: https://en.wikipedia.org/wiki/Kanban
 [scrum-wiki]: https://en.wikipedia.org/wiki/Scrum_(software_development)
+[semaphore-ci-example]: https://semaphoreci.com/latticework/jali/branches/master/builds/3
+[status-check-example]: https://github.com/latticework/jali/pull/88#event-923613864
+[version-eye-example]: https://www.versioneye.com/pullrequests/587be84e2ef9ab000e000a39
 [zen-hub]: https://www.zenhub.com/
