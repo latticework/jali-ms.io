@@ -11,18 +11,18 @@
 
 ## **Jali** is
 
-> - **specification-driven** permitting consumer driven contracts and
->   multi-version management
-> - **serverless** so you can write just your routines and run using any
->   and all configurable platforms
-> - where the **microservice** is the unit of development, delivery and
->   management
-> - a full multitenant, partitionable **DevOps** platform because modern
->   microservice delivery is continuous
-> - an extensible, polyglot **framework** providing circuit breaking and
->   self-documenting APIs and explicit routine services
-> - an **infrastructure** pluggable for many major microservice platforms
->   (eventually...)
+- **specification-driven** permitting consumer driven contracts and
+  multi-version management
+- **serverless** so you can write just your routines and run using any
+  and all configurable platforms
+- where the **microservice** is the unit of development, delivery and
+  management
+- a full multitenant, partitionable **DevOps** platform because modern
+  microservice delivery is continuous
+- an extensible, polyglot **framework** providing circuit breaking and
+  self-documenting APIs and explicit routine services
+- an **infrastructure** pluggable for many major microservice platforms
+  (eventually...)
 
 ## Demonstrated Practices and Technologies
 
