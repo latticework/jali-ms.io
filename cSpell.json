@@ -7,15 +7,22 @@
     // words - list of words to be always considered correct
     "words": [
         "apis",
+        "berkshelf",
+        "ecma",
+        "esdoc",
         "jali",
         "kanban",
         "markdownlint",
         "microservice",
+        "monorepo",
         "multitenant",
         "partitionable",
         "pluggable",
+        "provisioner",
         "repo",
-        "serverless"
+        "serverless",
+        "toolset",
+        "transpilation"
     ],
     // flagWords - list of words to be always considered incorrect
     // This is useful for offensive words and common spelling errors.
