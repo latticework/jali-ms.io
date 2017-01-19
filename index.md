@@ -39,14 +39,6 @@ technologies.
     and generate [example documentation][jali-site-api-example] that are
     known to function.
 
-[jali-site]: /
-[jali-site-api]: ./reference/0.1.0/manual/index.html
-[jali-site-api-example]: http://jali-ms.io/reference/0.1.0/manual/example.html
-[latticework-blog]: 
-[latticework-blog-principles]
-[latticework-site]
-[latticework-twitter]
-
 ### Project Management
 
 - List of [architectural principles][latticework-blog-principles]
@@ -132,7 +124,14 @@ technologies.
 [jali-repo-proposals]: https://github.com/latticework/jali/blob/master/ecmascript-proposals.md
 [jali-repo-issue-instructions]: https://github.com/latticework/jali/blob/master/ISSUE-TEMPLATE-INSTRUCTIONS.md
 [jali-repo-issue-template]: https://github.com/latticework/jali/blob/master/.github/ISSUE_TEMPLATE.md
+[jali-site]: /
+[jali-site-api]: ./reference/0.1.0/manual/index.html
+[jali-site-api-example]: http://jali-ms.io/reference/0.1.0/manual/example.html
 [kanban-wiki]: https://en.wikipedia.org/wiki/Kanban
+[latticework-blog]: https://medium.com/@latticeworkms
+[latticework-blog-principles]: https://medium.com/@latticeworkms/architectural-principles-for-a-microservice-based-saas-application-b60d81ab572c
+[latticework-site]: https://latticework.github.io/
+[latticework-twitter]: https://twitter.com/@latticeworkms
 [monorepo-turf]: http://www.macwright.org/2016/07/08/lerna-npm-organizations-new-wave-modularity.html
 [npm-build]: https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 [scrum-wiki]: https://en.wikipedia.org/wiki/Scrum_(software_development)
