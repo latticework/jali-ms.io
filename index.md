@@ -45,6 +45,7 @@ technologies.
   governing development practices
 - GitHub-integrated project management using [ZenHub][zen-hub]
   - Kanban-style [project board][jali-repo-board] using story points
+
     > **Note:** Please [add ZenHub to GitHub on Chrome or Firefox][zen-hub-add-to-browser]
     > to see the project board and other advanced project management
     > features. It's painless and free!
