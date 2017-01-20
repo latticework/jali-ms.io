@@ -19,7 +19,7 @@
   management
 - a full multitenant, partitionable **DevOps** platform because modern
   microservice delivery is continuous
-- an extensible, polyglot **framework** providing circuit breaking and
+- an extensible, polyglot **framework** providing circuit breaking,
   self-documenting APIs and explicit routine services
 - an **infrastructure** pluggable for many major microservice platforms
   (eventually...)
@@ -43,12 +43,16 @@ technologies.
 
 - List of [architectural principles][latticework-blog-principles]
   governing development practices
-- [GitHub][github-wiki]-integrated project management using [ZenHub][zen-hub]
-  - [Kanban][kanban-wiki]-style project board using story points
-  - [Scrum][scrum-wiki]-supporting [milestones][jali-repo-milestones]
+- GitHub-integrated project management using [ZenHub][zen-hub]
+  - Kanban-style [project board][jali-repo-board] using story points
+    > **Note:** Please [add ZenHub to GitHub on Chrome or Firefox][zen-hub-add-to-browser]
+    > to see the project board and other advanced project management
+    > features. It's painless and free!
+  - Scrum-supporting [milestones][jali-repo-milestones]
     with [burn down charts][burn-down-charts]
 - Detailed GitHub-integrated [issue template][jali-repo-issue-template]
   with clear [instructions][jali-repo-issue-instructions]
+- Work Item integrated [release GitHub notes][jali-repo-release001]
 
 ### Compliance Management
 
@@ -103,6 +107,7 @@ technologies.
 - [AVA][ava] Concurrent JavaScript test framework for EcmaScript + Babel
 - [istanbul][istanbul] JavaScript code coverage tool
 
+
 [ava]: https://github.com/avajs/ava
 [angular-npm-org]: https://www.npmjs.com/~angular
 [babel]:https://babeljs.io/
@@ -116,25 +121,23 @@ technologies.
 [esdoc]: https://github.com/latticework/jali/blob/master/integrated%20by%20Jali
 [eslint]: http://eslint.org/
 [github-status-check]: https://help.github.com/articles/enabling-required-status-checks/
-[github-wiki]: https://en.wikipedia.org/wiki/GitHub
 [istanbul]: https://github.com/gotwarlost/istanbul
 [jali-npm-user]: https://www.npmjs.com/~jali-ms
+[jali-repo-issue-instructions]: https://github.com/latticework/jali/blob/master/ISSUE-TEMPLATE-INSTRUCTIONS.md
+[jali-repo-issue-template]: https://github.com/latticework/jali/blob/master/.github/ISSUE_TEMPLATE.md
 [jali-repo-board]: https://github.com/latticework/jali#boards
 [jali-repo-milestones]: https://github.com/latticework/jali/milestones
 [jali-repo-proposals]: https://github.com/latticework/jali/blob/master/ecmascript-proposals.md
-[jali-repo-issue-instructions]: https://github.com/latticework/jali/blob/master/ISSUE-TEMPLATE-INSTRUCTIONS.md
-[jali-repo-issue-template]: https://github.com/latticework/jali/blob/master/.github/ISSUE_TEMPLATE.md
+[jali-repo-release001]: https://github.com/latticework/jali/releases/tag/v0.0.1
 [jali-site]: /
 [jali-site-api]: ./reference/0.1.0/manual/index.html
 [jali-site-api-example]: http://jali-ms.io/reference/0.1.0/manual/example.html
-[kanban-wiki]: https://en.wikipedia.org/wiki/Kanban
 [latticework-blog]: https://medium.com/@latticeworkms
 [latticework-blog-principles]: https://medium.com/@latticeworkms/architectural-principles-for-a-microservice-based-saas-application-b60d81ab572c
 [latticework-site]: https://latticework.github.io/
 [latticework-twitter]: https://twitter.com/@latticeworkms
 [monorepo-turf]: http://www.macwright.org/2016/07/08/lerna-npm-organizations-new-wave-modularity.html
 [npm-build]: https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
-[scrum-wiki]: https://en.wikipedia.org/wiki/Scrum_(software_development)
 [semaphore-ci-example]: https://semaphoreci.com/latticework/jali/branches/master/builds/3
 [status-check-example]: https://github.com/latticework/jali/pull/88#event-923613864
 [typescript]: https://blogs.msdn.microsoft.com/typescript/2016/07/11/announcing-typescript-2-0-beta/
@@ -146,3 +149,4 @@ technologies.
 [webpack]: https://gist.github.com/sokra/27b24881210b56bbaff7
 [webpack-wiki]: https://en.wikipedia.org/wiki/Webpack
 [zen-hub]: https://www.zenhub.com/
+[zen-hub-add-to-browser]: https://www.zenhub.com/
