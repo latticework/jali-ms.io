@@ -87,6 +87,9 @@ technologies.
 - GitHub PR integrated Continuous Integration (CI) service ensures only
   successfully build code gets merged into the master branch
   - [SemaphoreCI][semaphore-ci-example]
+- GitHub integrated Automated Dependency Management for NPM project
+  dependencies
+  - [Greenkeeper][greenkeeper-example]
 
 ### NodeJS Development Techniques
 
@@ -122,6 +125,7 @@ technologies.
 [esdoc]: https://github.com/latticework/jali/blob/master/integrated%20by%20Jali
 [eslint]: http://eslint.org/
 [github-status-check]: https://help.github.com/articles/enabling-required-status-checks/
+[greenkeeper-example]: https://github.com/latticework/jali/pull/93
 [istanbul]: https://github.com/gotwarlost/istanbul
 [jali-npm-user]: https://www.npmjs.com/~jali-ms
 [jali-repo-issue-instructions]: https://github.com/latticework/jali/blob/master/ISSUE-TEMPLATE-INSTRUCTIONS.md
