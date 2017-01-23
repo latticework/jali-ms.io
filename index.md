@@ -145,7 +145,7 @@ technologies.
 [npm-build]: https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 [semaphore-ci-example]: https://semaphoreci.com/latticework/jali/branches/master/builds/3
 [status-check-example]: https://github.com/latticework/jali/pull/88#event-923613864
-[typescript]: https://blogs.msdn.microsoft.com/typescript/2016/07/11/announcing-typescript-2-0-beta/
+[typescript]: https://blogs.msdn.microsoft.com/typescript/2016/12/07/announcing-typescript-2-1/
 [typescript-wiki]: https://en.wikipedia.org/wiki/TypeScript
 [ubuntu-wiki]: https://en.wikipedia.org/wiki/Ubuntu
 [vagrant]: https://github.com/latticework/jali/blob/master/%5Bwiki%5D%5BVagrantWiki%5D
