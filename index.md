@@ -75,7 +75,7 @@ technologies.
 
 - Use of Configuration Management tools to provide consistent
   development environment
-  - Only [Vagrant][vagrant], [VirtualBox][virtual-box], and [Chef][chef]
+  - Only [Vagrant][vagrant-wiki], [VirtualBox][virtual-box-wiki], and [Chef][chef-wiki]
     tools need to installed to stand up a consistent graphical [Ubuntu][ubuntu-wiki]
     16.04 development environment across all operating systems.
   - Guest development environment provides the full range of tools
@@ -117,12 +117,12 @@ technologies.
 [babel]:https://babeljs.io/
 [bit-hound-example]: https://www.bithound.io/github/latticework/jali/6be101682f84865e291f948447b2a4a93bd768f8/files
 [burn-down-charts]: https://www.zenhub.com/blog/burndown-charts-in-github/
-[chef]: https://github.com/latticework/jali/blob/master/%5Bwiki%5D%5BChefWiki%5D
+[chef-wiki]: https://en.wikipedia.org/wiki/Chef_(software)
 [cla-assistant-example]: https://cla-assistant.io/latticework/jali?pullRequest=88
 [dependency-ci-example]: https://dependencyci.com/github/latticework/jali/builds/141
 [ecmascript]: https://github.com/tc39/proposals
 [ecmascript-wiki]: https://en.wikipedia.org/wiki/ECMAScript
-[esdoc]: https://github.com/latticework/jali/blob/master/integrated%20by%20Jali
+[esdoc]: https://esdoc.org/
 [eslint]: http://eslint.org/
 [github-status-check]: https://help.github.com/articles/enabling-required-status-checks/
 [greenkeeper-example]: https://github.com/latticework/jali/pull/93
@@ -148,9 +148,9 @@ technologies.
 [typescript]: https://blogs.msdn.microsoft.com/typescript/2016/12/07/announcing-typescript-2-1/
 [typescript-wiki]: https://en.wikipedia.org/wiki/TypeScript
 [ubuntu-wiki]: https://en.wikipedia.org/wiki/Ubuntu
-[vagrant]: https://github.com/latticework/jali/blob/master/%5Bwiki%5D%5BVagrantWiki%5D
+[vagrant-wiki]: https://en.wikipedia.org/wiki/Vagrant_(software)
 [version-eye-example]: https://www.versioneye.com/pullrequests/587be84e2ef9ab000e000a39
-[virtual-box]: https://github.com/latticework/jali/blob/master/%5Bwiki%5D%5BVirtualBoxWiki%5D
+[virtual-box-wiki]: https://en.wikipedia.org/wiki/VirtualBox
 [webpack]: https://gist.github.com/sokra/27b24881210b56bbaff7
 [webpack-wiki]: https://en.wikipedia.org/wiki/Webpack
 [zen-hub]: https://www.zenhub.com/
