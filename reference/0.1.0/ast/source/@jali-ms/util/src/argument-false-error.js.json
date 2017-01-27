@@ -94,10 +94,10 @@
       "trailingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a value of `false`.\n *\n * Throw this {@link Error} if a parameter must be `true`.\n *\n * @example <caption>The argument for the parameter isValid is `false`.</caption>\n * throw new ArgumentFalseError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyTrue}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a value of `false`.\n *\n * Throw this {@link Error} if a parameter must be `true`.\n *\n * @example <caption>The argument for the parameter isValid is `false`.</caption>\n * throw new ArgumentFalseError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyTrue}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            642
+            648
           ],
           "loc": {
             "start": {
@@ -120,8 +120,8 @@
           "type": "Identifier",
           "name": "ArgumentFalseError",
           "range": [
-            664,
-            682
+            670,
+            688
           ],
           "loc": {
             "start": {
@@ -138,8 +138,8 @@
           "type": "Identifier",
           "name": "ArgumentFalsyError",
           "range": [
-            691,
-            709
+            697,
+            715
           ],
           "loc": {
             "start": {
@@ -161,8 +161,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1107,
-                  1118
+                  1113,
+                  1124
                 ],
                 "loc": {
                   "start": {
@@ -183,8 +183,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1119,
-                      1123
+                      1125,
+                      1129
                     ],
                     "loc": {
                       "start": {
@@ -201,8 +201,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1125,
-                      1132
+                      1131,
+                      1138
                     ],
                     "loc": {
                       "start": {
@@ -226,8 +226,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1144,
-                            1149
+                            1150,
+                            1155
                           ],
                           "loc": {
                             "start": {
@@ -245,8 +245,8 @@
                             "type": "Identifier",
                             "name": "name",
                             "range": [
-                              1150,
-                              1154
+                              1156,
+                              1160
                             ],
                             "loc": {
                               "start": {
@@ -268,8 +268,8 @@
                                 "type": "Identifier",
                                 "name": "ArgumentFalsyError",
                                 "range": [
-                                  1156,
-                                  1174
+                                  1162,
+                                  1180
                                 ],
                                 "loc": {
                                   "start": {
@@ -286,8 +286,8 @@
                                 "type": "Identifier",
                                 "name": "makeFalsyTypedMessage",
                                 "range": [
-                                  1175,
-                                  1196
+                                  1181,
+                                  1202
                                 ],
                                 "loc": {
                                   "start": {
@@ -301,8 +301,8 @@
                                 }
                               },
                               "range": [
-                                1156,
-                                1196
+                                1162,
+                                1202
                               ],
                               "loc": {
                                 "start": {
@@ -320,8 +320,8 @@
                                 "type": "Identifier",
                                 "name": "message",
                                 "range": [
-                                  1197,
-                                  1204
+                                  1203,
+                                  1210
                                 ],
                                 "loc": {
                                   "start": {
@@ -339,8 +339,8 @@
                                 "value": "false",
                                 "raw": "'false'",
                                 "range": [
-                                  1206,
-                                  1213
+                                  1212,
+                                  1219
                                 ],
                                 "loc": {
                                   "start": {
@@ -355,8 +355,8 @@
                               }
                             ],
                             "range": [
-                              1156,
-                              1214
+                              1162,
+                              1220
                             ],
                             "loc": {
                               "start": {
@@ -371,8 +371,8 @@
                           }
                         ],
                         "range": [
-                          1144,
-                          1215
+                          1150,
+                          1221
                         ],
                         "loc": {
                           "start": {
@@ -386,8 +386,8 @@
                         }
                       },
                       "range": [
-                        1144,
-                        1216
+                        1150,
+                        1222
                       ],
                       "loc": {
                         "start": {
@@ -402,8 +402,8 @@
                     }
                   ],
                   "range": [
-                    1134,
-                    1222
+                    1140,
+                    1228
                   ],
                   "loc": {
                     "start": {
@@ -419,8 +419,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1118,
-                  1222
+                  1124,
+                  1228
                 ],
                 "loc": {
                   "start": {
@@ -436,8 +436,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1107,
-                1222
+                1113,
+                1228
               ],
               "loc": {
                 "start": {
@@ -454,8 +454,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentFalseError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours is 'false'*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    716,
-                    1102
+                    722,
+                    1108
                   ],
                   "loc": {
                     "start": {
@@ -473,8 +473,8 @@
             }
           ],
           "range": [
-            710,
-            1224
+            716,
+            1230
           ],
           "loc": {
             "start": {
@@ -488,8 +488,8 @@
           }
         },
         "range": [
-          658,
-          1224
+          664,
+          1230
         ],
         "loc": {
           "start": {
@@ -504,10 +504,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that an argument erroneously has a value of `false`.\n *\n * Throw this {@link Error} if a parameter must be `true`.\n *\n * @example <caption>The argument for the parameter isValid is `false`.</caption>\n * throw new ArgumentFalseError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyTrue}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that an argument erroneously has a value of `false`.\n *\n * Throw this {@link Error} if a parameter must be `true`.\n *\n * @example <caption>The argument for the parameter isValid is `false`.</caption>\n * throw new ArgumentFalseError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyTrue}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               72,
-              642
+              648
             ],
             "loc": {
               "start": {
@@ -524,8 +524,8 @@
         "trailingComments": []
       },
       "range": [
-        643,
-        1224
+        649,
+        1230
       ],
       "loc": {
         "start": {
@@ -540,10 +540,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a value of `false`.\n *\n * Throw this {@link Error} if a parameter must be `true`.\n *\n * @example <caption>The argument for the parameter isValid is `false`.</caption>\n * throw new ArgumentFalseError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyTrue}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a value of `false`.\n *\n * Throw this {@link Error} if a parameter must be `true`.\n *\n * @example <caption>The argument for the parameter isValid is `false`.</caption>\n * throw new ArgumentFalseError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyTrue}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            642
+            648
           ],
           "loc": {
             "start": {
@@ -562,7 +562,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1224
+    1230
   ],
   "loc": {
     "start": {
@@ -577,10 +577,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that an argument erroneously has a value of `false`.\n *\n * Throw this {@link Error} if a parameter must be `true`.\n *\n * @example <caption>The argument for the parameter isValid is `false`.</caption>\n * throw new ArgumentFalseError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyTrue}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that an argument erroneously has a value of `false`.\n *\n * Throw this {@link Error} if a parameter must be `true`.\n *\n * @example <caption>The argument for the parameter isValid is `false`.</caption>\n * throw new ArgumentFalseError('lastName');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyTrue}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         72,
-        642
+        648
       ],
       "loc": {
         "start": {
@@ -597,8 +597,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentFalseError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours is 'false'*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        716,
-        1102
+        722,
+        1108
       ],
       "loc": {
         "start": {

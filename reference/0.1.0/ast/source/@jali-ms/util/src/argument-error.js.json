@@ -9,8 +9,8 @@
           "type": "Identifier",
           "name": "ArgumentError",
           "range": [
-            1189,
-            1202
+            1195,
+            1208
           ],
           "loc": {
             "start": {
@@ -27,8 +27,8 @@
           "type": "Identifier",
           "name": "Error",
           "range": [
-            1211,
-            1216
+            1217,
+            1222
           ],
           "loc": {
             "start": {
@@ -50,8 +50,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1566,
-                  1577
+                  1572,
+                  1583
                 ],
                 "loc": {
                   "start": {
@@ -72,8 +72,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1578,
-                      1582
+                      1584,
+                      1588
                     ],
                     "loc": {
                       "start": {
@@ -90,8 +90,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1584,
-                      1591
+                      1590,
+                      1597
                     ],
                     "loc": {
                       "start": {
@@ -115,8 +115,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1603,
-                            1608
+                            1609,
+                            1614
                           ],
                           "loc": {
                             "start": {
@@ -139,8 +139,8 @@
                                 "type": "Identifier",
                                 "name": "Class",
                                 "range": [
-                                  1609,
-                                  1614
+                                  1615,
+                                  1620
                                 ],
                                 "loc": {
                                   "start": {
@@ -157,8 +157,8 @@
                                 "type": "Identifier",
                                 "name": "makeMessage",
                                 "range": [
-                                  1615,
-                                  1626
+                                  1621,
+                                  1632
                                 ],
                                 "loc": {
                                   "start": {
@@ -172,8 +172,8 @@
                                 }
                               },
                               "range": [
-                                1609,
-                                1626
+                                1615,
+                                1632
                               ],
                               "loc": {
                                 "start": {
@@ -191,8 +191,8 @@
                                 "type": "Identifier",
                                 "name": "name",
                                 "range": [
-                                  1627,
-                                  1631
+                                  1633,
+                                  1637
                                 ],
                                 "loc": {
                                   "start": {
@@ -209,8 +209,8 @@
                                 "type": "Identifier",
                                 "name": "message",
                                 "range": [
-                                  1633,
-                                  1640
+                                  1639,
+                                  1646
                                 ],
                                 "loc": {
                                   "start": {
@@ -225,8 +225,8 @@
                               }
                             ],
                             "range": [
-                              1609,
-                              1641
+                              1615,
+                              1647
                             ],
                             "loc": {
                               "start": {
@@ -241,8 +241,8 @@
                           }
                         ],
                         "range": [
-                          1603,
-                          1642
+                          1609,
+                          1648
                         ],
                         "loc": {
                           "start": {
@@ -256,8 +256,8 @@
                         }
                       },
                       "range": [
-                        1603,
-                        1643
+                        1609,
+                        1649
                       ],
                       "loc": {
                         "start": {
@@ -272,8 +272,8 @@
                     }
                   ],
                   "range": [
-                    1593,
-                    1649
+                    1599,
+                    1655
                   ],
                   "loc": {
                     "start": {
@@ -289,8 +289,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1577,
-                  1649
+                  1583,
+                  1655
                 ],
                 "loc": {
                   "start": {
@@ -306,8 +306,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1566,
-                1649
+                1572,
+                1655
               ],
               "loc": {
                 "start": {
@@ -324,8 +324,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    An optional message. Default is no message. See class documentation for more details.*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    1223,
-                    1561
+                    1229,
+                    1567
                   ],
                   "loc": {
                     "start": {
@@ -344,8 +344,8 @@
                   "type": "Block",
                   "value": "* @private ",
                   "range": [
-                    1654,
-                    1669
+                    1660,
+                    1675
                   ],
                   "loc": {
                     "start": {
@@ -367,8 +367,8 @@
                 "type": "Identifier",
                 "name": "makeMessage",
                 "range": [
-                  1681,
-                  1692
+                  1687,
+                  1698
                 ],
                 "loc": {
                   "start": {
@@ -389,8 +389,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1693,
-                      1697
+                      1699,
+                      1703
                     ],
                     "loc": {
                       "start": {
@@ -407,8 +407,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1699,
-                      1706
+                      1705,
+                      1712
                     ],
                     "loc": {
                       "start": {
@@ -438,8 +438,8 @@
                             },
                             "tail": false,
                             "range": [
-                              1725,
-                              1745
+                              1731,
+                              1751
                             ],
                             "loc": {
                               "start": {
@@ -460,8 +460,8 @@
                             },
                             "tail": false,
                             "range": [
-                              1769,
-                              1772
+                              1775,
+                              1778
                             ],
                             "loc": {
                               "start": {
@@ -482,8 +482,8 @@
                             },
                             "tail": true,
                             "range": [
-                              1803,
-                              1805
+                              1809,
+                              1811
                             ],
                             "loc": {
                               "start": {
@@ -504,8 +504,8 @@
                               "type": "Identifier",
                               "name": "name",
                               "range": [
-                                1745,
-                                1749
+                                1751,
+                                1755
                               ],
                               "loc": {
                                 "start": {
@@ -529,8 +529,8 @@
                                   },
                                   "tail": false,
                                   "range": [
-                                    1752,
-                                    1757
+                                    1758,
+                                    1763
                                   ],
                                   "loc": {
                                     "start": {
@@ -551,8 +551,8 @@
                                   },
                                   "tail": true,
                                   "range": [
-                                    1761,
-                                    1764
+                                    1767,
+                                    1770
                                   ],
                                   "loc": {
                                     "start": {
@@ -571,8 +571,8 @@
                                   "type": "Identifier",
                                   "name": "name",
                                   "range": [
-                                    1757,
-                                    1761
+                                    1763,
+                                    1767
                                   ],
                                   "loc": {
                                     "start": {
@@ -587,8 +587,8 @@
                                 }
                               ],
                               "range": [
-                                1752,
-                                1764
+                                1758,
+                                1770
                               ],
                               "loc": {
                                 "start": {
@@ -606,8 +606,8 @@
                               "value": "",
                               "raw": "''",
                               "range": [
-                                1767,
-                                1769
+                                1773,
+                                1775
                               ],
                               "loc": {
                                 "start": {
@@ -621,8 +621,8 @@
                               }
                             },
                             "range": [
-                              1745,
-                              1769
+                              1751,
+                              1775
                             ],
                             "loc": {
                               "start": {
@@ -641,8 +641,8 @@
                               "type": "Identifier",
                               "name": "message",
                               "range": [
-                                1773,
-                                1780
+                                1779,
+                                1786
                               ],
                               "loc": {
                                 "start": {
@@ -666,8 +666,8 @@
                                   },
                                   "tail": false,
                                   "range": [
-                                    1784,
-                                    1789
+                                    1790,
+                                    1795
                                   ],
                                   "loc": {
                                     "start": {
@@ -688,8 +688,8 @@
                                   },
                                   "tail": true,
                                   "range": [
-                                    1796,
-                                    1798
+                                    1802,
+                                    1804
                                   ],
                                   "loc": {
                                     "start": {
@@ -708,8 +708,8 @@
                                   "type": "Identifier",
                                   "name": "message",
                                   "range": [
-                                    1789,
-                                    1796
+                                    1795,
+                                    1802
                                   ],
                                   "loc": {
                                     "start": {
@@ -724,8 +724,8 @@
                                 }
                               ],
                               "range": [
-                                1784,
-                                1798
+                                1790,
+                                1804
                               ],
                               "loc": {
                                 "start": {
@@ -743,8 +743,8 @@
                               "value": "",
                               "raw": "''",
                               "range": [
-                                1801,
-                                1803
+                                1807,
+                                1809
                               ],
                               "loc": {
                                 "start": {
@@ -758,8 +758,8 @@
                               }
                             },
                             "range": [
-                              1772,
-                              1803
+                              1778,
+                              1809
                             ],
                             "loc": {
                               "start": {
@@ -774,8 +774,8 @@
                           }
                         ],
                         "range": [
-                          1725,
-                          1805
+                          1731,
+                          1811
                         ],
                         "loc": {
                           "start": {
@@ -789,8 +789,8 @@
                         }
                       },
                       "range": [
-                        1718,
-                        1806
+                        1724,
+                        1812
                       ],
                       "loc": {
                         "start": {
@@ -805,8 +805,8 @@
                     }
                   ],
                   "range": [
-                    1708,
-                    1812
+                    1714,
+                    1818
                   ],
                   "loc": {
                     "start": {
@@ -822,8 +822,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1692,
-                  1812
+                  1698,
+                  1818
                 ],
                 "loc": {
                   "start": {
@@ -839,8 +839,8 @@
               "kind": "method",
               "computed": false,
               "range": [
-                1674,
-                1812
+                1680,
+                1818
               ],
               "loc": {
                 "start": {
@@ -857,8 +857,8 @@
                   "type": "Block",
                   "value": "* @private ",
                   "range": [
-                    1654,
-                    1669
+                    1660,
+                    1675
                   ],
                   "loc": {
                     "start": {
@@ -876,8 +876,8 @@
             }
           ],
           "range": [
-            1217,
-            1814
+            1223,
+            1820
           ],
           "loc": {
             "start": {
@@ -891,8 +891,8 @@
           }
         },
         "range": [
-          1183,
-          1814
+          1189,
+          1820
         ],
         "loc": {
           "start": {
@@ -907,10 +907,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               0,
-              1167
+              1173
             ],
             "loc": {
               "start": {
@@ -927,8 +927,8 @@
         "trailingComments": []
       },
       "range": [
-        1168,
-        1814
+        1174,
+        1820
       ],
       "loc": {
         "start": {
@@ -943,10 +943,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             0,
-            1167
+            1173
           ],
           "loc": {
             "start": {
@@ -970,8 +970,8 @@
             "type": "Identifier",
             "name": "Class",
             "range": [
-              1821,
-              1826
+              1827,
+              1832
             ],
             "loc": {
               "start": {
@@ -988,8 +988,8 @@
             "type": "Identifier",
             "name": "ArgumentError",
             "range": [
-              1829,
-              1842
+              1835,
+              1848
             ],
             "loc": {
               "start": {
@@ -1003,8 +1003,8 @@
             }
           },
           "range": [
-            1821,
-            1842
+            1827,
+            1848
           ],
           "loc": {
             "start": {
@@ -1020,8 +1020,8 @@
       ],
       "kind": "const",
       "range": [
-        1815,
-        1843
+        1821,
+        1849
       ],
       "loc": {
         "start": {
@@ -1038,8 +1038,8 @@
           "type": "Line",
           "value": " tslint:disable-line:variable-name no-use-before-declare",
           "range": [
-            1844,
-            1902
+            1850,
+            1908
           ],
           "loc": {
             "start": {
@@ -1057,8 +1057,8 @@
   ],
   "sourceType": "module",
   "range": [
-    1168,
-    1843
+    1174,
+    1849
   ],
   "loc": {
     "start": {
@@ -1073,10 +1073,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that an argument has violated a requirement.\n *\n * Throw this {@link Error} if a parameter has violated a requirement that can't be represented by\n * a more specific argument error.\n *\n * > **Note:** {@link ArgumentError} is the base class for all the Jali argument errors.\n *\n * > **Note:** The default message in all Jali argument error classes begin with\n * > **Error in argument** if `name` is not specified; otherwise **Error in argument '**\n * > *argument-name* **'** is used. If `message` is specified,  a colon is prefixed. All Jali\n * > subclasses specify a message.\n *\n * @example <caption>The argument for the parameter pairs has an odd number of elements.</caption>\n * throw new ArgumentError('pairs', `Argument must have an even number of elements. Yours has ` +\n *   `'${pairs.length}'`);\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentFalsyError}\n * @see {@link verifyArgument}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         0,
-        1167
+        1173
       ],
       "loc": {
         "start": {
@@ -1093,8 +1093,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    An optional message. Default is no message. See class documentation for more details.*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        1223,
-        1561
+        1229,
+        1567
       ],
       "loc": {
         "start": {
@@ -1111,8 +1111,8 @@
       "type": "Block",
       "value": "* @private ",
       "range": [
-        1654,
-        1669
+        1660,
+        1675
       ],
       "loc": {
         "start": {
@@ -1129,8 +1129,8 @@
       "type": "Line",
       "value": " tslint:disable-line:variable-name no-use-before-declare",
       "range": [
-        1844,
-        1902
+        1850,
+        1908
       ],
       "loc": {
         "start": {

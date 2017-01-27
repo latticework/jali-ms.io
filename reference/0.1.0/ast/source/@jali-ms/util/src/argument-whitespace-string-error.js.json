@@ -94,10 +94,10 @@
       "trailingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that a string argument erroneously has only whitespace characters.\n *\n * Throw this {@link Error} if a parameter must have non-whitespace content.\n *\n * @example <caption>The string argument for the parameter firstName has only whitespace.</caption>\n * throw new ArgumentWhitespaceStringError('firstName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentEmptyStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyNotWhitespace}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that a string argument erroneously has only whitespace characters.\n *\n * Throw this {@link Error} if a parameter must have non-whitespace content.\n *\n * @example <caption>The string argument for the parameter firstName has only whitespace.</caption>\n * throw new ArgumentWhitespaceStringError('firstName');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentEmptyStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyNotWhitespace}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             61,
-            774
+            780
           ],
           "loc": {
             "start": {
@@ -120,8 +120,8 @@
           "type": "Identifier",
           "name": "ArgumentWhitespaceStringError",
           "range": [
-            796,
-            825
+            802,
+            831
           ],
           "loc": {
             "start": {
@@ -138,8 +138,8 @@
           "type": "Identifier",
           "name": "ArgumentError",
           "range": [
-            834,
-            847
+            840,
+            853
           ],
           "loc": {
             "start": {
@@ -161,8 +161,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1274,
-                  1285
+                  1280,
+                  1291
                 ],
                 "loc": {
                   "start": {
@@ -183,8 +183,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1286,
-                      1290
+                      1292,
+                      1296
                     ],
                     "loc": {
                       "start": {
@@ -201,8 +201,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1292,
-                      1299
+                      1298,
+                      1305
                     ],
                     "loc": {
                       "start": {
@@ -226,8 +226,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1311,
-                            1316
+                            1317,
+                            1322
                           ],
                           "loc": {
                             "start": {
@@ -245,8 +245,8 @@
                             "type": "Identifier",
                             "name": "name",
                             "range": [
-                              1317,
-                              1321
+                              1323,
+                              1327
                             ],
                             "loc": {
                               "start": {
@@ -266,8 +266,8 @@
                               "type": "Identifier",
                               "name": "message",
                               "range": [
-                                1323,
-                                1330
+                                1329,
+                                1336
                               ],
                               "loc": {
                                 "start": {
@@ -285,8 +285,8 @@
                               "value": "Argument must contain non-whitespace characters. Yours has only whitespace",
                               "raw": "'Argument must contain non-whitespace characters. Yours has only whitespace'",
                               "range": [
-                                1334,
-                                1410
+                                1340,
+                                1416
                               ],
                               "loc": {
                                 "start": {
@@ -300,8 +300,8 @@
                               }
                             },
                             "range": [
-                              1323,
-                              1410
+                              1329,
+                              1416
                             ],
                             "loc": {
                               "start": {
@@ -316,8 +316,8 @@
                           }
                         ],
                         "range": [
-                          1311,
-                          1411
+                          1317,
+                          1417
                         ],
                         "loc": {
                           "start": {
@@ -331,8 +331,8 @@
                         }
                       },
                       "range": [
-                        1311,
-                        1412
+                        1317,
+                        1418
                       ],
                       "loc": {
                         "start": {
@@ -347,8 +347,8 @@
                     }
                   ],
                   "range": [
-                    1301,
-                    1418
+                    1307,
+                    1424
                   ],
                   "loc": {
                     "start": {
@@ -364,8 +364,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1285,
-                  1418
+                  1291,
+                  1424
                 ],
                 "loc": {
                   "start": {
@@ -381,8 +381,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1274,
-                1418
+                1280,
+                1424
               ],
               "loc": {
                 "start": {
@@ -399,8 +399,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentEmptyStringError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must contain\n     *    non-whitespace characters. Yours has only whitespace*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    854,
-                    1269
+                    860,
+                    1275
                   ],
                   "loc": {
                     "start": {
@@ -418,8 +418,8 @@
             }
           ],
           "range": [
-            848,
-            1420
+            854,
+            1426
           ],
           "loc": {
             "start": {
@@ -433,8 +433,8 @@
           }
         },
         "range": [
-          790,
-          1420
+          796,
+          1426
         ],
         "loc": {
           "start": {
@@ -449,10 +449,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that a string argument erroneously has only whitespace characters.\n *\n * Throw this {@link Error} if a parameter must have non-whitespace content.\n *\n * @example <caption>The string argument for the parameter firstName has only whitespace.</caption>\n * throw new ArgumentWhitespaceStringError('firstName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentEmptyStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyNotWhitespace}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that a string argument erroneously has only whitespace characters.\n *\n * Throw this {@link Error} if a parameter must have non-whitespace content.\n *\n * @example <caption>The string argument for the parameter firstName has only whitespace.</caption>\n * throw new ArgumentWhitespaceStringError('firstName');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentEmptyStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyNotWhitespace}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               61,
-              774
+              780
             ],
             "loc": {
               "start": {
@@ -469,8 +469,8 @@
         "trailingComments": []
       },
       "range": [
-        775,
-        1420
+        781,
+        1426
       ],
       "loc": {
         "start": {
@@ -485,10 +485,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that a string argument erroneously has only whitespace characters.\n *\n * Throw this {@link Error} if a parameter must have non-whitespace content.\n *\n * @example <caption>The string argument for the parameter firstName has only whitespace.</caption>\n * throw new ArgumentWhitespaceStringError('firstName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentEmptyStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyNotWhitespace}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that a string argument erroneously has only whitespace characters.\n *\n * Throw this {@link Error} if a parameter must have non-whitespace content.\n *\n * @example <caption>The string argument for the parameter firstName has only whitespace.</caption>\n * throw new ArgumentWhitespaceStringError('firstName');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentEmptyStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyNotWhitespace}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             61,
-            774
+            780
           ],
           "loc": {
             "start": {
@@ -507,7 +507,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1420
+    1426
   ],
   "loc": {
     "start": {
@@ -522,10 +522,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that a string argument erroneously has only whitespace characters.\n *\n * Throw this {@link Error} if a parameter must have non-whitespace content.\n *\n * @example <caption>The string argument for the parameter firstName has only whitespace.</caption>\n * throw new ArgumentWhitespaceStringError('firstName');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentEmptyStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyNotWhitespace}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that a string argument erroneously has only whitespace characters.\n *\n * Throw this {@link Error} if a parameter must have non-whitespace content.\n *\n * @example <caption>The string argument for the parameter firstName has only whitespace.</caption>\n * throw new ArgumentWhitespaceStringError('firstName');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link ArgumentEmptyStringError}\n * @see {@link verifyNonEmpty}\n * @see {@link verifyNotWhitespace}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         61,
-        774
+        780
       ],
       "loc": {
         "start": {
@@ -542,8 +542,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentEmptyStringError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must contain\n     *    non-whitespace characters. Yours has only whitespace*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        854,
-        1269
+        860,
+        1275
       ],
       "loc": {
         "start": {

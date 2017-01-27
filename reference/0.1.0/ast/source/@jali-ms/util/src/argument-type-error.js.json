@@ -94,10 +94,10 @@
       "trailingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument has an invalid type or an object with the incorrect structure.\n *\n * Throw this {@link Error} if a parameter has an invalid type and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter motor is missing a property.</caption>\n * throw new ArgumentTypeError(\n *    'motor', `The argument is not a valid 'Motor'. It lacks the 'start' method`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument has an invalid type or an object with the incorrect structure.\n *\n * Throw this {@link Error} if a parameter has an invalid type and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter motor is missing a property.</caption>\n * throw new ArgumentTypeError(\n *    'motor', `The argument is not a valid 'Motor'. It lacks the 'start' method`);\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             61,
-            808
+            814
           ],
           "loc": {
             "start": {
@@ -120,8 +120,8 @@
           "type": "Identifier",
           "name": "ArgumentTypeError",
           "range": [
-            830,
-            847
+            836,
+            853
           ],
           "loc": {
             "start": {
@@ -138,8 +138,8 @@
           "type": "Identifier",
           "name": "ArgumentError",
           "range": [
-            856,
-            869
+            862,
+            875
           ],
           "loc": {
             "start": {
@@ -161,8 +161,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1332,
-                  1343
+                  1338,
+                  1349
                 ],
                 "loc": {
                   "start": {
@@ -183,8 +183,8 @@
                     "type": "Identifier",
                     "name": "type",
                     "range": [
-                      1344,
-                      1348
+                      1350,
+                      1354
                     ],
                     "loc": {
                       "start": {
@@ -201,8 +201,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1350,
-                      1354
+                      1356,
+                      1360
                     ],
                     "loc": {
                       "start": {
@@ -219,8 +219,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1356,
-                      1363
+                      1362,
+                      1369
                     ],
                     "loc": {
                       "start": {
@@ -244,8 +244,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1375,
-                            1380
+                            1381,
+                            1386
                           ],
                           "loc": {
                             "start": {
@@ -263,8 +263,8 @@
                             "type": "Identifier",
                             "name": "name",
                             "range": [
-                              1381,
-                              1385
+                              1387,
+                              1391
                             ],
                             "loc": {
                               "start": {
@@ -286,8 +286,8 @@
                                 "type": "Identifier",
                                 "name": "Class",
                                 "range": [
-                                  1387,
-                                  1392
+                                  1393,
+                                  1398
                                 ],
                                 "loc": {
                                   "start": {
@@ -304,8 +304,8 @@
                                 "type": "Identifier",
                                 "name": "makeTypeMessage",
                                 "range": [
-                                  1393,
-                                  1408
+                                  1399,
+                                  1414
                                 ],
                                 "loc": {
                                   "start": {
@@ -319,8 +319,8 @@
                                 }
                               },
                               "range": [
-                                1387,
-                                1408
+                                1393,
+                                1414
                               ],
                               "loc": {
                                 "start": {
@@ -338,8 +338,8 @@
                                 "type": "Identifier",
                                 "name": "type",
                                 "range": [
-                                  1409,
-                                  1413
+                                  1415,
+                                  1419
                                 ],
                                 "loc": {
                                   "start": {
@@ -356,8 +356,8 @@
                                 "type": "Identifier",
                                 "name": "message",
                                 "range": [
-                                  1415,
-                                  1422
+                                  1421,
+                                  1428
                                 ],
                                 "loc": {
                                   "start": {
@@ -372,8 +372,8 @@
                               }
                             ],
                             "range": [
-                              1387,
-                              1423
+                              1393,
+                              1429
                             ],
                             "loc": {
                               "start": {
@@ -388,8 +388,8 @@
                           }
                         ],
                         "range": [
-                          1375,
-                          1424
+                          1381,
+                          1430
                         ],
                         "loc": {
                           "start": {
@@ -403,8 +403,8 @@
                         }
                       },
                       "range": [
-                        1375,
-                        1425
+                        1381,
+                        1431
                       ],
                       "loc": {
                         "start": {
@@ -419,8 +419,8 @@
                     }
                   ],
                   "range": [
-                    1365,
-                    1431
+                    1371,
+                    1437
                   ],
                   "loc": {
                     "start": {
@@ -436,8 +436,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1343,
-                  1431
+                  1349,
+                  1437
                 ],
                 "loc": {
                   "start": {
@@ -453,8 +453,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1332,
-                1431
+                1338,
+                1437
               ],
               "loc": {
                 "start": {
@@ -471,8 +471,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentTypeError} class.\n     *\n     * @param {!string} type -\n     *    The expected parameter type.\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have type\n     *    '${type}'. Yours is not*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    876,
-                    1327
+                    882,
+                    1333
                   ],
                   "loc": {
                     "start": {
@@ -491,8 +491,8 @@
                   "type": "Block",
                   "value": "*\n     * Builds a default error message for subclasses.\n     * @param {!string}: type -\n     *    The expected parameter type.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have\n     *    type '${type}'. Yours is not*.\n     * @protected\n     * @since 0.0.1\n     ",
                   "range": [
-                    1436,
-                    1786
+                    1442,
+                    1792
                   ],
                   "loc": {
                     "start": {
@@ -514,8 +514,8 @@
                 "type": "Identifier",
                 "name": "makeTypeMessage",
                 "range": [
-                  1798,
-                  1813
+                  1804,
+                  1819
                 ],
                 "loc": {
                   "start": {
@@ -536,8 +536,8 @@
                     "type": "Identifier",
                     "name": "type",
                     "range": [
-                      1814,
-                      1818
+                      1820,
+                      1824
                     ],
                     "loc": {
                       "start": {
@@ -554,8 +554,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1820,
-                      1827
+                      1826,
+                      1833
                     ],
                     "loc": {
                       "start": {
@@ -581,8 +581,8 @@
                           "type": "Identifier",
                           "name": "message",
                           "range": [
-                            1846,
-                            1853
+                            1852,
+                            1859
                           ],
                           "loc": {
                             "start": {
@@ -606,8 +606,8 @@
                               },
                               "tail": false,
                               "range": [
-                                1857,
-                                1885
+                                1863,
+                                1891
                               ],
                               "loc": {
                                 "start": {
@@ -628,8 +628,8 @@
                               },
                               "tail": true,
                               "range": [
-                                1889,
-                                1906
+                                1895,
+                                1912
                               ],
                               "loc": {
                                 "start": {
@@ -648,8 +648,8 @@
                               "type": "Identifier",
                               "name": "type",
                               "range": [
-                                1885,
-                                1889
+                                1891,
+                                1895
                               ],
                               "loc": {
                                 "start": {
@@ -664,8 +664,8 @@
                             }
                           ],
                           "range": [
-                            1857,
-                            1906
+                            1863,
+                            1912
                           ],
                           "loc": {
                             "start": {
@@ -679,8 +679,8 @@
                           }
                         },
                         "range": [
-                          1846,
-                          1906
+                          1852,
+                          1912
                         ],
                         "loc": {
                           "start": {
@@ -694,8 +694,8 @@
                         }
                       },
                       "range": [
-                        1839,
-                        1907
+                        1845,
+                        1913
                       ],
                       "loc": {
                         "start": {
@@ -710,8 +710,8 @@
                     }
                   ],
                   "range": [
-                    1829,
-                    1913
+                    1835,
+                    1919
                   ],
                   "loc": {
                     "start": {
@@ -727,8 +727,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1813,
-                  1913
+                  1819,
+                  1919
                 ],
                 "loc": {
                   "start": {
@@ -744,8 +744,8 @@
               "kind": "method",
               "computed": false,
               "range": [
-                1791,
-                1913
+                1797,
+                1919
               ],
               "loc": {
                 "start": {
@@ -762,8 +762,8 @@
                   "type": "Block",
                   "value": "*\n     * Builds a default error message for subclasses.\n     * @param {!string}: type -\n     *    The expected parameter type.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have\n     *    type '${type}'. Yours is not*.\n     * @protected\n     * @since 0.0.1\n     ",
                   "range": [
-                    1436,
-                    1786
+                    1442,
+                    1792
                   ],
                   "loc": {
                     "start": {
@@ -781,8 +781,8 @@
             }
           ],
           "range": [
-            870,
-            1915
+            876,
+            1921
           ],
           "loc": {
             "start": {
@@ -796,8 +796,8 @@
           }
         },
         "range": [
-          824,
-          1915
+          830,
+          1921
         ],
         "loc": {
           "start": {
@@ -812,10 +812,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that an argument has an invalid type or an object with the incorrect structure.\n *\n * Throw this {@link Error} if a parameter has an invalid type and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter motor is missing a property.</caption>\n * throw new ArgumentTypeError(\n *    'motor', `The argument is not a valid 'Motor'. It lacks the 'start' method`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that an argument has an invalid type or an object with the incorrect structure.\n *\n * Throw this {@link Error} if a parameter has an invalid type and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter motor is missing a property.</caption>\n * throw new ArgumentTypeError(\n *    'motor', `The argument is not a valid 'Motor'. It lacks the 'start' method`);\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               61,
-              808
+              814
             ],
             "loc": {
               "start": {
@@ -832,8 +832,8 @@
         "trailingComments": []
       },
       "range": [
-        809,
-        1915
+        815,
+        1921
       ],
       "loc": {
         "start": {
@@ -848,10 +848,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument has an invalid type or an object with the incorrect structure.\n *\n * Throw this {@link Error} if a parameter has an invalid type and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter motor is missing a property.</caption>\n * throw new ArgumentTypeError(\n *    'motor', `The argument is not a valid 'Motor'. It lacks the 'start' method`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument has an invalid type or an object with the incorrect structure.\n *\n * Throw this {@link Error} if a parameter has an invalid type and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter motor is missing a property.</caption>\n * throw new ArgumentTypeError(\n *    'motor', `The argument is not a valid 'Motor'. It lacks the 'start' method`);\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             61,
-            808
+            814
           ],
           "loc": {
             "start": {
@@ -875,8 +875,8 @@
             "type": "Identifier",
             "name": "Class",
             "range": [
-              1922,
-              1927
+              1928,
+              1933
             ],
             "loc": {
               "start": {
@@ -893,8 +893,8 @@
             "type": "Identifier",
             "name": "ArgumentTypeError",
             "range": [
-              1930,
-              1947
+              1936,
+              1953
             ],
             "loc": {
               "start": {
@@ -908,8 +908,8 @@
             }
           },
           "range": [
-            1922,
-            1947
+            1928,
+            1953
           ],
           "loc": {
             "start": {
@@ -925,8 +925,8 @@
       ],
       "kind": "const",
       "range": [
-        1916,
-        1948
+        1922,
+        1954
       ],
       "loc": {
         "start": {
@@ -943,8 +943,8 @@
           "type": "Line",
           "value": " tslint:disable-line:variable-name  no-use-before-declare",
           "range": [
-            1949,
-            2008
+            1955,
+            2014
           ],
           "loc": {
             "start": {
@@ -963,7 +963,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1948
+    1954
   ],
   "loc": {
     "start": {
@@ -978,10 +978,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that an argument has an invalid type or an object with the incorrect structure.\n *\n * Throw this {@link Error} if a parameter has an invalid type and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter motor is missing a property.</caption>\n * throw new ArgumentTypeError(\n *    'motor', `The argument is not a valid 'Motor'. It lacks the 'start' method`);\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that an argument has an invalid type or an object with the incorrect structure.\n *\n * Throw this {@link Error} if a parameter has an invalid type and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter motor is missing a property.</caption>\n * throw new ArgumentTypeError(\n *    'motor', `The argument is not a valid 'Motor'. It lacks the 'start' method`);\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         61,
-        808
+        814
       ],
       "loc": {
         "start": {
@@ -998,8 +998,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentTypeError} class.\n     *\n     * @param {!string} type -\n     *    The expected parameter type.\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have type\n     *    '${type}'. Yours is not*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        876,
-        1327
+        882,
+        1333
       ],
       "loc": {
         "start": {
@@ -1016,8 +1016,8 @@
       "type": "Block",
       "value": "*\n     * Builds a default error message for subclasses.\n     * @param {!string}: type -\n     *    The expected parameter type.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have\n     *    type '${type}'. Yours is not*.\n     * @protected\n     * @since 0.0.1\n     ",
       "range": [
-        1436,
-        1786
+        1442,
+        1792
       ],
       "loc": {
         "start": {
@@ -1034,8 +1034,8 @@
       "type": "Line",
       "value": " tslint:disable-line:variable-name  no-use-before-declare",
       "range": [
-        1949,
-        2008
+        1955,
+        2014
       ],
       "loc": {
         "start": {

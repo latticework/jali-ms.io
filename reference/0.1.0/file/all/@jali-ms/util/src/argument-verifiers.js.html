@@ -123,12 +123,12 @@ import ArgumentZeroError from &apos;./argument-zero-error&apos;;
  * @example &lt;caption&gt;verify that parameter deposit is non-negative&lt;/caption&gt;
  * verifyArgument(&apos;deposit&apos;, deposit, arg =&gt; arg &gt; 0.0);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, examples &#x2463; &amp; &#x2464;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;, examples &#x2463; &amp; &#x2464;&lt;/a&gt;
  * @see {@link ArgumentError}
  * @see {@link verifyDefined}
  * @see {@link verifyTruthy}
@@ -162,12 +162,12 @@ export function verifyArgument(name, value, test, message) {
  * @example &lt;caption&gt;verify that parameter collection is an Array&lt;/caption&gt;
  * verifyArray(&apos;collection&apos;, collection);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link isIterable}
@@ -200,12 +200,12 @@ export function verifyArray(name, value, message) {
  * @example &lt;caption&gt;verify that parameter isValid is boolean&lt;/caption&gt;
  * verifyBoolean(&apos;isValid&apos;, isValid);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentUndefinedError}
  * @see {@link verifyDefined}
@@ -239,12 +239,12 @@ export function verifyBoolean(name, value, message) {
  * @example &lt;caption&gt;verify that parameter element is defined&lt;/caption&gt;
  * verifyDefined(&apos;element&apos;, element);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link verifyTruthy}
  * @since 0.0.1
@@ -274,12 +274,12 @@ export function verifyDefined(name, value, message) {
  * @example &lt;caption&gt;verify that parameter factory is a function&lt;/caption&gt;
  * verifyFunction(&apos;factory&apos;, factory);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentUndefinedError}
  * @see {@link verifyDefined}
@@ -315,12 +315,12 @@ export function verifyFunction(name, value, message) {
  * @example &lt;caption&gt;verify that parameter collection is iterable&lt;/caption&gt;
  * verifyIterable(&apos;collection&apos;, collection);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link isIterable}
@@ -353,12 +353,12 @@ export function verifyIterable(name, value, message) {
  * @example &lt;caption&gt;verify that parameter firstName is a non-empty string&lt;/caption&gt;
  * verifyNonEmpty(&apos;firstName&apos;, firstName);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, example &#x2461;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;, example &#x2461;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentEmptyStringError}
@@ -395,12 +395,12 @@ export function verifyNonEmpty(name, value, message) {
  * @example &lt;caption&gt;verify that parameter height has a nonzero value&lt;/caption&gt;
  * verifyNonEmpty(&apos;height&apos;, height);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentNanError}
@@ -439,12 +439,12 @@ export function verifyNonZero(name, value, message) {
  * @example &lt;caption&gt;verify that parameter height has a nonzero value&lt;/caption&gt;
  * verifyNonEmpty(&apos;height&apos;, height);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, example &#x2460;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;, example &#x2460;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentNanError}
@@ -481,12 +481,12 @@ export function verifyNotNull(name, value, message) {
  * @example &lt;caption&gt;verify that parameter firstName has non-whitespace characters&lt;/caption&gt;
  * verifyNotWhitespace(&apos;firstName&apos;, firstName);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, example &#x2461;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;, example &#x2461;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentEmptyStringError}
@@ -524,12 +524,12 @@ export function verifyNotWhitespace(name, value, message) {
  * @example &lt;caption&gt;verify that parameter price is a number&lt;/caption&gt;
  * verifyNumber(&apos;price&apos;, price);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentNanError}
@@ -567,12 +567,12 @@ export function verifyNumber(name, value, message) {
  * @example &lt;caption&gt;verify that parameter height has a nonzero value&lt;/caption&gt;
  * verifyNonEmpty(&apos;height&apos;, height);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentNanError}
@@ -608,12 +608,12 @@ export function verifyObject(name, value, message) {
  * @example &lt;caption&gt;verify that parameter alphabet is a string&lt;/caption&gt;
  * verifyNonEmpty(&apos;alphabet&apos;, alphabet);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link verifyDefined}
@@ -649,12 +649,12 @@ export function verifyString(name, value, message) {
  * @example &lt;caption&gt;verify that parameter isValid is true&lt;/caption&gt;
  * verifyNonEmpty(&apos;isValid&apos;, isValid);
  *
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;&lt;/a&gt;
  * @see {@link ArgumentUndefinedError}
  * @see {@link ArgumentTypeError}
  * @see {@link ArgumentFalseError}
@@ -709,12 +709,12 @@ export function verifyTrue(name, value, message) {
  *
  * @see &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/Falsy&quot; target=&quot;_blank&quot;&gt;
  *    Definition of falsy&lt;/a&gt; (MDN)
- * @see &lt;a href=&quot;manual/overview.html#package-jali-util&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#package-jali-ms-util&quot;&gt;
  *    package &lt;code&gt;@jali-ms/util&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/overview.html#module-jali-util-errors&quot;&gt;
+ * @see &lt;a href=&quot;manual/overview.html#module-jali-ms-util-errors&quot;&gt;
  *    module &lt;code&gt;@jali-ms/util/errors&lt;/code&gt;&lt;/a&gt;
- * @see &lt;a href=&quot;manual/example.html#jali_util_errors&quot;&gt;
- *    Example method &lt;code&gt;jali_util_errors&lt;/code&gt;, example &#x2462;&lt;/a&gt;
+ * @see &lt;a href=&quot;manual/example.html#jali_ms_util_errors&quot;&gt;
+ *    Example method &lt;code&gt;jali_ms_util_errors&lt;/code&gt;, example &#x2462;&lt;/a&gt;
  * @see {@link ArgumentEmptyStringError}
  * @see {@link ArgumentFalseError}
  * @see {@link ArgumentNanError}

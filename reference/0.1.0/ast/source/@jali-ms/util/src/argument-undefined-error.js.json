@@ -94,10 +94,10 @@
       "trailingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously is 'undefined'.\n *\n * Throw this {@link Error} if a parameter must have a value.\n *\n * @example <caption>The argument for the parameter element is undefined.</caption>\n * throw new ArgumentUndefinedError('element');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously is 'undefined'.\n *\n * Throw this {@link Error} if a parameter must have a value.\n *\n * @example <caption>The argument for the parameter element is undefined.</caption>\n * throw new ArgumentUndefinedError('element');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            645
+            651
           ],
           "loc": {
             "start": {
@@ -120,8 +120,8 @@
           "type": "Identifier",
           "name": "ArgumentUndefinedError",
           "range": [
-            667,
-            689
+            673,
+            695
           ],
           "loc": {
             "start": {
@@ -138,8 +138,8 @@
           "type": "Identifier",
           "name": "ArgumentFalsyError",
           "range": [
-            698,
-            716
+            704,
+            722
           ],
           "loc": {
             "start": {
@@ -161,8 +161,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1112,
-                  1123
+                  1118,
+                  1129
                 ],
                 "loc": {
                   "start": {
@@ -183,8 +183,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1124,
-                      1128
+                      1130,
+                      1134
                     ],
                     "loc": {
                       "start": {
@@ -201,8 +201,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1130,
-                      1137
+                      1136,
+                      1143
                     ],
                     "loc": {
                       "start": {
@@ -226,8 +226,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1149,
-                            1154
+                            1155,
+                            1160
                           ],
                           "loc": {
                             "start": {
@@ -245,8 +245,8 @@
                             "type": "Identifier",
                             "name": "name",
                             "range": [
-                              1155,
-                              1159
+                              1161,
+                              1165
                             ],
                             "loc": {
                               "start": {
@@ -266,8 +266,8 @@
                               "type": "Identifier",
                               "name": "message",
                               "range": [
-                                1161,
-                                1168
+                                1167,
+                                1174
                               ],
                               "loc": {
                                 "start": {
@@ -291,8 +291,8 @@
                                   },
                                   "tail": true,
                                   "range": [
-                                    1172,
-                                    1220
+                                    1178,
+                                    1226
                                   ],
                                   "loc": {
                                     "start": {
@@ -308,8 +308,8 @@
                               ],
                               "expressions": [],
                               "range": [
-                                1172,
-                                1220
+                                1178,
+                                1226
                               ],
                               "loc": {
                                 "start": {
@@ -323,8 +323,8 @@
                               }
                             },
                             "range": [
-                              1161,
-                              1220
+                              1167,
+                              1226
                             ],
                             "loc": {
                               "start": {
@@ -339,8 +339,8 @@
                           }
                         ],
                         "range": [
-                          1149,
-                          1221
+                          1155,
+                          1227
                         ],
                         "loc": {
                           "start": {
@@ -354,8 +354,8 @@
                         }
                       },
                       "range": [
-                        1149,
-                        1222
+                        1155,
+                        1228
                       ],
                       "loc": {
                         "start": {
@@ -370,8 +370,8 @@
                     }
                   ],
                   "range": [
-                    1139,
-                    1228
+                    1145,
+                    1234
                   ],
                   "loc": {
                     "start": {
@@ -387,8 +387,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1123,
-                  1228
+                  1129,
+                  1234
                 ],
                 "loc": {
                   "start": {
@@ -404,8 +404,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1112,
-                1228
+                1118,
+                1234
               ],
               "loc": {
                 "start": {
@@ -422,8 +422,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentUndefinedError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must be\n     *    defined. Yours is 'undefined*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    723,
-                    1107
+                    729,
+                    1113
                   ],
                   "loc": {
                     "start": {
@@ -441,8 +441,8 @@
             }
           ],
           "range": [
-            717,
-            1230
+            723,
+            1236
           ],
           "loc": {
             "start": {
@@ -456,8 +456,8 @@
           }
         },
         "range": [
-          661,
-          1230
+          667,
+          1236
         ],
         "loc": {
           "start": {
@@ -472,10 +472,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that an argument erroneously is 'undefined'.\n *\n * Throw this {@link Error} if a parameter must have a value.\n *\n * @example <caption>The argument for the parameter element is undefined.</caption>\n * throw new ArgumentUndefinedError('element');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that an argument erroneously is 'undefined'.\n *\n * Throw this {@link Error} if a parameter must have a value.\n *\n * @example <caption>The argument for the parameter element is undefined.</caption>\n * throw new ArgumentUndefinedError('element');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               72,
-              645
+              651
             ],
             "loc": {
               "start": {
@@ -492,8 +492,8 @@
         "trailingComments": []
       },
       "range": [
-        646,
-        1230
+        652,
+        1236
       ],
       "loc": {
         "start": {
@@ -508,10 +508,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously is 'undefined'.\n *\n * Throw this {@link Error} if a parameter must have a value.\n *\n * @example <caption>The argument for the parameter element is undefined.</caption>\n * throw new ArgumentUndefinedError('element');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously is 'undefined'.\n *\n * Throw this {@link Error} if a parameter must have a value.\n *\n * @example <caption>The argument for the parameter element is undefined.</caption>\n * throw new ArgumentUndefinedError('element');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            645
+            651
           ],
           "loc": {
             "start": {
@@ -530,7 +530,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1230
+    1236
   ],
   "loc": {
     "start": {
@@ -545,10 +545,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that an argument erroneously is 'undefined'.\n *\n * Throw this {@link Error} if a parameter must have a value.\n *\n * @example <caption>The argument for the parameter element is undefined.</caption>\n * throw new ArgumentUndefinedError('element');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that an argument erroneously is 'undefined'.\n *\n * Throw this {@link Error} if a parameter must have a value.\n *\n * @example <caption>The argument for the parameter element is undefined.</caption>\n * throw new ArgumentUndefinedError('element');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         72,
-        645
+        651
       ],
       "loc": {
         "start": {
@@ -565,8 +565,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentUndefinedError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must be\n     *    defined. Yours is 'undefined*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        723,
-        1107
+        729,
+        1113
       ],
       "loc": {
         "start": {

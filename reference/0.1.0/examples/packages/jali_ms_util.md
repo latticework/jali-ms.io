@@ -1,7 +1,7 @@
-# jali_util
+# jali_ms_util
 Examples for package `@jali-ms/util`
 
-## jali_util_errors
+## jali_ms_util_errors
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/errors`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -80,7 +80,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/errors`
 
 ```
 
-## jali_util_iterators_asarray
+## jali_ms_util_iterators_asarray
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `asArray`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -134,7 +134,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       'DodgerBlue'? 'false'
 ```
 
-## jali_util_iterators_asiterable
+## jali_ms_util_iterators_asiterable
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `asIterable`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -188,7 +188,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       of 'DodgerBlue'? 'false'
 ```
 
-## jali_util_iterators_concat
+## jali_ms_util_iterators_concat
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `concat`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -208,7 +208,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       Days of Week: 'Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
 ```
 
-## jali_util_iterators_every
+## jali_ms_util_iterators_every
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `every`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -245,7 +245,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       Elements of sequence '1,6,6,24' are multiples of their position.
 ```
 
-## jali_util_iterators_filter
+## jali_ms_util_iterators_filter
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `filter`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -282,7 +282,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       Even indexed elements of sequence '1,6,6,24' are '1,6'.
 ```
 
-## jali_util_iterators_find
+## jali_ms_util_iterators_find
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `find`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -332,7 +332,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       The first element in sequence '2,6,10,22,999' is '2'.
 ```
 
-## jali_util_iterators_includes
+## jali_ms_util_iterators_includes
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `includes`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -364,7 +364,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       Was '1' found in sequence '1,6,6,24' starting at index '2'? 'false'.
 ```
 
-## jali_util_iterators_map
+## jali_ms_util_iterators_map
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `map`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -400,7 +400,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       Sequence '1,6,6,24' elements scaled by position: '1,12,18,96'.
 ```
 
-## jali_util_iterators_reduce
+## jali_ms_util_iterators_reduce
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `reduce`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -430,7 +430,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       The average of sequence '2,6,10,22,999' is: '207.8'.
 ```
 
-## jali_util_iterators_slice
+## jali_ms_util_iterators_slice
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `slice`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -492,7 +492,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       "},{"id":437,"value":"vwxyz"},{"id":438,"value":"wxyza"},{"id":439,"value":"xyzab"}]'.
 ```
 
-## jali_util_iterators_some
+## jali_ms_util_iterators_some
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `some`
 
 **ᴇxᴀᴍᴩʟᴇ**
@@ -542,7 +542,7 @@ Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `I
       Is sequence '1,6,6,24' empty? 'false'.
 ```
 
-## jali_util_iterators_tomap
+## jali_ms_util_iterators_tomap
 Examples for package `@jali-ms/util` submodule `@jali-ms/util/iterators` type `Iterables` member `toMap`
 
 **ᴇxᴀᴍᴩʟᴇ**

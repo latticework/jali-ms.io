@@ -149,24 +149,26 @@ self-documenting APIs and explicit routine services</li>
 some of these technologies.</p>
 <h3 id="development-environment">Development environment</h3>
 <ul>
-<li><a href="https://www.virtualbox.org/">VirtualBox</a> (<a href="https://en.wikipedia.org/wiki/VirtualBox">wiki</a>) a free and open-source
-hypervisor for x86 computers</li>
+<li><a href="https://www.virtualbox.org/">VirtualBox</a> (<a href="https://en.wikipedia.org/wiki/VirtualBox">wiki</a>) a free and
+open-source hypervisor for x86 computers</li>
 <li><a href="https://www.vagrantup.com/">Vagrant</a> (<a href="https://en.wikipedia.org/wiki/Vagrant_(software)">wiki</a>) manages virtual development
 environments<ul>
 <li><a href="https://www.vagrantup.com/docs/provisioning/chef_zero.html">chef_zero provisioner</a> allows you to
 provision the guest OS using Chef</li>
-<li><a href="https://github.com/chef/vagrant-omnibus">vagrant-omnibus</a> &quot;ensures the desired version of Chef is installed&quot;</li>
-<li><a href="https://github.com/berkshelf/vagrant-berkshelf">vagrant-berkshelf</a> &quot;plugin to add Berkshelf integration to the Chef
-provisioners&quot;</li>
+<li><a href="https://github.com/chef/vagrant-omnibus">vagrant-omnibus</a> ensures the desired version of
+Chef is installed</li>
+<li><a href="https://github.com/berkshelf/vagrant-berkshelf">vagrant-berkshelf</a> plugin to add berkshelf
+integration to the Chef provisioners</li>
 </ul>
 </li>
-<li><a href="http://www.ubuntu.com/">Ubuntu</a> (<a href="https://en.wikipedia.org/wiki/Ubuntu">wiki</a>) development platform vagrant guest OS</li>
-<li><a href="https://www.chef.io/">Chef</a> (<a href="https://en.wikipedia.org/wiki/Chef_(software)">wiki</a>) configuration management for Ubuntu
-development environment<ul>
+<li><a href="http://www.ubuntu.com/">Ubuntu</a> (<a href="https://en.wikipedia.org/wiki/Ubuntu">wiki</a>) 16.04 development platform
+vagrant guest OS</li>
+<li><a href="https://www.chef.io/">Chef</a> (<a href="https://en.wikipedia.org/wiki/Chef_(software)">wiki</a>) configuration management used for
+Ubuntu development environment<ul>
 <li><a href="https://downloads.chef.io/chef-dk/">ChefDK</a> Chef developer tools<ul>
 <li><a href="http://berkshelf.com/">Berkshelf</a> Chef cookbook dependency manager</li>
-<li><a href="https://docs.chef.io/ctl_chef_client.html#run-in-local-mode">chef-zero</a> &quot;lightweight Chef server that runs in-memory on the
-local machine&quot;</li>
+<li><a href="https://docs.chef.io/ctl_chef_client.html#run-in-local-mode">chef-zero</a> lightweight Chef server that runs in-memory
+on the local machine</li>
 </ul>
 </li>
 </ul>
@@ -174,9 +176,10 @@ local machine&quot;</li>
 <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> (<a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">wiki</a>) cross platform
 source code editor<ul>
 <li>Extensions<ul>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">vscode-markdownlint</a> Markdown linting and style checking for Visual
-Studio Code</li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">code-spell-checker</a> Spelling checker for source code</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">vscode-markdownlint</a> Markdown linting and
+style checking for Visual Studio Code</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">code-spell-checker</a> Spelling checker for
+source code</li>
 <li>Many more. See <code>clavecoder&apos;s</code> Visual Studio Code Sync Settings
 <a href="https://gist.github.com/clavecoder/fa29a8846199bee62bc99ef94fbe86df#file-extensions-json">clavecoder-extensions</a> file for a full list of useful Visual
 Studio Code extensions.</li>
@@ -184,24 +187,24 @@ Studio Code extensions.</li>
 </li>
 </ul>
 </li>
-<li><a href="https://github.com/latticework/jalidev">JaliDev</a> seed project for providing team-consistent development
-environments using the
-technologies above.</li>
+<li><a href="https://github.com/latticework/jalidev">jalidev</a> seed project for providing team-consistent
+development environments using the technologies above. (<em>incomplete</em>)</li>
 </ul>
 <h3 id="cloud-github-development-tools">Cloud/GitHub development tools</h3>
 <ul>
 <li>ALM<ul>
-<li><a href="https://www.zenhub.com/">ZenHub</a> GitHub-integrated agile project management</li>
+<li><a href="https://www.zen-hub.com/">ZenHub</a> GitHub-integrated agile project management</li>
 </ul>
 </li>
 <li>CI<ul>
-<li><a href="https://semaphoreci.com/">Semaphore</a>: Make continuous delivery easy</li>
+<li><a href="https://semaphoreci.com/">SemaphoreCI</a>: Make continuous delivery easy</li>
 </ul>
 </li>
 <li>PR policy checks<ul>
-<li><a href="https://www.bithound.io/">bitHound</a>: Node.js code analysis your team can agree on</li>
-<li><a href="https://www.versioneye.com/">VersionEye</a>: notifies you about out-dated dependencies, security
-vulnerabilities and license violations in your Git repositories</li>
+<li><a href="https://www.bit-hound.io/">bitHound</a>: Node.js code analysis your team can agree on</li>
+<li><a href="https://www.version-eye.com/">VersionEye</a>: notifies you about out-dated
+dependencies, security vulnerabilities and license violations in
+your Git repositories</li>
 <li><a href="https://dependencyci.com/">Dependency CI</a>: Continuously Test Your Dependencies</li>
 <li><a href="https://cla-assistant.io/">CLA assistant</a>: Easily handle Contributor License
 Agreements (CLAs)</li>
@@ -223,16 +226,13 @@ Agreements (CLAs)</li>
 </li>
 <li><a href="https://blogs.msdn.microsoft.com/typescript/2016/07/11/announcing-typescript-2-0-beta/">TypeScript 2.1</a> (<a href="https://en.wikipedia.org/wiki/TypeScript">wiki</a>) adds optional
 static typing to JavaScript<ul>
-<li><a href="http://typedoc.io/">TypeDoc</a> TypeScript document generator<blockquote>
-<p>Warning: <a href="https://github.com/TypeStrong/typedoc/issues/234"><strong>TypeDoc</strong> doesn&apos;t work with TypeScript 2 yet</a></p>
-</blockquote>
-</li>
+<li><a href="http://typedoc.io/">TypeDoc</a> TypeScript document generator (not integrated)</li>
 <li><a href="https://palantir.github.io/tslint/">tslint</a> An extensible linter for the TypeScript language</li>
 </ul>
 </li>
 <li><a href="https://github.com/tc39/proposals">EcmaScript 2017+</a> (<a href="https://en.wikipedia.org/wiki/ECMAScript">wiki</a>) The maturing
 JavaScript language<ul>
-<li>See <a href="./ECMASCRIPT-PROPOSALS.md">ECMASCRIPT-PROPOSALS.md</a> for what
+<li>See <a href="./ecmascript-proposals.md">ecmascript-proposals.md</a> for what
 features and proposals are implemented in Jali</li>
 <li><a href="https://esdoc.org/">esdoc</a>  (integrated by Jali)</li>
 <li><a href="http://eslint.org/">eslint</a> The pluggable linting utility for JavaScript and JSX</li>

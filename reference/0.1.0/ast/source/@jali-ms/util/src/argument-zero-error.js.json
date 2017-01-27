@@ -94,10 +94,10 @@
       "trailingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a value of zero.\n *\n * Throw this {@link Error} if a parameter must have a non-zero value.\n *\n * @example <caption>The argument for the parameter height is zero.</caption>\n * throw new ArgumentZeroError('height');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonZero}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a value of zero.\n *\n * Throw this {@link Error} if a parameter must have a non-zero value.\n *\n * @example <caption>The argument for the parameter height is zero.</caption>\n * throw new ArgumentZeroError('height');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonZero}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            647
+            653
           ],
           "loc": {
             "start": {
@@ -120,8 +120,8 @@
           "type": "Identifier",
           "name": "ArgumentZeroError",
           "range": [
-            669,
-            686
+            675,
+            692
           ],
           "loc": {
             "start": {
@@ -138,8 +138,8 @@
           "type": "Identifier",
           "name": "ArgumentFalsyError",
           "range": [
-            695,
-            713
+            701,
+            719
           ],
           "loc": {
             "start": {
@@ -161,8 +161,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1109,
-                  1120
+                  1115,
+                  1126
                 ],
                 "loc": {
                   "start": {
@@ -183,8 +183,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1121,
-                      1125
+                      1127,
+                      1131
                     ],
                     "loc": {
                       "start": {
@@ -201,8 +201,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1127,
-                      1134
+                      1133,
+                      1140
                     ],
                     "loc": {
                       "start": {
@@ -226,8 +226,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1146,
-                            1151
+                            1152,
+                            1157
                           ],
                           "loc": {
                             "start": {
@@ -245,8 +245,8 @@
                             "type": "Identifier",
                             "name": "name",
                             "range": [
-                              1152,
-                              1156
+                              1158,
+                              1162
                             ],
                             "loc": {
                               "start": {
@@ -268,8 +268,8 @@
                                 "type": "Identifier",
                                 "name": "ArgumentFalsyError",
                                 "range": [
-                                  1158,
-                                  1176
+                                  1164,
+                                  1182
                                 ],
                                 "loc": {
                                   "start": {
@@ -286,8 +286,8 @@
                                 "type": "Identifier",
                                 "name": "makeFalsyTypedMessage",
                                 "range": [
-                                  1177,
-                                  1198
+                                  1183,
+                                  1204
                                 ],
                                 "loc": {
                                   "start": {
@@ -301,8 +301,8 @@
                                 }
                               },
                               "range": [
-                                1158,
-                                1198
+                                1164,
+                                1204
                               ],
                               "loc": {
                                 "start": {
@@ -320,8 +320,8 @@
                                 "type": "Identifier",
                                 "name": "message",
                                 "range": [
-                                  1199,
-                                  1206
+                                  1205,
+                                  1212
                                 ],
                                 "loc": {
                                   "start": {
@@ -339,8 +339,8 @@
                                 "value": "zero",
                                 "raw": "'zero'",
                                 "range": [
-                                  1208,
-                                  1214
+                                  1214,
+                                  1220
                                 ],
                                 "loc": {
                                   "start": {
@@ -355,8 +355,8 @@
                               }
                             ],
                             "range": [
-                              1158,
-                              1215
+                              1164,
+                              1221
                             ],
                             "loc": {
                               "start": {
@@ -371,8 +371,8 @@
                           }
                         ],
                         "range": [
-                          1146,
-                          1216
+                          1152,
+                          1222
                         ],
                         "loc": {
                           "start": {
@@ -386,8 +386,8 @@
                         }
                       },
                       "range": [
-                        1146,
-                        1217
+                        1152,
+                        1223
                       ],
                       "loc": {
                         "start": {
@@ -402,8 +402,8 @@
                     }
                   ],
                   "range": [
-                    1136,
-                    1223
+                    1142,
+                    1229
                   ],
                   "loc": {
                     "start": {
@@ -419,8 +419,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1120,
-                  1223
+                  1126,
+                  1229
                 ],
                 "loc": {
                   "start": {
@@ -436,8 +436,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1109,
-                1223
+                1115,
+                1229
               ],
               "loc": {
                 "start": {
@@ -454,8 +454,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentZeroError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours is 'zero'*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    720,
-                    1104
+                    726,
+                    1110
                   ],
                   "loc": {
                     "start": {
@@ -473,8 +473,8 @@
             }
           ],
           "range": [
-            714,
-            1225
+            720,
+            1231
           ],
           "loc": {
             "start": {
@@ -488,8 +488,8 @@
           }
         },
         "range": [
-          663,
-          1225
+          669,
+          1231
         ],
         "loc": {
           "start": {
@@ -504,10 +504,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that an argument erroneously has a value of zero.\n *\n * Throw this {@link Error} if a parameter must have a non-zero value.\n *\n * @example <caption>The argument for the parameter height is zero.</caption>\n * throw new ArgumentZeroError('height');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonZero}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that an argument erroneously has a value of zero.\n *\n * Throw this {@link Error} if a parameter must have a non-zero value.\n *\n * @example <caption>The argument for the parameter height is zero.</caption>\n * throw new ArgumentZeroError('height');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonZero}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               72,
-              647
+              653
             ],
             "loc": {
               "start": {
@@ -524,8 +524,8 @@
         "trailingComments": []
       },
       "range": [
-        648,
-        1225
+        654,
+        1231
       ],
       "loc": {
         "start": {
@@ -540,10 +540,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a value of zero.\n *\n * Throw this {@link Error} if a parameter must have a non-zero value.\n *\n * @example <caption>The argument for the parameter height is zero.</caption>\n * throw new ArgumentZeroError('height');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonZero}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a value of zero.\n *\n * Throw this {@link Error} if a parameter must have a non-zero value.\n *\n * @example <caption>The argument for the parameter height is zero.</caption>\n * throw new ArgumentZeroError('height');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonZero}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            647
+            653
           ],
           "loc": {
             "start": {
@@ -562,7 +562,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1225
+    1231
   ],
   "loc": {
     "start": {
@@ -577,10 +577,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that an argument erroneously has a value of zero.\n *\n * Throw this {@link Error} if a parameter must have a non-zero value.\n *\n * @example <caption>The argument for the parameter height is zero.</caption>\n * throw new ArgumentZeroError('height');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonZero}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that an argument erroneously has a value of zero.\n *\n * Throw this {@link Error} if a parameter must have a non-zero value.\n *\n * @example <caption>The argument for the parameter height is zero.</caption>\n * throw new ArgumentZeroError('height');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonZero}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         72,
-        647
+        653
       ],
       "loc": {
         "start": {
@@ -597,8 +597,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentZeroError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours is 'zero'*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        720,
-        1104
+        726,
+        1110
       ],
       "loc": {
         "start": {

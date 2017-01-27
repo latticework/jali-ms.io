@@ -94,10 +94,10 @@
       "trailingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a value of `null`.\n *\n * Throw this {@link Error} if a parameter must be an object.\n *\n * @example <caption>The argument for the parameter entity is `null`.</caption>\n * throw new ArgumentNullError('entity');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonNull}\n * @see {@link verifyObject}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a value of `null`.\n *\n * Throw this {@link Error} if a parameter must be an object.\n *\n * @example <caption>The argument for the parameter entity is `null`.</caption>\n * throw new ArgumentNullError('entity');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonNull}\n * @see {@link verifyObject}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            671
+            677
           ],
           "loc": {
             "start": {
@@ -120,8 +120,8 @@
           "type": "Identifier",
           "name": "ArgumentNullError",
           "range": [
-            693,
-            710
+            699,
+            716
           ],
           "loc": {
             "start": {
@@ -138,8 +138,8 @@
           "type": "Identifier",
           "name": "ArgumentFalsyError",
           "range": [
-            719,
-            737
+            725,
+            743
           ],
           "loc": {
             "start": {
@@ -161,8 +161,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1136,
-                  1147
+                  1142,
+                  1153
                 ],
                 "loc": {
                   "start": {
@@ -183,8 +183,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1148,
-                      1152
+                      1154,
+                      1158
                     ],
                     "loc": {
                       "start": {
@@ -201,8 +201,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1154,
-                      1161
+                      1160,
+                      1167
                     ],
                     "loc": {
                       "start": {
@@ -226,8 +226,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1173,
-                            1178
+                            1179,
+                            1184
                           ],
                           "loc": {
                             "start": {
@@ -245,8 +245,8 @@
                             "type": "Identifier",
                             "name": "name",
                             "range": [
-                              1179,
-                              1183
+                              1185,
+                              1189
                             ],
                             "loc": {
                               "start": {
@@ -266,8 +266,8 @@
                               "type": "Identifier",
                               "name": "message",
                               "range": [
-                                1185,
-                                1192
+                                1191,
+                                1198
                               ],
                               "loc": {
                                 "start": {
@@ -291,8 +291,8 @@
                                   },
                                   "tail": true,
                                   "range": [
-                                    1196,
-                                    1250
+                                    1202,
+                                    1256
                                   ],
                                   "loc": {
                                     "start": {
@@ -308,8 +308,8 @@
                               ],
                               "expressions": [],
                               "range": [
-                                1196,
-                                1250
+                                1202,
+                                1256
                               ],
                               "loc": {
                                 "start": {
@@ -323,8 +323,8 @@
                               }
                             },
                             "range": [
-                              1185,
-                              1250
+                              1191,
+                              1256
                             ],
                             "loc": {
                               "start": {
@@ -339,8 +339,8 @@
                           }
                         ],
                         "range": [
-                          1173,
-                          1251
+                          1179,
+                          1257
                         ],
                         "loc": {
                           "start": {
@@ -354,8 +354,8 @@
                         }
                       },
                       "range": [
-                        1173,
-                        1252
+                        1179,
+                        1258
                       ],
                       "loc": {
                         "start": {
@@ -370,8 +370,8 @@
                     }
                   ],
                   "range": [
-                    1163,
-                    1258
+                    1169,
+                    1264
                   ],
                   "loc": {
                     "start": {
@@ -387,8 +387,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1147,
-                  1258
+                  1153,
+                  1264
                 ],
                 "loc": {
                   "start": {
@@ -404,8 +404,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1136,
-                1258
+                1142,
+                1264
               ],
               "loc": {
                 "start": {
@@ -422,8 +422,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentNullError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *     non-null value. Yours is 'null'*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    744,
-                    1131
+                    750,
+                    1137
                   ],
                   "loc": {
                     "start": {
@@ -441,8 +441,8 @@
             }
           ],
           "range": [
-            738,
-            1260
+            744,
+            1266
           ],
           "loc": {
             "start": {
@@ -456,8 +456,8 @@
           }
         },
         "range": [
-          687,
-          1260
+          693,
+          1266
         ],
         "loc": {
           "start": {
@@ -472,10 +472,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that an argument erroneously has a value of `null`.\n *\n * Throw this {@link Error} if a parameter must be an object.\n *\n * @example <caption>The argument for the parameter entity is `null`.</caption>\n * throw new ArgumentNullError('entity');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonNull}\n * @see {@link verifyObject}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that an argument erroneously has a value of `null`.\n *\n * Throw this {@link Error} if a parameter must be an object.\n *\n * @example <caption>The argument for the parameter entity is `null`.</caption>\n * throw new ArgumentNullError('entity');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonNull}\n * @see {@link verifyObject}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               72,
-              671
+              677
             ],
             "loc": {
               "start": {
@@ -492,8 +492,8 @@
         "trailingComments": []
       },
       "range": [
-        672,
-        1260
+        678,
+        1266
       ],
       "loc": {
         "start": {
@@ -508,10 +508,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a value of `null`.\n *\n * Throw this {@link Error} if a parameter must be an object.\n *\n * @example <caption>The argument for the parameter entity is `null`.</caption>\n * throw new ArgumentNullError('entity');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonNull}\n * @see {@link verifyObject}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a value of `null`.\n *\n * Throw this {@link Error} if a parameter must be an object.\n *\n * @example <caption>The argument for the parameter entity is `null`.</caption>\n * throw new ArgumentNullError('entity');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonNull}\n * @see {@link verifyObject}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            671
+            677
           ],
           "loc": {
             "start": {
@@ -530,7 +530,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1260
+    1266
   ],
   "loc": {
     "start": {
@@ -545,10 +545,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that an argument erroneously has a value of `null`.\n *\n * Throw this {@link Error} if a parameter must be an object.\n *\n * @example <caption>The argument for the parameter entity is `null`.</caption>\n * throw new ArgumentNullError('entity');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonNull}\n * @see {@link verifyObject}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that an argument erroneously has a value of `null`.\n *\n * Throw this {@link Error} if a parameter must be an object.\n *\n * @example <caption>The argument for the parameter entity is `null`.</caption>\n * throw new ArgumentNullError('entity');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNonNull}\n * @see {@link verifyObject}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         72,
-        671
+        677
       ],
       "loc": {
         "start": {
@@ -565,8 +565,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentNullError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *     non-null value. Yours is 'null'*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        744,
-        1131
+        750,
+        1137
       ],
       "loc": {
         "start": {

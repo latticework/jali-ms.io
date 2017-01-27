@@ -94,10 +94,10 @@
       "trailingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a value of `NaN`.\n *\n * Throw this {@link Error} if a parameter must be a `number`.\n *\n * @example <caption>The argument for the parameter price is `NaN`.</caption>\n * throw new ArgumentNanError('price');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNumber}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a value of `NaN`.\n *\n * Throw this {@link Error} if a parameter must be a `number`.\n *\n * @example <caption>The argument for the parameter price is `NaN`.</caption>\n * throw new ArgumentNanError('price');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNumber}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            637
+            643
           ],
           "loc": {
             "start": {
@@ -120,8 +120,8 @@
           "type": "Identifier",
           "name": "ArgumentNanError",
           "range": [
-            659,
-            675
+            665,
+            681
           ],
           "loc": {
             "start": {
@@ -138,8 +138,8 @@
           "type": "Identifier",
           "name": "ArgumentFalsyError",
           "range": [
-            684,
-            702
+            690,
+            708
           ],
           "loc": {
             "start": {
@@ -161,8 +161,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1096,
-                  1107
+                  1102,
+                  1113
                 ],
                 "loc": {
                   "start": {
@@ -183,8 +183,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1108,
-                      1112
+                      1114,
+                      1118
                     ],
                     "loc": {
                       "start": {
@@ -201,8 +201,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1114,
-                      1121
+                      1120,
+                      1127
                     ],
                     "loc": {
                       "start": {
@@ -226,8 +226,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1133,
-                            1138
+                            1139,
+                            1144
                           ],
                           "loc": {
                             "start": {
@@ -245,8 +245,8 @@
                             "type": "Identifier",
                             "name": "name",
                             "range": [
-                              1139,
-                              1143
+                              1145,
+                              1149
                             ],
                             "loc": {
                               "start": {
@@ -268,8 +268,8 @@
                                 "type": "Identifier",
                                 "name": "ArgumentFalsyError",
                                 "range": [
-                                  1145,
-                                  1163
+                                  1151,
+                                  1169
                                 ],
                                 "loc": {
                                   "start": {
@@ -286,8 +286,8 @@
                                 "type": "Identifier",
                                 "name": "makeFalsyTypedMessage",
                                 "range": [
-                                  1164,
-                                  1185
+                                  1170,
+                                  1191
                                 ],
                                 "loc": {
                                   "start": {
@@ -301,8 +301,8 @@
                                 }
                               },
                               "range": [
-                                1145,
-                                1185
+                                1151,
+                                1191
                               ],
                               "loc": {
                                 "start": {
@@ -320,8 +320,8 @@
                                 "type": "Identifier",
                                 "name": "message",
                                 "range": [
-                                  1186,
-                                  1193
+                                  1192,
+                                  1199
                                 ],
                                 "loc": {
                                   "start": {
@@ -339,8 +339,8 @@
                                 "value": "NaN",
                                 "raw": "'NaN'",
                                 "range": [
-                                  1195,
-                                  1200
+                                  1201,
+                                  1206
                                 ],
                                 "loc": {
                                   "start": {
@@ -355,8 +355,8 @@
                               }
                             ],
                             "range": [
-                              1145,
-                              1201
+                              1151,
+                              1207
                             ],
                             "loc": {
                               "start": {
@@ -371,8 +371,8 @@
                           }
                         ],
                         "range": [
-                          1133,
-                          1202
+                          1139,
+                          1208
                         ],
                         "loc": {
                           "start": {
@@ -386,8 +386,8 @@
                         }
                       },
                       "range": [
-                        1133,
-                        1203
+                        1139,
+                        1209
                       ],
                       "loc": {
                         "start": {
@@ -402,8 +402,8 @@
                     }
                   ],
                   "range": [
-                    1123,
-                    1209
+                    1129,
+                    1215
                   ],
                   "loc": {
                     "start": {
@@ -419,8 +419,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1107,
-                  1209
+                  1113,
+                  1215
                 ],
                 "loc": {
                   "start": {
@@ -436,8 +436,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1096,
-                1209
+                1102,
+                1215
               ],
               "loc": {
                 "start": {
@@ -454,8 +454,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentNanError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours is 'NaN'*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    709,
-                    1091
+                    715,
+                    1097
                   ],
                   "loc": {
                     "start": {
@@ -473,8 +473,8 @@
             }
           ],
           "range": [
-            703,
-            1211
+            709,
+            1217
           ],
           "loc": {
             "start": {
@@ -488,8 +488,8 @@
           }
         },
         "range": [
-          653,
-          1211
+          659,
+          1217
         ],
         "loc": {
           "start": {
@@ -504,10 +504,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that an argument erroneously has a value of `NaN`.\n *\n * Throw this {@link Error} if a parameter must be a `number`.\n *\n * @example <caption>The argument for the parameter price is `NaN`.</caption>\n * throw new ArgumentNanError('price');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNumber}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that an argument erroneously has a value of `NaN`.\n *\n * Throw this {@link Error} if a parameter must be a `number`.\n *\n * @example <caption>The argument for the parameter price is `NaN`.</caption>\n * throw new ArgumentNanError('price');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNumber}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               72,
-              637
+              643
             ],
             "loc": {
               "start": {
@@ -524,8 +524,8 @@
         "trailingComments": []
       },
       "range": [
-        638,
-        1211
+        644,
+        1217
       ],
       "loc": {
         "start": {
@@ -540,10 +540,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a value of `NaN`.\n *\n * Throw this {@link Error} if a parameter must be a `number`.\n *\n * @example <caption>The argument for the parameter price is `NaN`.</caption>\n * throw new ArgumentNanError('price');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNumber}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a value of `NaN`.\n *\n * Throw this {@link Error} if a parameter must be a `number`.\n *\n * @example <caption>The argument for the parameter price is `NaN`.</caption>\n * throw new ArgumentNanError('price');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNumber}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             72,
-            637
+            643
           ],
           "loc": {
             "start": {
@@ -562,7 +562,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1211
+    1217
   ],
   "loc": {
     "start": {
@@ -577,10 +577,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that an argument erroneously has a value of `NaN`.\n *\n * Throw this {@link Error} if a parameter must be a `number`.\n *\n * @example <caption>The argument for the parameter price is `NaN`.</caption>\n * throw new ArgumentNanError('price');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNumber}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that an argument erroneously has a value of `NaN`.\n *\n * Throw this {@link Error} if a parameter must be a `number`.\n *\n * @example <caption>The argument for the parameter price is `NaN`.</caption>\n * throw new ArgumentNanError('price');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see {@link verifyNumber}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         72,
-        637
+        643
       ],
       "loc": {
         "start": {
@@ -597,8 +597,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentNanError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours is 'NaN'*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        709,
-        1091
+        715,
+        1097
       ],
       "loc": {
         "start": {

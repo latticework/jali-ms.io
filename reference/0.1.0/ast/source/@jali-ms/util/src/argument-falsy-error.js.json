@@ -94,10 +94,10 @@
       "trailingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             61,
-            813
+            819
           ],
           "loc": {
             "start": {
@@ -120,8 +120,8 @@
           "type": "Identifier",
           "name": "ArgumentFalsyError",
           "range": [
-            835,
-            853
+            841,
+            859
           ],
           "loc": {
             "start": {
@@ -138,8 +138,8 @@
           "type": "Identifier",
           "name": "ArgumentError",
           "range": [
-            862,
-            875
+            868,
+            881
           ],
           "loc": {
             "start": {
@@ -161,8 +161,8 @@
                 "type": "Identifier",
                 "name": "constructor",
                 "range": [
-                  1271,
-                  1282
+                  1277,
+                  1288
                 ],
                 "loc": {
                   "start": {
@@ -183,8 +183,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      1283,
-                      1287
+                      1289,
+                      1293
                     ],
                     "loc": {
                       "start": {
@@ -201,8 +201,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1289,
-                      1296
+                      1295,
+                      1302
                     ],
                     "loc": {
                       "start": {
@@ -226,8 +226,8 @@
                         "callee": {
                           "type": "Super",
                           "range": [
-                            1308,
-                            1313
+                            1314,
+                            1319
                           ],
                           "loc": {
                             "start": {
@@ -245,8 +245,8 @@
                             "type": "Identifier",
                             "name": "name",
                             "range": [
-                              1314,
-                              1318
+                              1320,
+                              1324
                             ],
                             "loc": {
                               "start": {
@@ -268,8 +268,8 @@
                                 "type": "Identifier",
                                 "name": "Class",
                                 "range": [
-                                  1320,
-                                  1325
+                                  1326,
+                                  1331
                                 ],
                                 "loc": {
                                   "start": {
@@ -286,8 +286,8 @@
                                 "type": "Identifier",
                                 "name": "makeFalsyTypedMessage",
                                 "range": [
-                                  1326,
-                                  1347
+                                  1332,
+                                  1353
                                 ],
                                 "loc": {
                                   "start": {
@@ -301,8 +301,8 @@
                                 }
                               },
                               "range": [
-                                1320,
-                                1347
+                                1326,
+                                1353
                               ],
                               "loc": {
                                 "start": {
@@ -320,8 +320,8 @@
                                 "type": "Identifier",
                                 "name": "message",
                                 "range": [
-                                  1348,
-                                  1355
+                                  1354,
+                                  1361
                                 ],
                                 "loc": {
                                   "start": {
@@ -336,8 +336,8 @@
                               }
                             ],
                             "range": [
-                              1320,
-                              1356
+                              1326,
+                              1362
                             ],
                             "loc": {
                               "start": {
@@ -352,8 +352,8 @@
                           }
                         ],
                         "range": [
-                          1308,
-                          1357
+                          1314,
+                          1363
                         ],
                         "loc": {
                           "start": {
@@ -367,8 +367,8 @@
                         }
                       },
                       "range": [
-                        1308,
-                        1358
+                        1314,
+                        1364
                       ],
                       "loc": {
                         "start": {
@@ -383,8 +383,8 @@
                     }
                   ],
                   "range": [
-                    1298,
-                    1364
+                    1304,
+                    1370
                   ],
                   "loc": {
                     "start": {
@@ -400,8 +400,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1282,
-                  1364
+                  1288,
+                  1370
                 ],
                 "loc": {
                   "start": {
@@ -417,8 +417,8 @@
               "kind": "constructor",
               "computed": false,
               "range": [
-                1271,
-                1364
+                1277,
+                1370
               ],
               "loc": {
                 "start": {
@@ -435,8 +435,8 @@
                   "type": "Block",
                   "value": "*\n     * Initializes a new instance of the {@link ArgumentFalsyError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours does not*.\n     * @public\n     * @since 0.0.1\n     ",
                   "range": [
-                    882,
-                    1266
+                    888,
+                    1272
                   ],
                   "loc": {
                     "start": {
@@ -455,8 +455,8 @@
                   "type": "Block",
                   "value": "*\n     * Builds a default error message for subclasses.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have a\n     *    truthy value. Yours ${type ? `is '${type}'` : 'does not'*.\n     * @param {string}: [type] -\n     *    value to display in the message. Default is to display no value.\n     * @protected\n     * @since 0.0.1\n     ",
                   "range": [
-                    1369,
-                    1786
+                    1375,
+                    1792
                   ],
                   "loc": {
                     "start": {
@@ -478,8 +478,8 @@
                 "type": "Identifier",
                 "name": "makeFalsyTypedMessage",
                 "range": [
-                  1798,
-                  1819
+                  1804,
+                  1825
                 ],
                 "loc": {
                   "start": {
@@ -500,8 +500,8 @@
                     "type": "Identifier",
                     "name": "message",
                     "range": [
-                      1820,
-                      1827
+                      1826,
+                      1833
                     ],
                     "loc": {
                       "start": {
@@ -518,8 +518,8 @@
                     "type": "Identifier",
                     "name": "type",
                     "range": [
-                      1829,
-                      1833
+                      1835,
+                      1839
                     ],
                     "loc": {
                       "start": {
@@ -545,8 +545,8 @@
                           "type": "Identifier",
                           "name": "message",
                           "range": [
-                            1852,
-                            1859
+                            1858,
+                            1865
                           ],
                           "loc": {
                             "start": {
@@ -570,8 +570,8 @@
                               },
                               "tail": false,
                               "range": [
-                                1875,
-                                1919
+                                1881,
+                                1925
                               ],
                               "loc": {
                                 "start": {
@@ -592,8 +592,8 @@
                               },
                               "tail": true,
                               "range": [
-                                1953,
-                                1955
+                                1959,
+                                1961
                               ],
                               "loc": {
                                 "start": {
@@ -614,8 +614,8 @@
                                 "type": "Identifier",
                                 "name": "type",
                                 "range": [
-                                  1919,
-                                  1923
+                                  1925,
+                                  1929
                                 ],
                                 "loc": {
                                   "start": {
@@ -639,8 +639,8 @@
                                     },
                                     "tail": false,
                                     "range": [
-                                      1926,
-                                      1933
+                                      1932,
+                                      1939
                                     ],
                                     "loc": {
                                       "start": {
@@ -661,8 +661,8 @@
                                     },
                                     "tail": true,
                                     "range": [
-                                      1937,
-                                      1940
+                                      1943,
+                                      1946
                                     ],
                                     "loc": {
                                       "start": {
@@ -681,8 +681,8 @@
                                     "type": "Identifier",
                                     "name": "type",
                                     "range": [
-                                      1933,
-                                      1937
+                                      1939,
+                                      1943
                                     ],
                                     "loc": {
                                       "start": {
@@ -697,8 +697,8 @@
                                   }
                                 ],
                                 "range": [
-                                  1926,
-                                  1940
+                                  1932,
+                                  1946
                                 ],
                                 "loc": {
                                   "start": {
@@ -716,8 +716,8 @@
                                 "value": "does not",
                                 "raw": "'does not'",
                                 "range": [
-                                  1943,
-                                  1953
+                                  1949,
+                                  1959
                                 ],
                                 "loc": {
                                   "start": {
@@ -731,8 +731,8 @@
                                 }
                               },
                               "range": [
-                                1919,
-                                1953
+                                1925,
+                                1959
                               ],
                               "loc": {
                                 "start": {
@@ -747,8 +747,8 @@
                             }
                           ],
                           "range": [
-                            1875,
-                            1955
+                            1881,
+                            1961
                           ],
                           "loc": {
                             "start": {
@@ -762,8 +762,8 @@
                           }
                         },
                         "range": [
-                          1852,
-                          1955
+                          1858,
+                          1961
                         ],
                         "loc": {
                           "start": {
@@ -777,8 +777,8 @@
                         }
                       },
                       "range": [
-                        1845,
-                        1956
+                        1851,
+                        1962
                       ],
                       "loc": {
                         "start": {
@@ -793,8 +793,8 @@
                     }
                   ],
                   "range": [
-                    1835,
-                    1962
+                    1841,
+                    1968
                   ],
                   "loc": {
                     "start": {
@@ -810,8 +810,8 @@
                 "generator": false,
                 "expression": false,
                 "range": [
-                  1819,
-                  1962
+                  1825,
+                  1968
                 ],
                 "loc": {
                   "start": {
@@ -827,8 +827,8 @@
               "kind": "method",
               "computed": false,
               "range": [
-                1791,
-                1962
+                1797,
+                1968
               ],
               "loc": {
                 "start": {
@@ -845,8 +845,8 @@
                   "type": "Block",
                   "value": "*\n     * Builds a default error message for subclasses.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have a\n     *    truthy value. Yours ${type ? `is '${type}'` : 'does not'*.\n     * @param {string}: [type] -\n     *    value to display in the message. Default is to display no value.\n     * @protected\n     * @since 0.0.1\n     ",
                   "range": [
-                    1369,
-                    1786
+                    1375,
+                    1792
                   ],
                   "loc": {
                     "start": {
@@ -864,8 +864,8 @@
             }
           ],
           "range": [
-            876,
-            1964
+            882,
+            1970
           ],
           "loc": {
             "start": {
@@ -879,8 +879,8 @@
           }
         },
         "range": [
-          829,
-          1964
+          835,
+          1970
         ],
         "loc": {
           "start": {
@@ -895,10 +895,10 @@
         "leadingComments": [
           {
             "type": "Block",
-            "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+            "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
             "range": [
               61,
-              813
+              819
             ],
             "loc": {
               "start": {
@@ -915,8 +915,8 @@
         "trailingComments": []
       },
       "range": [
-        814,
-        1964
+        820,
+        1970
       ],
       "loc": {
         "start": {
@@ -931,10 +931,10 @@
       "leadingComments": [
         {
           "type": "Block",
-          "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+          "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
           "range": [
             61,
-            813
+            819
           ],
           "loc": {
             "start": {
@@ -958,8 +958,8 @@
             "type": "Identifier",
             "name": "Class",
             "range": [
-              1971,
-              1976
+              1977,
+              1982
             ],
             "loc": {
               "start": {
@@ -976,8 +976,8 @@
             "type": "Identifier",
             "name": "ArgumentFalsyError",
             "range": [
-              1979,
-              1997
+              1985,
+              2003
             ],
             "loc": {
               "start": {
@@ -991,8 +991,8 @@
             }
           },
           "range": [
-            1971,
-            1997
+            1977,
+            2003
           ],
           "loc": {
             "start": {
@@ -1008,8 +1008,8 @@
       ],
       "kind": "const",
       "range": [
-        1965,
-        1998
+        1971,
+        2004
       ],
       "loc": {
         "start": {
@@ -1026,8 +1026,8 @@
           "type": "Line",
           "value": " tslint:disable-line:variable-name  no-use-before-declare",
           "range": [
-            1999,
-            2058
+            2005,
+            2064
           ],
           "loc": {
             "start": {
@@ -1046,7 +1046,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1998
+    2004
   ],
   "loc": {
     "start": {
@@ -1061,10 +1061,10 @@
   "comments": [
     {
       "type": "Block",
-      "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
+      "value": "*\n * Represents that an argument erroneously has a _falsy_ value.\n *\n * Throw this {@link Error} if a parameter must be _truthy_ and can't be represented by a more\n * specific argument error.\n *\n * @example <caption>The argument for the parameter item is falsy.</caption>\n * throw new ArgumentFalsyError('item');\n *\n * @see <a href=\"manual/overview.html#package-jali-ms-util\">\n *    package <code>@jali-ms/util</code></a>\n * @see <a href=\"manual/overview.html#module-jali-ms-util-errors\">\n *    module <code>@jali-ms/util/errors</code></a>\n * @see <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Falsy\" target=\"_blank\">\n *    Definition of falsy</a> (MDN)\n * @see {@link verifyDefined}\n * @see {@link verifyTruthy}\n * @public\n * @since 0.0.1\n ",
       "range": [
         61,
-        813
+        819
       ],
       "loc": {
         "start": {
@@ -1081,8 +1081,8 @@
       "type": "Block",
       "value": "*\n     * Initializes a new instance of the {@link ArgumentFalsyError} class.\n     *\n     * @param {string} [name] -\n     *    The parameter name. Default is no name.\n     * @param {string} [message] -\n     *    Specified message. Otherwise, a generic message will be used like *Argument must have a\n     *    truthy value. Yours does not*.\n     * @public\n     * @since 0.0.1\n     ",
       "range": [
-        882,
-        1266
+        888,
+        1272
       ],
       "loc": {
         "start": {
@@ -1099,8 +1099,8 @@
       "type": "Block",
       "value": "*\n     * Builds a default error message for subclasses.\n     * @param {string}: [message] -\n     *    Specified message. Otherwise, a generic message will be created like *Argument must have a\n     *    truthy value. Yours ${type ? `is '${type}'` : 'does not'*.\n     * @param {string}: [type] -\n     *    value to display in the message. Default is to display no value.\n     * @protected\n     * @since 0.0.1\n     ",
       "range": [
-        1369,
-        1786
+        1375,
+        1792
       ],
       "loc": {
         "start": {
@@ -1117,8 +1117,8 @@
       "type": "Line",
       "value": " tslint:disable-line:variable-name  no-use-before-declare",
       "range": [
-        1999,
-        2058
+        2005,
+        2064
       ],
       "loc": {
         "start": {
