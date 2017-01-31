@@ -4,7 +4,7 @@
 <!-- markdownlint-disable ul-style no-inline-html -->
 
 > **View our API Documentation**<br>
-> - [v0.1.0][jali-site-api]
+> - [v0.1][jali-site-api]
 
 <!-- markdownlint-enable ul-style no-inline-html -->
 
