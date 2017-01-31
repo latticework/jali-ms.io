@@ -4,7 +4,7 @@
 <!-- markdownlint-disable ul-style no-inline-html -->
 
 > **View our API Documentation**<br>
-> - [v0.1][jali-site-api]
+> - [v0.1][jali-site-api-01]
 
 <!-- markdownlint-enable ul-style no-inline-html -->
 
@@ -135,8 +135,8 @@ technologies.
 [jali-repo-proposals]: https://github.com/latticework/jali/blob/master/ecmascript-proposals.md
 [jali-repo-release001]: https://github.com/latticework/jali/releases/tag/v0.0.1
 [jali-site]: /
-[jali-site-api]: ./reference/0.1.0/manual/index.html
-[jali-site-api-example]: http://jali-ms.io/reference/0.1.0/manual/example.html
+[jali-site-api-01]: ./reference/0.1/manual/index.html
+[jali-site-api-example]: http://jali-ms.io/reference/0.1/manual/example.html
 [latticework-blog]: https://medium.com/@latticeworkms
 [latticework-blog-principles]: https://medium.com/@latticeworkms/architectural-principles-for-a-microservice-based-saas-application-b60d81ab572c
 [latticework-site]: https://latticework.github.io/
